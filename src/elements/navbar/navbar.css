@@ -1,13 +1,12 @@
-.header-container
+.navbar-container
 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 80px;
-    box-shadow: 0 5px 15px rgb(0, 0, 0, 0.06);
+    padding: 3rem 5rem;
 }
 
-.header-navbar_links
+.navbar-navbar_links
 {
     display: flex;
     align-items: center;
@@ -15,13 +14,18 @@
 
 }
 
-.header-navbar_links li{
+.navbar-navbar_links li{
     list-style: none;
-    padding: 0 20px;
+    padding: 0 3rem;
     position: relative;
+    font-weight: 700;
 }
 
-.header-navbar_links li a{
+.navbar-links{
     text-decoration: none;
-    font-size: 1.3rem;
+    font-size: 30px;
+    color: var(--color-light);
+    font-weight: 700;
+    cursor: pointer;
+
 }

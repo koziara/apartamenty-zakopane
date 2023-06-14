@@ -12,20 +12,21 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />
   },
-  // {
-  //   path: "/Cart",
-  //   element: <ShoppingCart />,
-  //   errorElement: <ErrorPage />
-  // },
   {
-    path: "/item/:id",
+    path: "/Galeria",
+    element: <ErrorPage />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/apartment/:id",
     element: <ApartmentDetails />,
     errorElement: <ErrorPage />
   },
-  // {
-  //   path: "/Pay",
-  //   element: <ErrorPage />
-  // },
+  {
+    path: "/Kontakt",
+    element: <ErrorPage />,
+    errorElement: <ErrorPage />
+  }
 ]);
 
 const root = ReactDOM.createRoot(

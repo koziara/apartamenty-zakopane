@@ -1,8 +1,14 @@
 import React from 'react'
+import featureList from '../../featureList.json'
+import { Feature } from '../../elements'
 
 const Features = () => {
   return (
-    <div>Features</div>
+    <div className='features-container'>
+      {featureList.map(feature => (
+        <Feature key={feature.featureId} id={feature.featureId} title={feature.title} description={feature.description} photo={feature.photo} />
+      ))}
+    </div>
   )
 }
 

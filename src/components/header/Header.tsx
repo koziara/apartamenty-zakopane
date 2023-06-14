@@ -1,11 +1,12 @@
 import React from 'react'
-import { Navbar } from '../../elements'
+import { BookingButton, Navbar } from '../../elements'
+import "./header.css"
 
 const Header = () => {
   return (
-    <div>
+    <div className='header-container'>
         <Navbar />
-        Header
+        <BookingButton/>
     </div>
   )
 }
