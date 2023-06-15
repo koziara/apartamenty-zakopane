@@ -9,3 +9,9 @@
 .apartments-container_link{
     color: var(--color-dark);
 }
+
+@media screen and (max-width: 1200px){
+    .apartments-container{
+        justify-content: space-evenly;
+    }
+  }

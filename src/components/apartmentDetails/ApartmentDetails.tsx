@@ -1,7 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import list from '../../apartmentList.json';
-import { Navbar } from '../../elements';
+import { BookingButton, Navbar } from '../../elements';
+import {Footer} from '../index.js';
+import './apartmentDetails.css';
 
 type Item = {
   apartmentId: number; 
@@ -27,9 +29,22 @@ const ApartmentDetails = () => {
   return (
 
     <div>
-          <Navbar />
-          {product.title}
+          <div className='details-container'>
+            <Navbar />
+            <div className="details-container_content">
+              <div className='details-container_content-photos'>
+                <img src={product.photo} alt="" />
+              </div>
+              <div className='details-container_content-info'>
+                <h2>{product.title}</h2>
+                <BookingButton />
+              </div>
+            </div>
+
+
           </div>
+          <Footer />
+    </div>
   )
 }
 }

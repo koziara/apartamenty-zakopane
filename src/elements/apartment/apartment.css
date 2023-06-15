@@ -12,7 +12,7 @@
 
 .apartment-container h3{
     margin: 1rem 0;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 .apartment-icon{
@@ -20,9 +20,10 @@
 }
 
 .apartment-container p{
-    font-size: 20px;
+    font-size: 18px;
     display: flex;
     align-items: center;
+    margin-bottom: 2px;
 }
 
 .apartment-container img{
@@ -33,3 +34,27 @@
 .apartment-container:hover{
     transform: translateY(-10px);
 }
+
+@media screen and (max-width: 1400px){
+    .apartment-container h3{
+        font-size: 22px;
+    }
+    .apartment-container p{
+        font-size: 16px;
+    }
+  }
+
+@media screen and (max-width: 1200px){
+    .apartment-container{
+        width: 40%;
+    }
+    .apartment-container h3{
+        margin: 1rem 0 0.5rem 0;
+    }
+  }
+
+  @media screen and (max-width: 800px){
+    .apartment-container{
+        width: 80%;
+    }
+  }

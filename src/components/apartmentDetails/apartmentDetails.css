@@ -1,0 +1,34 @@
+.details-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("/public/img/house_outside.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center calc(25% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.details-container_content{
+    margin-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.details-container_content-photos,
+.details-container_content-info{
+    padding: 3rem;
+    background-color: var(--color-light);
+    border-radius: 20px;
+}
+
+.details-container_content-photos{
+    width: 60%;
+}
+
+.details-container_content-photos img{
+    width: 70%;
+    border-radius: 10px;
+}
+

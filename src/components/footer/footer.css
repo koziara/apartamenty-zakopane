@@ -15,16 +15,16 @@
 }
 
 .footer-container_content div h3{
-    font-size: 30px;
+    font-size: 26px;
     margin-bottom: 1rem;
 }
 
 .footer-container_content div p,button{
     color: var(--color-grey);
-    font-size: 24px;
+    font-size: 18px;
     background-color: transparent;
     border: none;
-    line-height: 40px;
+    line-height: 32px;
 }
 
 .footer-container_content-info{
@@ -61,8 +61,53 @@
 .footer-container_creators{
     width: 100%;
     text-align: center;
+    padding: 0 3rem;
 }
 .footer-container_creators p{
     color: var(--color-grey);
-    font-size: 20px;
+    font-size: 14px;
 }
+
+@media screen and (max-width: 1300px){
+    .footer-container_content{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .footer-container_content-info{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .footer-container_content-links{
+        width: 50%;
+    }
+    .footer-container_content-contact{
+        width: 50%;
+    }
+  }
+
+  @media screen and (max-width: 700px){
+    .footer-container_content{
+        padding: 3rem
+    }
+    .footer-container_content-links{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .footer-container_content-contact{
+        width: 100%;
+    }
+    .footer-container_content div p,button{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .footer-container_content div h3{
+        font-size: 20px;
+        margin-bottom: 1rem;
+    }
+    .footer-container_creators p{
+        font-size: 12px;
+    }
+    .footer-container_content-contact p{
+        margin-bottom: 0.5rem;
+    }
+  }

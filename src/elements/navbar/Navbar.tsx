@@ -1,33 +1,44 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import "./navbar.css"
 
-const Navbar = () => {
-  
-  const apartments: HTMLElement | null = document.getElementById("apartments");
+const Links = () =>(
+    <ul className='navbar-navbar_links'>
+      <li><a href='#apartments' className='navbar-links hover-underline-animation'>Apartmanty</a></li>
+      <li><Link to={"/Galeria"} className='navbar-links hover-underline-animation'>Galeria</Link></li>
+      <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Rezervacie</Link></li>
+      <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Kontakt</Link></li>
+    </ul>
+  );
 
-  function scrollToApartments(): void {
-    if (apartments) {
-      apartments.scrollIntoView(true);
-    }
-  };
+const Navbar = () => {
+  const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className='navbar-container'>
       <div>
-        <img src='' alt='logo'/>
+        <img src='' alt='logo' />
         <p>Apartamenty</p>
         <p>Dolina Strążyska</p>
         <Link to={"/"}></Link>
       </div>
-        <div>
-          <ul className='navbar-navbar_links'>
-            <li><button onClick={scrollToApartments} className='navbar-links'>Apartmanty</button></li>
-            <li><Link to={"/Galeria"} className='navbar-links'>Galeria</Link></li>
-            <li><Link to={"/Kontakt"} className='navbar-links'>Rezervacie</Link></li>
-            <li><Link to={"/Kontakt"} className='navbar-links'>Kontakt</Link></li>
-          </ul>
-        </div>
-      </nav>
+      <div className='navbar-links_container'>
+        <Links />
+      </div>
+      <div className="navbar-links_menu">
+        {toggleMenu
+          ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+          : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />
+        }
+        {toggleMenu && (
+          <div className="navbar-menu_container scale-up-center">
+            <div>
+              <Links />
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
   )
 }
 

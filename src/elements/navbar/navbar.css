@@ -14,18 +14,124 @@
 
 }
 
+.navbar-links_menu{
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.navbar-links_menu svg{
+    cursor: pointer;
+}
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+.navbar-menu_container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    backdrop-filter: blur(2px);
+    padding:1rem;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    min-width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
 .navbar-navbar_links li{
     list-style: none;
-    padding: 0 3rem;
+    margin-left:3rem;
     position: relative;
     font-weight: 700;
 }
 
 .navbar-links{
     text-decoration: none;
-    font-size: 30px;
+    font-size: 22px;
     color: var(--color-light);
     font-weight: 700;
     cursor: pointer;
-
 }
+
+.hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--color-light);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
+  @media screen and (max-width: 1200px){
+    .navbar-links{
+        font-size: 20px;
+    }
+    .navbar-container{
+        padding: 3rem 4rem;
+    }
+  }
+
+  @media screen and (max-width: 900px){
+    .navbar-container{
+        padding: 2rem 3rem;
+    }
+  }
+
+@media screen and (max-width: 800px){
+    .navbar-links_container{
+        display: none;
+    }
+    .navbar-links_menu{
+        display: flex;
+    }
+    .navbar-navbar_links{
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .navbar-navbar_links li{
+        margin: 0 0 1rem 0;
+    }
+  }
+
+  @media screen and (max-width: 450px){
+    .navbar-container{
+        padding: 2rem;
+    }
+  }
