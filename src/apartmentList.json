@@ -4,56 +4,56 @@
         "photo":"/img/apartment_1.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "44 m2"
+        "size": "45 m\u00b2"
     },
     {
         "apartmentId":2,
         "photo":"/img/apartment_2.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "44 m2"
+        "size": "36 m\u00b2"
     },
     {
         "apartmentId":3,
         "photo":"/img/apartment_3.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "44 m2"
+        "size": "43 m\u00b2"
     },
     {
         "apartmentId":4,
         "photo":"/img/apartment_4.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "44 m2"
+        "size": "46 m\u00b2"
     },
     {
         "apartmentId":5,
         "photo":"/img/apartment_5.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "44 m2"
+        "size": "36 m\u00b2"
     },
     {
         "apartmentId":6,
         "photo":"/img/apartment_6.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "44 m2"
+        "size": "43 m\u00b2"
     },
     {
         "apartmentId":7,
         "photo":"/img/apartment_7.jpg",
         "title":"Apartament czervony",
         "capacity": "2",
-        "size": "44 m2"
+        "size": "25 m\u00b2"
     },
     {
         "apartmentId":8,
         "photo":"/img/apartment_8.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "44 m2"
+        "size": "45 m\u00b2"
     }
     
 ]

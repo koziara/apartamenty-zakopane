@@ -1,6 +1,7 @@
 import React from 'react'
 import featureList from '../../featureList.json'
 import { Feature } from '../../elements'
+import './features.css';
 
 const Features = () => {
   return (

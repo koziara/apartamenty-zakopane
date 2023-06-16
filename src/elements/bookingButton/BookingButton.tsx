@@ -5,11 +5,12 @@ import { BsArrowRight } from 'react-icons/bs';
 
 const BookingButton = () => {
   return (
-    <div className='booking-button'>
-      <button>Rezerwuj online <BsArrowRight className='button-icon'/>
-        <Link to={"/"}></Link>
-      </button>
+    <div className='booking-button_container'>
+      <Link to={"/"}>
+        <div className='booking-button'>Rezerwuj online <BsArrowRight className='button-icon'/></div>
+      </Link>
     </div>
+
   )
 }
 

@@ -1,0 +1,10 @@
+.features-container div:nth-child(2n){
+    flex-direction: row-reverse;
+}
+
+.features-container
+{
+    display: flex;
+    flex-direction: column;
+}
+

@@ -1,4 +1,5 @@
 import React from 'react'
+import "./feature.css"
 
 type ListProps = {
     id: number,
@@ -9,8 +10,10 @@ type ListProps = {
 const Feature = (props: ListProps) => {
   return (
     <div className='feature-container'>
-      <div><img src={props.photo}/></div>
-      <div>
+      <div className='feature-container_photo'>
+        <img src={props.photo}/>
+      </div>
+      <div className='feature-container_info'>
         <h3>{props.title}</h3>
         <p>{props.description}</p>
       </div>

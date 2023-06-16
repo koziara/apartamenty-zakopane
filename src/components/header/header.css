@@ -7,3 +7,12 @@
     background-size: cover; 
     background-position: center calc(25% - 20px);
 }
+
+.header-container_logo
+{
+    display: flex;
+    width:20%;
+    margin-left: 4rem;
+    min-width: 150px;
+    margin-top: 25vh;
+}

@@ -1,20 +1,27 @@
 [
     {
         "featureId": 1,
-        "photo": "/public/img/Sala_telewizyjna.jpg",
+        "photo": "/img/Sala_telewizyjna.jpg",
         "title": "Sala telewizyjna",
-        "description": "Doskonałe miejsce na wieczorne spotkanie ljhjebrucvwbevrucyvew werjochbweourcvweuorycbuwebhdcquoeyvuywvoeurcvwuoecvuowejladbla"
+        "description": "Do dyspozycji naszych gości jest sala telewizyjna będąca idealnym miejscem na odpoczynek i relaks po całym dniu zwiedzania. Nasza przestronna i wygodna sala telewizyjna ma wiele do zaoferowania, w tym szeroką gamę kanałów telewizyjnych, w tym rozrywkę, filmy i wiele innych."
     },
     {
         "featureId": 2,
-        "photo": "/public/img/Strefa_dziecka.jpg",
+        "photo": "/img/Strefa_dziecka.jpg",
         "title": "Strefa dziecka",
-        "description": "Doskonałe miejsce na wieczorne spotkanie ljhjebrucvwbevrucyvew werjochbweourcvweuorycbuwebhdcquoeyvuywvoeurcvwuoecvuowejladbla"
+        "description": "Pełen kolorowych zabawek, gier logicznych i pluszaków pokój to zdecydowanie miejsce, w którym dzieci będą chciały spędzać czas. Pokój ten przeznaczony jest dla najmłodszych i znajduje się tuż przy sali telewizyjnej, aby zarówno dzieci, jak i ich opiekunowie mogli czerpać korzyści z odpoczynku będąc blisko siebie."
     },
     {
         "featureId": 3,
-        "photo": "/public/img/Sala_telewizyjna.jpg",
-        "title": "Widoki",
-        "description": "Doskonałe miejsce na wieczorne spotkanie ljhjebrucvwbevrucyvew werjochbweourcvweuorycbuwebhdcquoeyvuywvoeurcvwuoecvuowejladbla"
+        "photo": "/img/Widok_Giewont.jpg",
+        "title": "Malowniczy widok na Giewont, Gubałówkę i Kasprowy Wierch",
+        "description": "Otwórz okna i delektuj się panoramicznym widokiem na Giewont, Gubałówkę i Kasprowy Wierch, poczuj bliskość natury i piękno górskiego krajobrazu. Oferujemy wyjątkową atmosferę, w której możesz odpocząć i nabrać sił, zanurzając się w pięknie otaczającej przyrody."
+    },
+    {
+        "featureId": 4,
+        "photo": "/img/Narciarnia.jpg",
+        "title": "Narciarnia",
+        "description": "Zapewniamy naszym gościom wygodną i funkcjonalną przestrzeń dedykowaną przechowywaniu sprzętu narciarskiego. Nasz dedykowany pokój na buty narciarskie jest wyposażony w podgrzewacze, które utrzymują buty w optymalnej temperaturze."
     }
+
 ]

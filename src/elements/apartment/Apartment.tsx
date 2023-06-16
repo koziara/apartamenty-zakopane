@@ -19,7 +19,7 @@ const Apartment = (props:ListProps) => {
     <Link to={`/apartment/${props.id}`} className='apartment-container'>
       <img src={props.photo} alt={props.title}/>
       <h3>{props.title}</h3>
-      <p><LuBedDouble className='apartment-icon'/> Max. Osób: {props.capacity}</p>
+      <p><LuBedDouble className='apartment-icon'/> Max. osób: {props.capacity}</p>
       <p><BiArea className='apartment-icon' /> Powierzchnia: {props.size}</p>
     </Link>
   )

@@ -5,9 +5,9 @@ import "./navbar.css"
 
 const Links = () =>(
     <ul className='navbar-navbar_links'>
-      <li><a href='#apartments' className='navbar-links hover-underline-animation'>Apartmanty</a></li>
+      <li><a href='#apartments' className='navbar-links hover-underline-animation'>Apartamenty</a></li>
       <li><Link to={"/Galeria"} className='navbar-links hover-underline-animation'>Galeria</Link></li>
-      <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Rezervacie</Link></li>
+      <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Rezerwacje</Link></li>
       <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Kontakt</Link></li>
     </ul>
   );
@@ -16,11 +16,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
     <nav className='navbar-container'>
-      <div>
-        <img src='' alt='logo' />
-        <p>Apartamenty</p>
-        <p>Dolina Strążyska</p>
-        <Link to={"/"}></Link>
+      <div className='navbar-logo'>
+        <Link to={"/"}>
+          <img src='/img/Zakopane_logo_full_cut.png' alt='logo' />
+        </Link>
       </div>
       <div className='navbar-links_container'>
         <Links />
