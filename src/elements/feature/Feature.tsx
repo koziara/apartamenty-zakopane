@@ -11,7 +11,7 @@ const Feature = (props: ListProps) => {
   return (
     <div className='feature-container'>
       <div className='feature-container_photo'>
-        <img src={props.photo}/>
+        <img src={props.photo} alt={props.title}/>
       </div>
       <div className='feature-container_info'>
         <h3>{props.title}</h3>

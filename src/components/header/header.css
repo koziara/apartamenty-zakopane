@@ -2,7 +2,7 @@
 {
     width: 100%;
     height: 100vh;
-    background-image: url("/public/img/house_outside.jpg");
+    background-image: url("/public/img/house.jpg");
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center calc(25% - 20px);

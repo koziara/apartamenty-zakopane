@@ -8,19 +8,13 @@ import './footer.css';
 
 const Footer = () => {
 
-  const apartments: HTMLElement | null = document.getElementById("apartments");
-
-  function scrollToApartments(): void {
-    if (apartments) {
-      apartments.scrollIntoView(true);
-    }
-  }
-
   return (
     <footer className='footer-container'>
-      {/* <div className='footer-container_map'>
-        <iframe width="100%" height="400" frameBorder="0" scrolling="no" id="gmap_canvas" src="https://maps.google.com/maps?width=1920&amp;height=400&amp;hl=en&amp;q=Str%C4%85%C5%BCyska%204A%20Zakopane+()&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" />
-      </div> */}
+      <div className='footer-container_map'>
+        <img src='/img/map.png' alt='Location' className='map-big'/>
+        <img src='/img/map1000.png' alt='Location' className='map-small'/>
+        <img src='/img/map500.png' alt='Location' className='map-extrasmall'/>
+      </div>
       <div className='footer-container_content'>
         <div className='footer-container_content-info'>
           <h3>More About Apartments</h3>
@@ -29,10 +23,9 @@ const Footer = () => {
         </div>
         <div className='footer-container_content-links'>
           <h3>Links</h3>
-          <button onClick={scrollToApartments}>Apartamenty</button><br/>
-          <button onClick={scrollToApartments}>Galeria</button><br/>
-          <button onClick={scrollToApartments}>Rezerwacie</button><br/>
-          <button onClick={scrollToApartments}>Kontakt</button>
+          <Link to={"/"} className='footer-container_content-links-link'>Główna</Link>
+          <Link to={"/Kontakt"} className='footer-container_content-links-link'>Rezerwacje</Link>
+          <Link to={"/Kontakt"} className='footer-container_content-links-link'>Kontakt</Link>
         </div>
         <div className='footer-container_content-contact'>
           <h3>Contact</h3>

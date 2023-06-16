@@ -56,5 +56,12 @@
   @media screen and (max-width: 800px){
     .apartment-container{
         width: 80%;
+        padding: 0;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .apartment-container{
+        width: 85%;
+        padding: 0;
     }
   }

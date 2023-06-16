@@ -5,8 +5,7 @@ import "./navbar.css"
 
 const Links = () =>(
     <ul className='navbar-navbar_links'>
-      <li><a href='#apartments' className='navbar-links hover-underline-animation'>Apartamenty</a></li>
-      <li><Link to={"/Galeria"} className='navbar-links hover-underline-animation'>Galeria</Link></li>
+      <li><Link to={"/"} className='navbar-links hover-underline-animation'>Główna</Link></li>
       <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Rezerwacje</Link></li>
       <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Kontakt</Link></li>
     </ul>
@@ -18,7 +17,7 @@ const Navbar = () => {
     <nav className='navbar-container'>
       <div className='navbar-logo'>
         <Link to={"/"}>
-          <img src='/img/Zakopane_logo_full_cut.png' alt='logo' />
+          <img src='/img/logo.png' alt='Dolina Strazyska' />
         </Link>
       </div>
       <div className='navbar-links_container'>

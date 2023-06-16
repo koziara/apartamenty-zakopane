@@ -1,4 +1,4 @@
-.features-container div:nth-child(2n){
+.features-container div:nth-child(2n+1){
     flex-direction: row-reverse;
 }
 
@@ -8,3 +8,22 @@
     flex-direction: column;
 }
 
+.features-container h1{
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.line{
+    width: 100%;
+    background-color: var(--color-dark);
+    height: 5px;
+    margin: 3rem 0;
+}
+
+.features-icons{
+    font-size:30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}

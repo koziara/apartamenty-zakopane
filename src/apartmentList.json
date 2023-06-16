@@ -1,59 +1,123 @@
 [
     {
         "apartmentId":1,
-        "photo":"/img/apartment_1.jpg",
-        "title":"Apartament czervony",
+        "photo":"/img/apartment1/apartment_1.jpg",
+        "photo2":"/img/apartment1/apartment_1.jpg",
+        "photo3":"/img/apartment1/apartment_1.jpg",
+        "photo4":"/img/apartment1/apartment_1.jpg",
+        "photo5":"/img/apartment1/apartment_1.jpg",
+        "photo6":"/img/apartment1/apartment_1.jpg",
+        "title":"Apartament Pomarańczowy",
         "capacity": "4",
-        "size": "45 m\u00b2"
+        "size": "45 m\u00b2",
+        "description": "",
+        "price": 999,
+        "noOfRooms": 2
     },
     {
         "apartmentId":2,
-        "photo":"/img/apartment_2.jpg",
-        "title":"Apartament czervony",
+        "photo":"/img/apartment2/apartment_2.jpg",
+        "photo2":"/img/apartment2/apartment_2.jpg",
+        "photo3":"/img/apartment2/apartment_2.jpg",
+        "photo4":"/img/apartment2/apartment_2.jpg",
+        "photo5":"/img/apartment2/apartment_2.jpg",
+        "photo6":"/img/apartment2/apartment_2.jpg",
+        "title":"Apartament Zielony",
         "capacity": "4",
-        "size": "36 m\u00b2"
+        "size": "36 m\u00b2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, facilis, error repellat rerum in laborum, eum est exercitationem eos soluta vel sequi enim. Vel culpa amet soluta ex facilis eveniet",
+        "price": 999,
+        "noOfRooms": 2
     },
     {
         "apartmentId":3,
-        "photo":"/img/apartment_3.jpg",
-        "title":"Apartament czervony",
+        "photo":"/img/apartment3/apartment_3.jpg",
+        "photo2":"/img/apartment3/apartment_3.jpg",
+        "photo3":"/img/apartment3/apartment_3.jpg",
+        "photo4":"/img/apartment3/apartment_3.jpg",
+        "photo5":"/img/apartment3/apartment_3.jpg",
+        "photo6":"/img/apartment3/apartment_3.jpg",
+        "title":"Apartament Żółty",
         "capacity": "4",
-        "size": "43 m\u00b2"
+        "size": "43 m\u00b2",
+        "description": "",
+        "price": 999,
+        "noOfRooms": 2
     },
     {
         "apartmentId":4,
-        "photo":"/img/apartment_4.jpg",
-        "title":"Apartament czervony",
+        "photo":"/img/apartment4/apartment_4.jpg",
+        "photo2":"/img/apartment4/apartment_4.jpg",
+        "photo3":"/img/apartment4/apartment_4.jpg",
+        "photo4":"/img/apartment4/apartment_4.jpg",
+        "photo5":"/img/apartment4/apartment_4.jpg",
+        "photo6":"/img/apartment4/apartment_4.jpg",
+        "title":"Apartament Fioletowy",
         "capacity": "4",
-        "size": "46 m\u00b2"
+        "size": "46 m\u00b2",
+        "description": "",
+        "price": 999,
+        "noOfRooms": 2
     },
     {
         "apartmentId":5,
-        "photo":"/img/apartment_5.jpg",
+        "photo":"/img/apartment5/apartment_5.jpg",
+        "photo2":"/img/apartment5/apartment_5.jpg",
+        "photo3":"/img/apartment5/apartment_5.jpg",
+        "photo4":"/img/apartment5/apartment_5.jpg",
+        "photo5":"/img/apartment5/apartment_5.jpg",
+        "photo6":"/img/apartment5/apartment_5.jpg",
         "title":"Apartament czervony",
         "capacity": "4",
-        "size": "36 m\u00b2"
+        "size": "36 m\u00b2",
+        "description": "",
+        "price": 999,
+        "noOfRooms": 2
     },
     {
         "apartmentId":6,
-        "photo":"/img/apartment_6.jpg",
-        "title":"Apartament czervony",
+        "photo":"/img/apartment6/apartment_6.jpg",
+        "photo2":"/img/apartment6/apartment_6.jpg",
+        "photo3":"/img/apartment6/apartment_6.jpg",
+        "photo4":"/img/apartment6/apartment_6.jpg",
+        "photo5":"/img/apartment6/apartment_6.jpg",
+        "photo6":"/img/apartment6/apartment_6.jpg",
+        "title":"Apartament Szary",
         "capacity": "4",
-        "size": "43 m\u00b2"
+        "size": "43 m\u00b2",
+        "description": "",
+        "price": 999,
+        "noOfRooms": 2
     },
     {
         "apartmentId":7,
-        "photo":"/img/apartment_7.jpg",
+        "photo":"/img/apartment7/apartment_7.jpg",
+        "photo2":"/img/apartment7/apartment_7.jpg",
+        "photo3":"/img/apartment7/apartment_7.jpg",
+        "photo4":"/img/apartment7/apartment_7.jpg",
+        "photo5":"/img/apartment7/apartment_7.jpg",
+        "photo6":"/img/apartment7/apartment_7.jpg",
         "title":"Apartament czervony",
         "capacity": "2",
-        "size": "25 m\u00b2"
+        "size": "25 m\u00b2",
+        "description": "",
+        "price": 999,
+        "noOfRooms": 2
     },
     {
         "apartmentId":8,
-        "photo":"/img/apartment_8.jpg",
-        "title":"Apartament czervony",
+        "photo":"/img/apartment8/apartment_8.jpg",
+        "photo2":"/img/apartment8/apartment_8.jpg",
+        "photo3":"/img/apartment8/apartment_8.jpg",
+        "photo4":"/img/apartment8/apartment_8.jpg",
+        "photo5":"/img/apartment8/apartment_8.jpg",
+        "photo6":"/img/apartment8/apartment_8.jpg",
+        "title":"Apartament Niebieski",
         "capacity": "4",
-        "size": "45 m\u00b2"
+        "size": "45 m\u00b2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, facilis, error repellat rerum in laborum, eum est exercitationem eos soluta vel sequi enim. Vel culpa amet soluta ex facilis eveniet",
+        "price": 999,
+        "noOfRooms": 1
     }
     
 ]
