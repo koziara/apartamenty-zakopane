@@ -73,6 +73,10 @@ useEffect(() => {
       {
         original: product.photo6,
         thumbnail: product.photo6,
+      },
+      {
+        original: product.photo7,
+        thumbnail: product.photo7,
       }
     ];
     return (

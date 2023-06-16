@@ -6,10 +6,14 @@ type ListProps = {
     photo: string,
     title: string,
     description: string,
+    className:string,
 }
 const Feature = (props: ListProps) => {
+  const isEven = props.id % 2 === 0;
+  const containerClassName = isEven ? 'feature-container evenDiv' : 'feature-container oddDiv';
+  
   return (
-    <div className='feature-container'>
+    <div className={containerClassName}>
       <div className='feature-container_photo'>
         <img src={props.photo} alt={props.title}/>
       </div>

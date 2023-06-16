@@ -12,9 +12,11 @@
   --font-family: 'Roboto Slab', serif;
   
   --color-dark: #040C18;
-  --color-footer : #1f252c;
+  --color-footer : #13161a;
+  --color-feature : #1d2228;
   --color-grey:#cbcbcb;
   --color-light: #f9f9fa;
+  --color-red: #d40303;
 }
 
 body {

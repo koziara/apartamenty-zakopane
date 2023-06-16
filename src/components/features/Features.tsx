@@ -18,7 +18,7 @@ const Features = () => {
       <div className='line'/>
       <h1>Dostęp do zakwaterowania dla wszystkich</h1>
       {featureList.map(feature => (
-        <Feature key={feature.featureId} id={feature.featureId} title={feature.title} description={feature.description} photo={feature.photo} />
+        <Feature key={feature.featureId} id={feature.featureId} title={feature.title} description={feature.description} photo={feature.photo} className={feature.featureId % 2 === 1 ? "evenDiv" : "oddDiv"}/>
       ))}
 
 <div className='line'/>

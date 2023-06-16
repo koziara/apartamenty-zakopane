@@ -1,11 +1,10 @@
-.features-container div:nth-child(2n+1){
-    flex-direction: row-reverse;
-}
 
 .features-container
 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .features-container h1{

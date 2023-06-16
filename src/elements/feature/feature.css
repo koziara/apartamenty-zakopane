@@ -1,9 +1,22 @@
 .feature-container
 {
     display: flex;
-    width: 100%;
+    width: 90%;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.evenDiv{
+  flex-direction: row-reverse;
+}
+
+.evenDiv .feature-container_info{
+  border-radius: 0px 20px 20px 0;
+}
+
+.oddDiv .feature-container_info{
+  border-radius: 20px 0 0 20px;
 }
 
 .feature-container_photo
@@ -18,19 +31,27 @@
     display: block;
     width: 100%;
     height: 100%;
+    border-radius: 20px;
 }
 
 .feature-container_info {
     width: 50%;
-    text-align: center;
     word-wrap: break-word;
+    background-color: var(--color-feature);
+    color: var(--color-light);
+    padding: 3rem 0;
+    outline: 2px solid var(--color-light);
+    outline-offset: -10px;
   }
 
+
 .feature-container_info h3{
+  text-align: center;
     padding: 0.75rem;
 }
 .feature-container_info p{
     padding: 0 2rem 0.75rem 2rem;
+    text-align: justify;
 }
   
 /* Media query for screens smaller than 800 pixels */
