@@ -6,6 +6,7 @@ import { BookingButton, Navbar } from '../../elements';
 import { Footer } from '../index.js';
 import ScrollToTop from '../../ScrollToTop';
 import './apartmentDetails.css';
+import {MdOutlineKitchen} from 'react-icons/md'
 
 type Item = {
   apartmentId: number;
@@ -130,7 +131,13 @@ useEffect(() => {
             <div className="details-section_items-accessories">
               <h4>Co znajdziesz?</h4>
               <div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel itaque qui reprehenderit soluta numquam animi odio quo perspiciatis optio reiciendis. Voluptates dicta vel cum, rerum corrupti delectus reprehenderit quas aut.</p>
+                <p> <img src='/icons/kitchen-cooking-pot-non-stick-icon.svg' alt='Płyta indukcyjna'/> Płyta indukcyjna </p>
+                <p> <img src="/icons/electric-kettle-icon.svg" alt="Czajnik" />Czajnik </p>
+                <p> <img src='/icons/fridge-icon.svg'/>   Lodówka </p>
+                <p> <img src='/icons/hairdryer-icon.svg' alt='Suszarka'/> Suszarka</p>
+                <p>  <img src='/icons/parking-signs-icon.svg'/> Parking Darmowy </p>
+                <p> <img src='/icons/mountain-icon.svg'/>  Widok na Góry</p>
+                <p><img src='/icons/wifi-line-icon.svg' />Wifi</p>
               </div>
             </div>
           </div>

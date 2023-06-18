@@ -102,6 +102,11 @@
     width: 50%;
 }
 
+.details-section_items-accessories img 
+{
+    width: 5%;
+}
+
 @media screen and (max-width: 1200px){
     .details-container_content-info{
         width: 40%;
