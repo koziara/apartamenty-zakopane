@@ -1,5 +1,5 @@
 import React from 'react';
-import apartmentList from '../../apartmentList.json';
+import apartmentList from '../../lists/apartmentList.json';
 import {Apartment} from '../../elements'
 import './apartments.css';
 

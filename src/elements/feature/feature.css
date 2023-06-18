@@ -39,7 +39,7 @@
     word-wrap: break-word;
     background-color: var(--color-feature);
     color: var(--color-light);
-    padding: 3rem 0;
+    padding: 3rem 2rem;
     outline: 2px solid var(--color-light);
     outline-offset: -10px;
   }
@@ -47,36 +47,40 @@
 
 .feature-container_info h3{
   text-align: center;
-    padding: 0.75rem;
+  margin-bottom: 1rem;
 }
 .feature-container_info p{
-    padding: 0 2rem 0.75rem 2rem;
-    text-align: justify;
+  font-weight: 500;
 }
-  
-/* Media query for screens smaller than 800 pixels */
-@media (max-width: 700px) {
-    .feature-container_photo,
-    .feature-container_info {
+
+@media (max-width: 1100px) {
+    .feature-container_photo {
       width: 100%; /* Set both the photo and info divs to occupy full width */
         
     }
-    .feature-container_photo img 
-    {
-        width: 75%;
-        border-radius: 10px;
+    .feature-container{
+      flex-direction: column;
+      margin-bottom: 3rem;
     }
-    .feature-container_photo
-    {
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 2rem;
+
+    .oddDiv .feature-container_info,
+    .evenDiv .feature-container_info{
+      width: 90%;
+      border-radius: 20px 20px 0 0;
+      
     }
   }
 
-  @media (max-width: 700px) {
-    .feature-container:nth-child(4n+1),
-    .feature-container:nth-child(4n+2) {
-      flex-direction: column; /* Display text above photo for specific elements */
+  @media (max-width: 600px) {
+
+    .oddDiv .feature-container_info,
+    .evenDiv .feature-container_info{
+      width: 100%;
+    }
+    .feature-container_photo img{
+      border-radius: 0 0 20px 20px;
+    }
+    .feature-container_info{
+      padding: 2rem;
     }
   }

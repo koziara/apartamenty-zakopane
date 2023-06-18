@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
-import list from '../../apartmentList.json';
-import { BookingButton, Navbar } from '../../elements';
+import list from '../../lists/apartmentList.json';
+import accessoryList from '../../lists/accessoryList.json';
+import { Accessories, BookingButton, Navbar, Room } from '../../elements';
 import { Footer } from '../index.js';
 import ScrollToTop from '../../ScrollToTop';
 import './apartmentDetails.css';
-import {MdOutlineKitchen} from 'react-icons/md'
 
 type Item = {
   apartmentId: number;
@@ -25,7 +25,7 @@ const ApartmentDetails = () => {
 
   const { id } = useParams<{ id: string }>();
   const apartmentId = id ? parseInt(id, 10) : null;
-  const product = list.find((item: Item) => item.apartmentId === apartmentId);
+  const apartment = list.find((item: Item) => item.apartmentId === apartmentId);
   const [isWideScreen, setIsWideScreen] = useState(window.innerWidth);
 
 useEffect(() => {
@@ -42,7 +42,7 @@ useEffect(() => {
 
 
 
-  if (!product) {
+  if (!apartment) {
     return <div>
       <Navbar />
       Loading... {id}
@@ -51,33 +51,33 @@ useEffect(() => {
   else {
     const images = [
       {
-        original: product.photo,
-        thumbnail: product.photo,
-        originalTitle: product.title,
+        original: apartment.photo,
+        thumbnail: apartment.photo,
+        originalTitle: apartment.title,
       },
       {
-        original: product.photo2,
-        thumbnail: product.photo2,
+        original: apartment.photo2,
+        thumbnail: apartment.photo2,
       },
       {
-        original: product.photo3,
-        thumbnail: product.photo3,
+        original: apartment.photo3,
+        thumbnail: apartment.photo3,
       },
       {
-        original: product.photo4,
-        thumbnail: product.photo4,
+        original: apartment.photo4,
+        thumbnail: apartment.photo4,
       },
       {
-        original: product.photo5,
-        thumbnail: product.photo5,
+        original: apartment.photo5,
+        thumbnail: apartment.photo5,
       },
       {
-        original: product.photo6,
-        thumbnail: product.photo6,
+        original: apartment.photo6,
+        thumbnail: apartment.photo6,
       },
       {
-        original: product.photo7,
-        thumbnail: product.photo7,
+        original: apartment.photo7,
+        thumbnail: apartment.photo7,
       }
     ];
     return (
@@ -90,7 +90,6 @@ useEffect(() => {
             <div className='details-container_content-photos'>
               <ImageGallery
                 items={images}
-                showFullscreenButton={false}
                 showPlayButton={false}
                 {...(isWideScreen>1200
                   ? { thumbnailPosition: 'right' }
@@ -99,16 +98,16 @@ useEffect(() => {
               />
             </div>
             <div className='details-container_content-info'>
-              <h2>{product.title}</h2>
+              <h2>{apartment.title}</h2>
               <ul className='info-list'>
-                <li>{product.capacity} Gości</li>
-                <li>{product.size} Powierzchnia</li>
-                <li>{product.noOfRooms} Sypialnie</li>
+                <li>{apartment.capacity} Gości</li>
+                <li>{apartment.size} Powierzchnia</li>
+                <li>{apartment.noOfRooms} Sypialnie</li>
                 <li> Łóżka</li>
                 <li>1 Łazienka</li>
                 <li>Bezpłatny parking na miejscu</li>
               </ul>
-              <h4>{product.price} zł <span>/ noc</span></h4>
+              <h4>{apartment.price} zł <span>/ noc</span></h4>
               <div className='booking-btn'>
                 <BookingButton />
               </div>
@@ -121,28 +120,24 @@ useEffect(() => {
         <div className='details-section'>
           <div className="details-section_description">
             <h2>Opis</h2>
-            <p>{product.description} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi delectus, a illo, provident commodi sapiente dolore soluta voluptate reprehenderit ea voluptatibus blanditiis ut aliquam quae natus ab distinctio. Beatae.</p>
+            <p>{apartment.description} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi delectus, a illo, provident commodi sapiente dolore soluta voluptate reprehenderit ea voluptatibus blanditiis ut aliquam quae natus ab distinctio. Beatae.</p>
           </div>
           <div className="details-section_items">
             <div className="details-section_items-rooms">
               <h4>Gdzie możesz spać?</h4>
-              {product.noOfRooms === 2 ? <p>2 - Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto pariatur sit nemo porro perspiciatis eveniet quia, excepturi ullam? Eveniet beatae nisi odio minima deleniti facere veritatis! Architecto inventore consequatur quas.</p> : <p>1 - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi est labore assumenda maxime eius non laboriosam pariatur beatae architecto magni, nesciunt corrupti dolorum minus ad nobis optio amet adipisci officia.</p>}
+              <Room roomNo={apartment.apartmentId}/>
             </div>
             <div className="details-section_items-accessories">
               <h4>Co znajdziesz?</h4>
               <div>
-                <p> <img src='/icons/kitchen-cooking-pot-non-stick-icon.svg' alt='Płyta indukcyjna'/> Płyta indukcyjna </p>
-                <p> <img src="/icons/electric-kettle-icon.svg" alt="Czajnik" />Czajnik </p>
-                <p> <img src='/icons/fridge-icon.svg'/>   Lodówka </p>
-                <p> <img src='/icons/hairdryer-icon.svg' alt='Suszarka'/> Suszarka</p>
-                <p>  <img src='/icons/parking-signs-icon.svg'/> Parking Darmowy </p>
-                <p> <img src='/icons/mountain-icon.svg'/>  Widok na Góry</p>
-                <p><img src='/icons/wifi-line-icon.svg' />Wifi</p>
+                {accessoryList.map(accessory => (
+                  <Accessories key={accessory.accessoryId} imagePath={accessory.imagePath} title={accessory.title} />
+                ))}
               </div>
             </div>
           </div>
         </div>
-        <Footer />
+        <Footer visible={true}/>
       </div>
     )
   }

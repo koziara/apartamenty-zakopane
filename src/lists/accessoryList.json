@@ -1,0 +1,37 @@
+[
+    {
+        "accessoryId":1,
+        "imagePath":"/icons/kitchen-cooking-pot-non-stick-icon.svg",
+        "title":"Płyta indukcyjna"
+    },
+    {
+        "accessoryId":2,
+        "imagePath":"/icons/electric-kettle-icon.svg",
+        "title":"Czajnik"
+    },
+    {
+        "accessoryId":3,
+        "imagePath":"/icons/fridge-icon.svg",
+        "title":"Lodówka"
+    },
+    {
+        "accessoryId":4,
+        "imagePath":"/icons/hairdryer-icon.svg",
+        "title":"Suszark"
+    },
+    {
+        "accessoryId":5,
+        "imagePath":"/icons/parking-signs-icon.svg",
+        "title":"Parking Darmowy"
+    },
+    {
+        "accessoryId":6,
+        "imagePath":"/icons/wifi-line-icon.svg",
+        "title":"Wi-Fi"
+    },
+    {
+        "accessoryId":7,
+        "imagePath":"/icons/mountain-icon.svg",
+        "title":"Widok na Góry"
+    }
+]

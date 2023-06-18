@@ -1,0 +1,13 @@
+.document-numbering{
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
+
+.document-container{
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.document-container p{
+    font-size: 18px;
+}

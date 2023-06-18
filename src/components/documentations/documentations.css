@@ -1,0 +1,35 @@
+.documentations-container{
+    width: 100%;
+    padding: 3rem 5rem;
+}
+
+.documentations-container h1{
+    margin: 2rem 0;
+}
+
+.documentations-actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.documentations-actions button,
+.documentations-actions a{
+    color: var(--color-dark);
+    font-size: 30px;
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 650px){
+    .documentations-container{
+        padding: 2rem 3rem;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .documentations-container{
+        padding: 2rem;
+    }
+  }

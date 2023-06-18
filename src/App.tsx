@@ -7,7 +7,7 @@ function App() {
         <Header />
         <Apartments />
         <Features />
-        <Footer />
+        <Footer visible={true}/>
     </div>
   );
 }

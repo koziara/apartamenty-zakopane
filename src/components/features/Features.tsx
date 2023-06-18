@@ -1,5 +1,5 @@
 import React from 'react'
-import featureList from '../../featureList.json'
+import featureList from '../../lists/featureList.json'
 import { Feature } from '../../elements'
 import {FaWifi, FaParking, FaBath} from 'react-icons/fa';
 import {TbToolsKitchen2} from 'react-icons/tb';
@@ -9,6 +9,7 @@ import './features.css';
 const Features = () => {
   return (
     <div className='features-container'>
+            <div className='line'/>
             <div className='features-icons'>
         <FaWifi />
         <FaParking />

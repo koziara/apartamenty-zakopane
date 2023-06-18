@@ -1,0 +1,38 @@
+.room-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.room-container_detail{
+    width: 48%;
+    border: 2px solid var(--color-dark);
+    padding: 2rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.room-container_detail h2{
+    font-size: 26px;
+}
+
+@media screen and (max-width: 1050px) {
+    .room-container{
+        flex-direction: column;
+    }
+    .room-container_detail{
+        margin-bottom: 2rem;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .room-container_detail h3{
+        font-size: 18px;
+    }
+    .room-container_detail p{
+        font-size: 14px;
+    }
+}
