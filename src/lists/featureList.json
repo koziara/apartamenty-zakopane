@@ -3,7 +3,7 @@
         "featureId": 1,
         "photo": "/img/features/Sala_telewizyjna.jpg",
         "title": "Sala telewizyjna",
-        "description": "Do dyspozycji naszych gości jest sala telewizyjna będąca idealnym miejscem na odpoczynek i relaks po całym dniu zwiedzania. Nasza przestronna i wygodna sala telewizyjna ma wiele do zaoferowania, w tym szeroką gamę kanałów telewizyjnych, w tym rozrywkę, filmy i wiele innych."
+        "description": " Zapraszamy do skorzystania z naszej urokliwej sali telewizyjnej, która stanowi idealne miejsce na zasłużony odpoczynek i relaks po pełnym dniu wrażeń. Szeroki wybór kanałów telewizyjnych zapewnia dostęp do rozrywki na najwyższym poziomie, w tym najnowszych filmów, fascynujących programów i wiele innych niezwykłych treści. Znajdziesz tu coś dla siebie, niezależnie od preferencji i gustu."
     },
     {
         "featureId": 2,
@@ -15,13 +15,13 @@
         "featureId": 3,
         "photo": "/img/features/Widok_Giewont.jpg",
         "title": "Malowniczy widok na Giewont, Gubałówkę i Kasprowy Wierch",
-        "description": "Otwórz okna i delektuj się panoramicznym widokiem na Giewont, Gubałówkę i Kasprowy Wierch, poczuj bliskość natury i piękno górskiego krajobrazu. Oferujemy wyjątkową atmosferę, w której możesz odpocząć i nabrać sił, zanurzając się w pięknie otaczającej przyrody."
+        "description": "Otwórz okna i delektuj się panoramicznym widokiem na góry, poczuj bliskość natury i piękno górskiego krajobrazu. Oferujemy wyjątkową atmosferę, w której możesz odpocząć i nabrać sił, zanurzając się w pięknie otaczającej przyrody."
     },
     {
         "featureId": 4,
         "photo": "/img/features/Narciarnia.jpg",
         "title": "Narciarnia",
-        "description": "Zapewniamy naszym gościom wygodną i funkcjonalną przestrzeń dedykowaną przechowywaniu sprzętu narciarskiego. Nasz dedykowany pokój na buty narciarskie jest wyposażony w podgrzewacze, które utrzymują buty w optymalnej temperaturze."
+        "description": "Zapewniamy naszym gościom wygodną i funkcjonalną przestrzeń dedykowaną przechowywaniu sprzętu narciarskiego. Narciarnia wyposażona jest w suszarkę do butów."
     }
 
 ]

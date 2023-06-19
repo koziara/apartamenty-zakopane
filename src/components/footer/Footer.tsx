@@ -21,7 +21,7 @@ const Footer = (props: FooterProps) => {
         </div><div className='footer-container_content'>
             <div className='footer-container_content-info'>
               <h3>More About Apartments</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, facilis, error repellat rerum in laborum, eum est exercitationem eos soluta vel sequi enim. Vel culpa amet soluta ex facilis eveniet.</p>
+              <p></p>
               <p>- Dorota Koziara, Owner</p>
             </div>
             <div className='footer-container_content-links'>

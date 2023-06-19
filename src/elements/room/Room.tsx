@@ -22,7 +22,7 @@ const KingRoom = () => {
     return (
       <div className="room-container_detail">
             <h2><LuSofa /></h2>
-            <h3>Sypialnia  1</h3>
+            <h3>Salon</h3>
             <p>1 wygodna kanapa <br/>- dla dwojga</p>
       </div>
     )

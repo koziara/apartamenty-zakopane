@@ -13,7 +13,8 @@
         "size": "45 m\u00b2",
         "description": "",
         "price": 999,
-        "noOfRooms": 2
+        "noOfRooms": 2,
+        "balcony": true
     },
     {
         "apartmentId":2,
@@ -29,7 +30,8 @@
         "size": "36 m\u00b2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, facilis, error repellat rerum in laborum, eum est exercitationem eos soluta vel sequi enim. Vel culpa amet soluta ex facilis eveniet",
         "price": 999,
-        "noOfRooms": 2
+        "noOfRooms": 2,
+        "balcony": true
     },
     {
         "apartmentId":3,
@@ -45,7 +47,8 @@
         "size": "43 m\u00b2",
         "description": "",
         "price": 999,
-        "noOfRooms": 2
+        "noOfRooms": 2,
+        "balcony": true
     },
     {
         "apartmentId":4,
@@ -61,7 +64,8 @@
         "size": "46 m\u00b2",
         "description": "",
         "price": 999,
-        "noOfRooms": 2
+        "noOfRooms": 2,
+        "balcony": true
     },
     {
         "apartmentId":5,
@@ -77,7 +81,8 @@
         "size": "36 m\u00b2",
         "description": "",
         "price": 999,
-        "noOfRooms": 2
+        "noOfRooms": 2,
+        "balcony": true
     },
     {
         "apartmentId":6,
@@ -93,7 +98,8 @@
         "size": "43 m\u00b2",
         "description": "",
         "price": 999,
-        "noOfRooms": 2
+        "noOfRooms": 2,
+        "balcony": true
     },
     {
         "apartmentId":7,
@@ -109,7 +115,8 @@
         "size": "25 m\u00b2",
         "description": "",
         "price": 999,
-        "noOfRooms": 2
+        "noOfRooms": 2,
+        "balcony": false
     },
     {
         "apartmentId":8,
@@ -125,7 +132,8 @@
         "size": "45 m\u00b2",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, facilis, error repellat rerum in laborum, eum est exercitationem eos soluta vel sequi enim. Vel culpa amet soluta ex facilis eveniet",
         "price": 999,
-        "noOfRooms": 1
+        "noOfRooms": 1,
+        "balcony": false
     }
     
 ]

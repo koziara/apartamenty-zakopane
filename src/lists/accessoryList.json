@@ -1,37 +1,57 @@
 [
     {
         "accessoryId":1,
-        "imagePath":"/icons/kitchen-cooking-pot-non-stick-icon.svg",
-        "title":"Płyta indukcyjna"
+        "imagePath":"/icons/led-television-icon.svg",
+        "title":"TV"
     },
     {
         "accessoryId":2,
-        "imagePath":"/icons/electric-kettle-icon.svg",
-        "title":"Czajnik"
-    },
-    {
-        "accessoryId":3,
-        "imagePath":"/icons/fridge-icon.svg",
-        "title":"Lodówka"
-    },
-    {
-        "accessoryId":4,
-        "imagePath":"/icons/hairdryer-icon.svg",
-        "title":"Suszark"
-    },
-    {
-        "accessoryId":5,
-        "imagePath":"/icons/parking-signs-icon.svg",
-        "title":"Parking Darmowy"
-    },
-    {
-        "accessoryId":6,
         "imagePath":"/icons/wifi-line-icon.svg",
         "title":"Wi-Fi"
     },
     {
+        "accessoryId":3,
+        "imagePath":"/icons/towel-icon.svg",
+        "title":"Ręczniki"
+    },
+    {
+        "accessoryId":4,
+        "imagePath":"/icons/hairdryer-icon.svg",
+        "title":"Suszarka"
+    },
+    {
+        "accessoryId":5,
+        "imagePath":"/icons/electric-kettle-icon.svg",
+        "title":"Czajnik"
+    },
+    {
+        "accessoryId":6,
+        "imagePath":"/icons/tea-hot-icon.svg",
+        "title":"Zestaw do kawy i herbaty"
+    },
+    {
         "accessoryId":7,
+        "imagePath":"/icons/kitchen-cooking-pot-non-stick-icon.svg",
+        "title":"Płyta indukcyjna"
+    },
+    {
+        "accessoryId":8,
+        "imagePath":"/icons/fridge-icon.svg",
+        "title":"Lodówka"
+    },
+    {
+        "accessoryId":9,
+        "imagePath":"/icons/parking-signs-icon.svg",
+        "title":"Parking Darmowy"
+    },
+    {
+        "accessoryId":10,
         "imagePath":"/icons/mountain-icon.svg",
         "title":"Widok na Góry"
+    },
+    {
+        "accessoryId":11,
+        "imagePath":"/icons/cctv-icon.svg",
+        "title":"Kamery monitorujące na terenie posesji"
     }
 ]

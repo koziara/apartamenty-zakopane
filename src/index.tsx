@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import {  createBrowserRouter,  RouterProvider } from 'react-router-dom';
 import './index.css';
 import App from './App';
-import { ErrorPage, ApartmentDetails, Contact } from './components';
+import { ErrorPage, ApartmentDetails, Contact, Reservation } from './components';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
@@ -13,8 +13,8 @@ const router = createBrowserRouter([
     errorElement: <ErrorPage />
   },
   {
-    path: "/Galeria",
-    element: <ErrorPage />,
+    path: "/Rezerwacje",
+    element: <Reservation />,
     errorElement: <ErrorPage />
   },
   {

@@ -100,12 +100,12 @@ useEffect(() => {
             <div className='details-container_content-info'>
               <h2>{apartment.title}</h2>
               <ul className='info-list'>
-                <li>{apartment.capacity} Gości</li>
-                <li>{apartment.size} Powierzchnia</li>
-                <li>{apartment.noOfRooms} Sypialnie</li>
-                <li> Łóżka</li>
-                <li>1 Łazienka</li>
+                <li>Maksymalna liczba gości: {apartment.capacity}</li>
+                <li>Powierzchnia: {apartment.size} </li>
+                <li>Liczba pokoi: {apartment.noOfRooms}</li>
+                <li>Prywatna łazienka</li>
                 <li>Bezpłatny parking na miejscu</li>
+                {apartment.balcony?<li>Balkon</li>:null}
               </ul>
               <h4>{apartment.price} zł <span>/ noc</span></h4>
               <div className='booking-btn'>

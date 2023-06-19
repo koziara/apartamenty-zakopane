@@ -6,3 +6,4 @@ export{default as Footer} from './footer/Footer.tsx';
 export{default as Header} from './header/Header.tsx';
 export{default as Contact} from './contact/Contact.tsx';
 export{default as Documentations} from './documentations/Documentations.tsx';
+export{default as Reservation} from './reservation/Reservation.tsx';
