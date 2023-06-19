@@ -27,7 +27,7 @@ const Footer = (props: FooterProps) => {
             <div className='footer-container_content-links'>
               <h3>Links</h3>
               <Link to={"/"} className='footer-container_content-links-link'>Apartamenty</Link>
-              <Link to={"/Kontakt"} className='footer-container_content-links-link'>Rezerwacje</Link>
+              <Link to={"/Rezerwacje"} className='footer-container_content-links-link'>Rezerwacje</Link>
               <Link to={"/Kontakt"} className='footer-container_content-links-link'>Kontakt</Link>
             </div>
             <div className='footer-container_content-contact'>

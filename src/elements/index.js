@@ -5,6 +5,7 @@ export {default as BookingButton} from './bookingButton/BookingButton.tsx';
 export {default as Documentation} from './documentation/Documentation.tsx';
 export {default as Room} from './room/Room.tsx';
 export {default as Accessories} from './accessories/Accessories.tsx';
+export{default as ScrollToTop} from './ScrollToTop.tsx';
 
 
 

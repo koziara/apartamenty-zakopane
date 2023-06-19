@@ -1,8 +1,33 @@
 .reservation-container iframe{
     overflow: hidden;
-    width: 100%;
+    width: 90%;
     height: 100%;
+    border: none;
+    border-radius: 20px 20px 0 0;
+    margin: 1rem auto 0 auto;
+    background-color: white;
 }
 .reservation-container{
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    background-image: url("/public/img/house.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center calc(25%);
 }
+.reservation-footer{
+    position:relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+}
+
+@media screen and (max-width: 500px){
+    .reservation-container iframe{
+        width: 100%;
+    }
+  }

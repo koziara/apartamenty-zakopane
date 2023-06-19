@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { BookingButton, Navbar } from '../../elements';
+import { BookingButton, Navbar,ScrollToTop } from '../../elements';
 import { Documentations, Footer } from '../index.js';
-import ScrollToTop from '../../ScrollToTop';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import { MdPlace } from 'react-icons/md';

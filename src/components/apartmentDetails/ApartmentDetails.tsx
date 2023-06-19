@@ -3,9 +3,8 @@ import { useParams } from 'react-router-dom';
 import ImageGallery from 'react-image-gallery';
 import list from '../../lists/apartmentList.json';
 import accessoryList from '../../lists/accessoryList.json';
-import { Accessories, BookingButton, Navbar, Room } from '../../elements';
-import { Footer } from '../index.js';
-import ScrollToTop from '../../ScrollToTop';
+import { Accessories, BookingButton, Navbar, Room, ScrollToTop} from '../../elements';
+import { Footer } from '../';
 import './apartmentDetails.css';
 
 type Item = {

@@ -6,7 +6,7 @@ import "./navbar.css"
 const Links = () =>(
     <ul className='navbar-navbar_links'>
       <li><Link to={"/"} className='navbar-links hover-underline-animation'>Apartamenty</Link></li>
-      <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Rezerwacje</Link></li>
+      <li><Link to={"/Rezerwacje"} className='navbar-links hover-underline-animation'>Rezerwacje</Link></li>
       <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Kontakt</Link></li>
     </ul>
   );
