@@ -2,14 +2,19 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {  createBrowserRouter,  RouterProvider } from 'react-router-dom';
 import './index.css';
-import App from './App';
-import { ErrorPage, ApartmentDetails, Contact, Reservation } from './components';
+import ZakopanePage from './ZakopanePage';
+import { ErrorPage, ApartmentDetails, Contact, Reservation, TransferPage } from './components';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <TransferPage />,
+    errorElement: <ErrorPage />
+  },
+  {
+    path: "/DolinaStrazicka",
+    element: <ZakopanePage />,
     errorElement: <ErrorPage />
   },
   {
