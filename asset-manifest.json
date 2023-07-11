@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/apartamenty-zakopane/static/css/main.3e7be881.css",
+    "main.js": "/apartamenty-zakopane/static/js/main.035f492a.js",
+    "static/js/787.28f9efb6.chunk.js": "/apartamenty-zakopane/static/js/787.28f9efb6.chunk.js",
+    "static/media/house.jpg": "/apartamenty-zakopane/static/media/house.80c74bf096b8f1aea3e9.jpg",
+    "index.html": "/apartamenty-zakopane/index.html",
+    "main.3e7be881.css.map": "/apartamenty-zakopane/static/css/main.3e7be881.css.map",
+    "main.035f492a.js.map": "/apartamenty-zakopane/static/js/main.035f492a.js.map",
+    "787.28f9efb6.chunk.js.map": "/apartamenty-zakopane/static/js/787.28f9efb6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e7be881.css",
+    "static/js/main.035f492a.js"
+  ]
+}
