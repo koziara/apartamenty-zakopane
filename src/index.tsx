@@ -3,17 +3,12 @@ import ReactDOM from 'react-dom/client';
 import {  createBrowserRouter,  RouterProvider } from 'react-router-dom';
 import './index.css';
 import ZakopanePage from './ZakopanePage';
-import { ErrorPage, ApartmentDetails, Contact, Reservation, TransferPage } from './components';
+import { ErrorPage, ApartmentDetails, Contact, Reservation } from './components';
 import reportWebVitals from './reportWebVitals';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <TransferPage />,
-    errorElement: <ErrorPage />
-  },
-  {
-    path: "/DolinaStrazicka",
     element: <ZakopanePage />,
     errorElement: <ErrorPage />
   },
