@@ -20,7 +20,10 @@ const Contact = () => {
 
     useEffect(() => {
         if (visibleDocument !== "none") {
-            window.scrollTo({ top: 200, behavior: 'smooth' });
+            const element: HTMLElement | null = document.getElementById("documentations");
+            if (element) {
+                element.scrollIntoView();
+            }
         }
     }, [visibleDocument]);
 

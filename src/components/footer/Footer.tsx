@@ -10,7 +10,12 @@ type FooterProps = {
 }
 
 const Footer = (props: FooterProps) => {
-
+  const moveToApartments = () => {
+    const element: HTMLElement | null = document.getElementById("apartments");
+    if (element) {
+        element.scrollIntoView();
+    }
+};
   return (
     <footer className='footer-container'>
       {props.visible ? 
@@ -26,7 +31,7 @@ const Footer = (props: FooterProps) => {
             </div>
             <div className='footer-container_content-links'>
               <h3>Links</h3>
-              <Link to={"/"} className='footer-container_content-links-link'>Apartamenty</Link>
+              <Link to={"/"} onClick={moveToApartments} className='footer-container_content-links-link'>Apartamenty</Link>
               <Link to={"/Rezerwacje"} className='footer-container_content-links-link'>Rezerwacje</Link>
               <Link to={"/Kontakt"} className='footer-container_content-links-link'>Kontakt</Link>
             </div>

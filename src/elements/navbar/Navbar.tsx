@@ -3,16 +3,24 @@ import { Link } from 'react-router-dom';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import "./navbar.css"
 
-const Links = () =>(
+const Links = () =>{
+  const moveToApartments = () => {
+    const element: HTMLElement | null = document.getElementById("apartments");
+    if (element) {
+        element.scrollIntoView();
+    }
+};
+  return(
     <ul className='navbar-navbar_links'>
-      <li><Link to={"/"} className='navbar-links hover-underline-animation'>Apartamenty</Link></li>
+      <li><Link to={"/"} onClick={moveToApartments} className='navbar-links hover-underline-animation'>Apartamenty</Link></li>
       <li><Link to={"/Rezerwacje"} className='navbar-links hover-underline-animation'>Rezerwacje</Link></li>
       <li><Link to={"/Kontakt"} className='navbar-links hover-underline-animation'>Kontakt</Link></li>
     </ul>
-  );
+  )};
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  
   return (
     <nav className='navbar-container'>
       <div className='navbar-logo'>
