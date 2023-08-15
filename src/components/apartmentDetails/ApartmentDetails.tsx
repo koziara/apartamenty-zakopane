@@ -106,7 +106,7 @@ useEffect(() => {
                 <li>Bezpłatny parking na miejscu</li>
                 {apartment.balcony?<li>Balkon</li>:null}
               </ul>
-              <h4>{apartment.price} zł <span>/ noc</span></h4>
+              <h4>{apartment.price} zł <span>/doba</span></h4>
               <div className='booking-btn'>
                 <BookingButton />
               </div>
@@ -119,7 +119,7 @@ useEffect(() => {
         <div className='details-section'>
           <div className="details-section_description">
             <h2>Opis</h2>
-            <p>{apartment.description} Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores quasi delectus, a illo, provident commodi sapiente dolore soluta voluptate reprehenderit ea voluptatibus blanditiis ut aliquam quae natus ab distinctio. Beatae.</p>
+            <p>{apartment.description} </p>
           </div>
           <div className="details-section_items">
             <div className="details-section_items-rooms">

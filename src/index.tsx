@@ -5,11 +5,12 @@ import './index.css';
 import ZakopanePage from './ZakopanePage';
 import { ErrorPage, ApartmentDetails, Contact, Reservation, TransferPage } from './components';
 import reportWebVitals from './reportWebVitals';
+import App from './ZakopanePage';
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <TransferPage />,
+    element: <App />,
     errorElement: <ErrorPage />
   },
   {

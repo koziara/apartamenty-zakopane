@@ -20,7 +20,10 @@ const Contact = () => {
 
     useEffect(() => {
         if (visibleDocument !== "none") {
-            window.scrollTo({ top: 200, behavior: 'smooth' });
+            const element: HTMLElement | null = document.getElementById("documentations")
+            if(element){
+                element.scrollIntoView();
+            }
         }
     }, [visibleDocument]);
 
@@ -33,9 +36,10 @@ const Contact = () => {
                     <div className='contact-container_content-info'>
                         <h2>Apartamenty Dolina Strążyska</h2>
                         <h3>Skontaktuj się z nami, aby uzyskać więcej informacji</h3>
-                        <p><AiOutlinePhone size={22} className='contact-icon' /> xxxxxxxx</p>
-                        <p><FiMail size={20} className='contact-icon' /> xxxxxxx@gmail.com</p>
-                        <p><MdPlace size={22} className='contact-icon' /> xxxxxx,xxx</p>
+                        <p><AiOutlinePhone size={22} className='contact-icon' /> +48 607 601 471</p>
+                        <p><AiOutlinePhone size={22} className='contact-icon' /> In english: +45 55218161</p>
+                        <p><FiMail size={20} className='contact-icon' /> apartamentydolinastrazyska@gmail.com</p>
+                        <p><MdPlace size={22} className='contact-icon' />  Strążyska 4A, 34-500 Zakopane</p>
                         <div className="document-button_container">
                             <button onClick={() => setVisible("Regulamin")}>Regulamin</button>
                             <button onClick={() => setVisible("Polityka")}>Polityka Prywatności</button>

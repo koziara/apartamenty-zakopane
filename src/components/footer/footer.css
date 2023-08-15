@@ -22,7 +22,7 @@
 .footer-container_content{
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5rem;
 }
 
@@ -61,7 +61,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-self: start;
-    width: 20%;
+    width: 25%;
 }
 
 .footer-container_content-contact p{

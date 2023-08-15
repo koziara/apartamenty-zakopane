@@ -23,7 +23,7 @@ const Documentations = (props:DocumentsProps) => {
         props.updateContactState(newData);
       };
   return (
-    <div className='documentations-container'>
+    <div className='documentations-container' id='documentations'>
         <div className='documentations-actions'><button onClick={handleButtonClick} ><CgClose /></button><a href={props.linkToPDF} target='_blank' rel="noreferrer"><HiOutlineDownload/></a></div>
         <h1>{props.title}</h1>
         {props.documentations.map(document => (<Documentation key={document.documentNo} documentNo={document.documentNo} documentDescription={document.documentDescription} />))}
