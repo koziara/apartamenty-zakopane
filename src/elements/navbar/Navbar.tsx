@@ -20,6 +20,7 @@ const Links = () =>{
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
+  
   return (
     <nav className='navbar-container'>
       <div className='navbar-logo'>

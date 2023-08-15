@@ -1,12 +1,16 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
+import {FaArrowCircleLeft} from 'react-icons/fa';
 import "./reservation.css"
 import {Footer} from '../';
 import { Navbar, ScrollToTop } from '../../elements';
 
 const Reservation = () => {
+  const navigate = useNavigate();
+
   return (
     <div className='reservation-container'>
-      <Navbar />
+      <button onClick={() => navigate(-1)} className='back-button'><FaArrowCircleLeft /></button>
        <ScrollToTop />
       <iframe
       id="sohis_iframe"
