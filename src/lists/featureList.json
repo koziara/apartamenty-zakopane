@@ -1,25 +1,25 @@
 [
     {
         "featureId": 1,
-        "photo": "/img/features/Sala_telewizyjna.jpg",
+        "photo": "/img/features/Sala_telewizyjna.webp",
         "title": "Sala telewizyjna",
         "description": " Zapraszamy do skorzystania z naszej urokliwej sali telewizyjnej, która stanowi idealne miejsce na zasłużony odpoczynek i relaks po pełnym dniu wrażeń. Szeroki wybór kanałów telewizyjnych zapewnia dostęp do rozrywki na najwyższym poziomie, w tym najnowszych filmów, fascynujących programów i wiele innych niezwykłych treści. Znajdziesz tu coś dla siebie, niezależnie od preferencji i gustu."
     },
     {
         "featureId": 2,
-        "photo": "/img/features/Strefa_dziecka.jpg",
+        "photo": "/img/features/Strefa_dziecka.webp",
         "title": "Strefa dziecka",
         "description": "Pełen kolorowych zabawek, gier logicznych i pluszaków pokój to zdecydowanie miejsce, w którym dzieci będą chciały spędzać czas. Pokój ten przeznaczony jest dla najmłodszych i znajduje się tuż przy sali telewizyjnej, aby zarówno dzieci, jak i ich opiekunowie mogli czerpać korzyści z odpoczynku będąc blisko siebie."
     },
     {
         "featureId": 3,
-        "photo": "/img/features/Widok_Giewont.jpg",
+        "photo": "/img/features/Widok_Giewont.webp",
         "title": "Malowniczy widok na Giewont, Gubałówkę i Kasprowy Wierch",
         "description": "Otwórz okna i delektuj się panoramicznym widokiem na góry, poczuj bliskość natury i piękno górskiego krajobrazu. Oferujemy wyjątkową atmosferę, w której możesz odpocząć i nabrać sił, zanurzając się w pięknie otaczającej przyrody."
     },
     {
         "featureId": 4,
-        "photo": "/img/features/Narciarnia.jpg",
+        "photo": "/img/features/Narciarnia.webp",
         "title": "Narciarnia",
         "description": "Zapewniamy naszym gościom wygodną i funkcjonalną przestrzeń dedykowaną przechowywaniu sprzętu narciarskiego. Narciarnia wyposażona jest w suszarkę do butów."
     }

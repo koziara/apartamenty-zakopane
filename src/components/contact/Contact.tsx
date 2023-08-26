@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BookingButton, Navbar,ScrollToTop } from '../../elements';
-import { Documentations, Footer } from '../index.js';
+import { Documentations, Footer } from '../';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import { MdPlace } from 'react-icons/md';
@@ -46,7 +46,7 @@ const Contact = () => {
                         </div>
                     </div>
                     <div className='contact-container_content-photos'>
-                        <img src='img/map500.png' alt='Location' />
+                        <img src='img/map500.webp' alt='Location' />
                     </div>
                 </div>
                 <div className='contact-booking-btn'>
@@ -64,7 +64,7 @@ const Contact = () => {
                         <Documentations
                             documentations={ruleList}
                             title={"Regulamin"}
-                            linkToPDF={"img/map.png"}
+                            linkToPDF={"img/map.webp"}
                             updateContactState={updateContactState}
                         />
                         <Footer visible={true} />
@@ -74,7 +74,7 @@ const Contact = () => {
                             <Documentations
                                 documentations={privacyPolicyList}
                                 title={"Polityka Prywatności"}
-                                linkToPDF={"img/map.png"}
+                                linkToPDF={"img/map.webp"}
                                 updateContactState={updateContactState}
                             />
                             <Footer visible={true} />

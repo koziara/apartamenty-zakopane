@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: flex-end;
     width: 100%;
-    background-image: url("/public/img/house.jpg");
+    background-image: url("/public/img/house.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center calc(25%);

@@ -20,9 +20,9 @@ const Footer = (props: FooterProps) => {
     <footer className='footer-container'>
       {props.visible ? 
       <><div className='footer-container_map'>
-          <img src='/img/map.png' alt='Location' className='map-big' />
-          <img src='/img/map1000.png' alt='Location' className='map-small' />
-          <img src='/img/map500.png' alt='Location' className='map-extrasmall' />
+          <img src='/img/map.webp' alt='Location' className='map-big' />
+          <img src='/img/map1000.webp' alt='Location' className='map-small' />
+          <img src='/img/map500.webp' alt='Location' className='map-extrasmall' />
         </div><div className='footer-container_content'>
             <div className='footer-container_content-links'>
               <h3>Links</h3>

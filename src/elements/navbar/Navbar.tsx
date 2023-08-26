@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className='navbar-container'>
       <div className='navbar-logo'>
         <Link to={"/"}>
-          <img src='/img/logo.png' alt='Dolina Strazyska' />
+          <img src='/img/logo.webp' alt='Dolina Strazyska' />
         </Link>
       </div>
       <div className='navbar-links_container'>

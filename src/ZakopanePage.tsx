@@ -1,4 +1,3 @@
-import React from 'react';
 import { Header, Apartments, Features, Footer } from './components';
 
 function App() {
