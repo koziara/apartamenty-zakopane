@@ -1,6 +1,20 @@
 [
     {
         "documentNo": 1,
+        "documentSubDetails":[{
+            "documentDescription": "Właściciel - podmiot posiadający prawo własności lub ustanowione na jego rzecz prawo zależne do dysponowania lokalem będącym przedmiotem najmu."
+        },
+        {
+            "documentDescription": ""
+        },
+        {
+            "documentDescription": ""
+        }],
+        "documentDescription": "Niniejszy Regulamin jest regulaminem, o którym mowa w art. 8 ust. 1 pkt. 1 ustawy z dnia 18.07.2002 r. o świadczeniu usług drogą elektroniczną."
+    },
+    
+    {
+        "documentNo": 2,
         "documentDescription": ""
     },
     {

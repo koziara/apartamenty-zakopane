@@ -2,12 +2,23 @@
     font-weight: 700;
     margin-right: 0.5rem;
 }
+.sub_document-numbering{
+    font-weight: 500;
+    margin: 0.5rem;
+}
 
 .document-container{
     margin-bottom: 2rem;
     width: 100%;
 }
+pre {
+    white-space: pre-wrap;
+  }
 
-.document-container p{
+.document-text{
     font-size: 18px;
+}
+
+.sub_document-text{
+    font-size: 16px;
 }

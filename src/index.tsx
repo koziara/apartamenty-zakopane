@@ -1,9 +1,16 @@
 import ReactDOM from 'react-dom/client';
-import {  BrowserRouter,  Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import ZakopanePage from './ZakopanePage';
 import { ErrorPage, ApartmentDetails, Contact, Reservation } from './components';
-import reportWebVitals from './reportWebVitals';
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      ['sohis-booking']: React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>;
+    }
+  }
+}
 
 export default function App() {
   return (
@@ -22,5 +29,3 @@ export default function App() {
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
 root.render(<App />);
-
-reportWebVitals();

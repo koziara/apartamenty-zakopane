@@ -5,8 +5,6 @@ import { AiOutlinePhone } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import { MdPlace } from 'react-icons/md';
 import { FaChevronDown } from 'react-icons/fa';
-import privacyPolicyList from '../../lists/privacyPolicy.json';
-import ruleList from '../../lists/rules.json';
 import './contact.css';
 
 type ContactStateType = "Regulamin" | "Polityka" | "none";
@@ -36,10 +34,10 @@ const Contact = () => {
                     <div className='contact-container_content-info'>
                         <h2>Apartamenty Dolina Strążyska</h2>
                         <h3>Skontaktuj się z nami, aby uzyskać więcej informacji</h3>
-                        <p><AiOutlinePhone size={22} className='contact-icon' /> +48 607 601 471</p>
-                        <p><AiOutlinePhone size={22} className='contact-icon' /> In english: +45 55218161</p>
-                        <p><FiMail size={20} className='contact-icon' /> apartamentydolinastrazyska@gmail.com</p>
-                        <p><MdPlace size={22} className='contact-icon' />  Strążyska 4A, 34-500 Zakopane</p>
+                        <p><AiOutlinePhone size={22} className='contact-icon' /><a className='links_contacts' href="https://wa.me/+48607601471"> +48 607 601 471</a></p>
+                        <p><AiOutlinePhone size={22} className='contact-icon' /><a className='links_contacts' href="https://wa.me/+4550258081"> English: +45 50 25 80 81</a></p>
+                        <p ><FiMail size={20} className='contact-icon' /><a className='links_contacts' href= "mailto: biurodolinastrazyska@gmail.com"> biurodolinastrazyska@gmail.com</a></p>
+                        <p><MdPlace size={22} className='contact-icon' /><a className='links_contacts' href='https://g.co/kgs/cEGJdRs'> Strążyska 4A, 34-500 Zakopane</a></p>
                         <div className="document-button_container">
                             <button onClick={() => setVisible("Regulamin")}>Regulamin</button>
                             <button onClick={() => setVisible("Polityka")}>Polityka Prywatności</button>
@@ -62,9 +60,9 @@ const Contact = () => {
                 visibleDocument === "Regulamin" ?
                     <>
                         <Documentations
-                            documentations={ruleList}
                             title={"Regulamin"}
-                            linkToPDF={"img/map.webp"}
+                            begining={"Niniejszy regulamin ma na celu określenie zasad rezerwacji i wynajmu apartamentów Apartamenty Dolina Strążyska oraz warunki pobytu. Dokonanie rezerwacji pobytu w wybranym apartamencie oznacza zaakceptowanie postanowień zawartych w niniejszym regulaminie. Prezentowany regulamin stanowi integralną cześć umowy wynajmu (rezerwacji). Treść regulaminu dostępna jest na stronie www.apartamentydolinastrazyska.pl."}
+                            linkToPDF={"pdfs/Regulamin_Website.pdf"}
                             updateContactState={updateContactState}
                         />
                         <Footer visible={true} />
@@ -72,9 +70,9 @@ const Contact = () => {
                     : visibleDocument === "Polityka" ?
                         <>
                             <Documentations
-                                documentations={privacyPolicyList}
-                                title={"Polityka Prywatności"}
-                                linkToPDF={"img/map.webp"}
+                                title={"Polityka prywatności"}
+                                begining={"prywatne"}
+                                linkToPDF={"pdfs/Polityka_Prywatności.pdf"}
                                 updateContactState={updateContactState}
                             />
                             <Footer visible={true} />

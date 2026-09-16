@@ -9,20 +9,19 @@ import './features.css';
 const Features = () => {
   return (
     <div className='features-container'>
-            <div className='line'/>
-            <div className='features-icons'>
+      <div className='line'/>
+      <div className='features-icons'>
         <FaWifi />
         <FaParking />
         <TbToolsKitchen2 />
         <FaBath />
       </div>
       <div className='line'/>
-      <h1>Dostęp do zakwaterowania dla wszystkich</h1>
+      <h1>Dostępne dla naszych gości</h1>
       {featureList.map(feature => (
         <Feature key={feature.featureId} id={feature.featureId} title={feature.title} description={feature.description} photo={feature.photo} className={feature.featureId % 2 === 1 ? "evenDiv" : "oddDiv"}/>
       ))}
-
-<div className='line'/>
+      <div className='line'/>
     </div>
   )
 }

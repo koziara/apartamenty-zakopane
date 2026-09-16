@@ -18,10 +18,7 @@ type Item = {
   description: string;
 };
 
-
-
 const ApartmentDetails = () => {
-
   const { id } = useParams<{ id: string }>();
   const apartmentId = id ? parseInt(id, 10) : null;
   const apartment = list.find((item: Item) => item.apartmentId === apartmentId);
@@ -44,10 +41,9 @@ useEffect(() => {
   if (!apartment) {
     return <div>
       <Navbar />
-      Loading... {id}
+      Loading...
     </div>;
   }
-  else {
     const images = [
       {
         original: apartment.photo,
@@ -106,7 +102,8 @@ useEffect(() => {
                 <li>Bezpłatny parking na miejscu</li>
                 {apartment.balcony?<li>Balkon</li>:null}
               </ul>
-              <h4>{apartment.price} zł <span>/doba</span></h4>
+              <h4>od {apartment.price} zł <span>/doba</span></h4>
+              
               <div className='booking-btn'>
                 <BookingButton />
               </div>
@@ -139,7 +136,6 @@ useEffect(() => {
         <Footer visible={true}/>
       </div>
     )
-  }
 }
 
 export default ApartmentDetails

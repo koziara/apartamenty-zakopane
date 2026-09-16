@@ -6,6 +6,23 @@
     padding-bottom:2rem;
 }
 
+.links_media_container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2rem 0;
+}
+
+.links_media{
+    color: var(--color-grey);
+    text-decoration: none;
+    font-size: 30px;
+  }
+
+.links {
+    color: var(--color-grey);
+    text-decoration: none;
+  }
 
 .map-big{
     width: 100%;
@@ -23,7 +40,7 @@
     display: flex;
     width: 100%;
     justify-content: space-around;
-    padding: 5rem;
+    padding: 5rem 5rem 0 5rem;
 }
 
 .footer-container_content div h3{
@@ -67,6 +84,8 @@
 .footer-container_content-contact p{
     display: flex;
     align-items: center;
+    width: 100%;
+    word-break: break-all;
 }
 
 .contact-icon{
@@ -85,7 +104,7 @@
 }
 
 .visible{
-    padding: 2rem 3rem 0 3rem;
+    padding: 0 3rem;
 }
 .footer-container_creators p{
     color: var(--color-grey);
