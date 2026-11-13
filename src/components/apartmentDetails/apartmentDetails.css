@@ -405,6 +405,18 @@
     object-fit: contain;
 }
 
+.apartment-gallery .image-gallery-content.fullscreen {
+    min-width: 0;
+    width: 100%;
+}
+
+.apartment-gallery .image-gallery-content.fullscreen.image-gallery-thumbnails-bottom .image-gallery-image {
+    height: calc(100vh - 10rem);
+    height: calc(100dvh - 10rem);
+    max-height: calc(100vh - 10rem);
+    max-height: calc(100dvh - 10rem);
+}
+
 @media screen and (max-width: 700px) {
     .details-container_content-photos.apartment-gallery-card {
         border-radius: 1.25rem;

@@ -1,17 +1,16 @@
 import React from 'react';
+import { useI18n } from '../../i18n';
 import './documentation.css';
 
-type DocumentProps ={
-    documentNo:number;
-    documentDescription:string;
-}
+export type DocumentType = 'terms' | 'privacy';
 
-const Documentation = (props:DocumentProps) => {
+const Documentation = ({ type }: { type: DocumentType }) => {
+  const { messages } = useI18n();
   return (
     <div className='document-container'>
-        <p><span className="document-numbering">{props.documentNo}.</span> {props.documentDescription}</p>
+      <pre>{messages.documents[type]}</pre>
     </div>
-  )
-}
+  );
+};
 
-export default Documentation
+export default Documentation;

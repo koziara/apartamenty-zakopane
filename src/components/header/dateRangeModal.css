@@ -90,3 +90,19 @@
 {
     display: none;
 }
+
+@media screen and (max-width: 380px)
+{
+    .date-modal
+    {
+        padding: 1rem;
+    }
+
+    .date-modal .rdp-root
+    {
+        --rdp-day-width: 36px;
+        --rdp-day-height: 40px;
+        --rdp-day_button-width: 34px;
+        --rdp-day_button-height: 38px;
+    }
+}

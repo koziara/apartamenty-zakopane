@@ -1,22 +1,20 @@
 import React from 'react';
 import { Documentation } from '../../elements';
+import type { DocumentType } from '../../elements/documentation/Documentation';
+import { useI18n } from '../../i18n';
 import {CgClose} from 'react-icons/cg';
-import {HiOutlineDownload} from 'react-icons/hi';
 import './documentations.css';
 
 type DocumentsProps = {
-    documentations:{
-        documentNo:number;
-        documentDescription:string;
-    }[];
-    title:string;
-    linkToPDF:string;
+    type: DocumentType;
     updateContactState: (data: ContactStateType) => void;
 }
 
-type ContactStateType = "Regulamin" | "Polityka" | "none";
+
+type ContactStateType = "terms" | "privacy" | "none";
 
 const Documentations = (props:DocumentsProps) => {
+    const { messages } = useI18n();
 
     const handleButtonClick = () => {
         const newData: ContactStateType = "none";
@@ -24,9 +22,9 @@ const Documentations = (props:DocumentsProps) => {
       };
   return (
     <div className='documentations-container' id='documentations'>
-        <div className='documentations-actions'><button onClick={handleButtonClick} ><CgClose /></button><a href={props.linkToPDF} target='_blank' rel="noreferrer"><HiOutlineDownload/></a></div>
-        <h1>{props.title}</h1>
-        {props.documentations.map(document => (<Documentation key={document.documentNo} documentNo={document.documentNo} documentDescription={document.documentDescription} />))}
+        <div className='documentations-actions'><button type="button" onClick={handleButtonClick} aria-label={messages.documents.close}><CgClose aria-hidden="true" /></button></div>
+        <h1>{props.type === 'terms' ? messages.documents.termsTitle : messages.documents.privacyTitle}</h1>
+        <Documentation type={props.type} />
     </div>
     
 

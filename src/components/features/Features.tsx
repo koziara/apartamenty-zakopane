@@ -1,29 +1,42 @@
 import React from 'react'
-import featureList from '../../lists/featureList.json'
-import { Feature } from '../../elements'
-import {FaWifi, FaParking, FaBath} from 'react-icons/fa';
-import {TbToolsKitchen2} from 'react-icons/tb';
-
+import { useI18n } from '../../i18n';
 import './features.css';
 
-const Features = () => {
-  return (
-    <div className='features-container'>
-            <div className='line'/>
-            <div className='features-icons'>
-        <FaWifi />
-        <FaParking />
-        <TbToolsKitchen2 />
-        <FaBath />
-      </div>
-      <div className='line'/>
-      <h1>Dostęp do zakwaterowania dla wszystkich</h1>
-      {featureList.map(feature => (
-        <Feature key={feature.featureId} id={feature.featureId} title={feature.title} description={feature.description} photo={feature.photo} className={feature.featureId % 2 === 1 ? "evenDiv" : "oddDiv"}/>
-      ))}
+const facilities = [
+  { key: 'parking', icon: '/img/facility-icons/parking.png' },
+  { key: 'wifi', icon: '/img/facility-icons/wifi.png' },
+  { key: 'kitchen', icon: '/img/facility-icons/kitchen.png' },
+  { key: 'checkin', icon: '/img/facility-icons/checkin.png' },
+  { key: 'lounge', icon: '/img/facility-icons/lounge.png' },
+  { key: 'playroom', icon: '/img/facility-icons/playroom.png' },
+  { key: 'ski', icon: '/img/facility-icons/ski.png' },
+  { key: 'trails', icon: '/img/facility-icons/trails.png' },
+] as const;
 
-<div className='line'/>
-    </div>
+const Features = () => {
+  const { t, messages } = useI18n();
+  return (
+    <section className='facilities-section'>
+      <div className='facilities-section__inner'>
+        <header className='facilities-section__header'>
+          <h2>{t('facilities.title')}</h2>
+          <p>{t('facilities.intro')}</p>
+        </header>
+
+        <ul className='facilities-grid'>
+          {facilities.map(({ key, icon }) => {
+            const { title, text } = messages.facilities.items[key];
+            return (
+            <li key={key}>
+              <img className='facilities-grid__icon' src={icon} alt='' draggable={false} />
+              <h3>{title}</h3>
+              <p>{text}</p>
+            </li>
+            );
+          })}
+        </ul>
+      </div>
+    </section>
   )
 }
 

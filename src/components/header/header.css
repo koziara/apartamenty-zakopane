@@ -86,6 +86,12 @@
     position: relative;
 }
 
+.header-container .navbar-container:not(.is-scrolled) .navbar-logo img
+{
+    width: 180px;
+    min-width: 0;
+}
+
 .header-container .navbar-links
 {
     font-family: var(--hero-sans);

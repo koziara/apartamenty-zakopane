@@ -1,48 +1,107 @@
-.reservation-container iframe{
-    overflow: hidden;
-    width: 100%;
-    height: 100%;
-    border: none;
-    background-color: white;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;500;600&display=swap');
+
+.reservation-page {
+    --font-family: 'Inter', sans-serif;
+    --reservation-gold: #9a6d3c;
+    --reservation-ink: #332d25;
+    --reservation-muted: #756c60;
+    --reservation-border: #e4dace;
+    min-height: 100vh;
+    background: #faf8f3;
+    color: var(--reservation-ink);
 }
-.reservation-container{
-    height: 100vh;
+
+.reservation-page__main {
+    width: min(100%, 1440px);
+    margin: 0 auto;
+    padding: 32px clamp(24px, 4.5vw, 64px) 56px;
+}
+
+.reservation-page__back {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 44px;
+    margin-bottom: 20px;
+    color: var(--reservation-ink);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    text-decoration: none;
+}
+
+.reservation-page__back svg { width: 20px; height: 20px; color: var(--reservation-gold); }
+.reservation-page__back:hover { color: var(--reservation-gold); }
+.reservation-page__intro { margin-bottom: 32px; }
+.reservation-page__intro h1 {
+    margin: 0 0 16px;
+    font-family: 'Lora', serif;
+    font-size: clamp(32px, 3.5vw, 48px);
+    font-weight: 500;
+    line-height: 1.25;
+}
+.reservation-page__intro p { color: var(--reservation-muted); font-size: 15px; line-height: 1.8; }
+
+/* Keep overflow visible: the external form owns its menus, calendars and dialogs. */
+.reservation-page__booking {
+    min-width: 0;
+    padding: clamp(12px, 2vw, 28px);
+    border: 1px solid var(--reservation-border);
+    border-radius: 24px;
+    background: #fff;
+}
+.reservation-page__widget {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    min-height: 420px;
+    scroll-margin-top: 116px;
+}
+.reservation-page__help {
     display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    width: 100%;
-    background-image: url("/public/img/house.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center calc(25%);
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px 24px;
+    padding-top: 24px;
+    color: var(--reservation-muted);
+    font-size: 12px;
+    line-height: 1.7;
 }
-.reservation-footer{
-    position:relative;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    margin-top: auto;
+.reservation-page__help a {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 44px;
+    color: var(--reservation-ink);
+    text-decoration: none;
+}
+.reservation-page__help a:last-child { text-decoration: underline; text-underline-offset: 4px; }
+.reservation-page__help a:hover { color: var(--reservation-gold); }
+.reservation-page__help svg { width: 16px; height: 16px; color: var(--reservation-gold); }
+.reservation-page :is(a, button):focus-visible { outline: 2px solid var(--reservation-gold); outline-offset: 5px; }
+
+@media (max-width: 800px) {
+    .reservation-page__main { padding-top: 24px; padding-bottom: 40px; }
+    .reservation-page__intro { margin-bottom: 24px; }
+    .reservation-page__widget { scroll-margin-top: 104px; }
 }
 
-.back-button{
-    position: absolute;
-    z-index: 1000;
-    top: 20px;
-    left: 20px;
-    background-color: transparent;
-    border: none;
-    outline: none;
-    font-size: 35px;
-    cursor: pointer;
-    transition: 0.5s;
-}
-
-.back-button:hover{
-    transform: scale(1.1);
-}
-
-@media screen and (max-width: 500px){
-    .reservation-container iframe{
-        width: 100%;
+@media (max-width: 600px) {
+    .reservation-page__main { padding-right: 20px; padding-left: 20px; }
+    .reservation-page__intro h1 { font-size: 32px; }
+    .reservation-page__intro p { font-size: 14px; }
+    .reservation-page__booking {
+        margin-right: -20px;
+        margin-left: -20px;
+        padding: 12px 0;
+        border-right: 0;
+        border-left: 0;
+        border-radius: 0;
     }
-  }
+    .reservation-page__help { column-gap: 20px; }
+    .reservation-page__help p { flex-basis: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .reservation-page *, .reservation-page *::after { scroll-behavior: auto; animation: none; transition: none; }
+}
