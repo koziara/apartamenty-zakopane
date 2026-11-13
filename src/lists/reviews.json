@@ -1,0 +1,46 @@
+{
+    "scores": [
+        {
+            "source": "Booking.com",
+            "logo": "/img/booking.svg",
+            "value": 9.4,
+            "max": 10,
+            "count": 238,
+            "url": "https://www.booking.com/Share-B6PQw9"
+        },
+        {
+            "source": "Google Maps",
+            "logo": "/img/google-maps.webp",
+            "value": 5,
+            "max": 5,
+            "count": 44,
+            "url": "https://share.google/3A42yeH3ME6XyrE8U"
+        }
+    ],
+    "reviews": [
+        {
+            "id": 1,
+            "name": "Andżelika",
+            "source": "Booking.com",
+            "date": "2026-09"
+        },
+        {
+            "id": 2,
+            "name": "Jolanta",
+            "source": "Booking.com",
+            "date": "2026-07"
+        },
+        {
+            "id": 3,
+            "name": "Katarzyna Szczecinska",
+            "source": "Google Maps",
+            "date": "2025"
+        },
+        {
+            "id": 4,
+            "name": "Manou",
+            "source": "Google Maps",
+            "date": "2026-11"
+        }
+    ]
+}

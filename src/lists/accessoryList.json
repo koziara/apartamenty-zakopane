@@ -1,57 +1,46 @@
 [
     {
-        "accessoryId":1,
-        "imagePath":"/icons/led-television-icon.svg",
-        "title":"TV"
+        "accessoryId": 1,
+        "imagePath": "/icons/led-television-icon.svg"
     },
     {
-        "accessoryId":2,
-        "imagePath":"/icons/wifi-line-icon.svg",
-        "title":"Wi-Fi"
+        "accessoryId": 2,
+        "imagePath": "/icons/wifi-line-icon.svg"
     },
     {
-        "accessoryId":3,
-        "imagePath":"/icons/towel-icon.svg",
-        "title":"Ręczniki"
+        "accessoryId": 3,
+        "imagePath": "/icons/towel-icon.svg"
     },
     {
-        "accessoryId":4,
-        "imagePath":"/icons/hairdryer-icon.svg",
-        "title":"Suszarka"
+        "accessoryId": 4,
+        "imagePath": "/icons/hairdryer-icon.svg"
     },
     {
-        "accessoryId":5,
-        "imagePath":"/icons/electric-kettle-icon.svg",
-        "title":"Czajnik"
+        "accessoryId": 5,
+        "imagePath": "/icons/electric-kettle-icon.svg"
     },
     {
-        "accessoryId":6,
-        "imagePath":"/icons/tea-hot-icon.svg",
-        "title":"Zestaw do kawy i herbaty"
+        "accessoryId": 6,
+        "imagePath": "/icons/tea-hot-icon.svg"
     },
     {
-        "accessoryId":7,
-        "imagePath":"/icons/kitchen-cooking-pot-non-stick-icon.svg",
-        "title":"Płyta indukcyjna"
+        "accessoryId": 7,
+        "imagePath": "/icons/kitchen-cooking-pot-non-stick-icon.svg"
     },
     {
-        "accessoryId":8,
-        "imagePath":"/icons/fridge-icon.svg",
-        "title":"Lodówka"
+        "accessoryId": 8,
+        "imagePath": "/icons/fridge-icon.svg"
     },
     {
-        "accessoryId":9,
-        "imagePath":"/icons/parking-signs-icon.svg",
-        "title":"Parking Darmowy"
+        "accessoryId": 9,
+        "imagePath": "/icons/parking-signs-icon.svg"
     },
     {
-        "accessoryId":10,
-        "imagePath":"/icons/mountain-icon.svg",
-        "title":"Widok na Góry"
+        "accessoryId": 10,
+        "imagePath": "/icons/mountain-icon.svg"
     },
     {
-        "accessoryId":11,
-        "imagePath":"/icons/cctv-icon.svg",
-        "title":"Kamery monitorujące na terenie posesji"
+        "accessoryId": 11,
+        "imagePath": "/icons/cctv-icon.svg"
     }
 ]

@@ -1,9 +1,56 @@
 .navbar-container
 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 5rem;
+    padding: 2rem 5rem 1rem;
+    transition: padding 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-container.is-scrolled
+{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgba(16, 20, 26, 0.75);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    backdrop-filter: blur(14px) saturate(1.2);
+    -webkit-backdrop-filter: blur(14px) saturate(1.2);
+}
+
+.navbar-container.is-scrolled .navbar-logo img
+{
+    min-width: 150px;
+    width: 150px;
+}
+
+.navbar-toggle
+{
+    display: grid;
+    width: 44px;
+    height: 44px;
+    margin: -8px;
+    place-items: center;
+    border: 0;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.scale-down-center
+{
+    animation: scale-down-center 0.18s ease-in both;
+    transform-origin: top right;
+}
+
+@keyframes scale-down-center
+{
+    from { opacity: 1; transform: scale(1); }
+    to { opacity: 0; transform: scale(0.85); }
 }
 
 .navbar-navbar_links
@@ -61,7 +108,7 @@
     background-color: rgba(0, 0, 0, 0.35);
     padding:1rem;
     position: absolute;
-    top: 30px;
+    top: 38px;
     right: 0;
     min-width: 150px;
     border-radius: 5px;
@@ -84,7 +131,9 @@
 }
 
 .navbar-logo img{
+  transition: min-width 0.3s ease, width 0.3s ease;
   width: 35%;
+  height: auto;
   margin-right: 1rem;
   min-width: 200px;
 }
@@ -115,7 +164,7 @@
 
   @media screen and (max-width: 900px){
     .navbar-container{
-        padding: 1rem 3rem;
+        padding: 2rem 3rem 1rem;
     }
   }
 
@@ -137,7 +186,7 @@
 
   @media screen and (max-width: 450px){
     .navbar-container{
-        padding: 2rem;
+        padding: 3rem 2rem 2rem;
     }
   }
 
@@ -146,3 +195,7 @@
       min-width: 170px;
     }
   }
+
+.navbar-navbar_links .language-switcher {
+    color: var(--color-light);
+}

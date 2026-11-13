@@ -1,0 +1,17 @@
+# Serve the pre-rendered page for /Kontakt, /Apartament/1, /en/Kontakt ... (Kontakt.html etc.)
+RewriteEngine On
+
+# Direct .html requests go to the clean URL (only the browser's original request, not the internal rewrite below)
+RewriteCond %{THE_REQUEST} \s/(.*/)?index\.html[\s?]
+RewriteRule ^(.*/)?index\.html$ /$1 [R=301,L]
+RewriteCond %{THE_REQUEST} \s/(.+)\.html[\s?]
+RewriteCond %{REQUEST_URI} !^/404\.html$
+RewriteRule ^(.+)\.html$ /$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+?)/?$ $1.html [L]
+
+# Unknown URLs get a real 404 status; the app renders its "page not found" screen
+ErrorDocument 404 /404.html

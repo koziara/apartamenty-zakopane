@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+.reviews-section {
+    width: 100%;
+    padding: clamp(5.5rem, 10vw, 10rem) clamp(1.25rem, 4vw, 4rem);
+    color: #201f1b;
+    background:
+        radial-gradient(circle at 0% 100%, rgba(193, 148, 97, 0.14), transparent 28rem),
+        #f4f1eb;
+}
+
+.reviews-section__inner {
+    width: min(100%, 1400px);
+    margin: 0 auto;
+}
+
+.reviews-section__header {
+    text-align: center;
+}
+
+.reviews-section__header h2 {
+    font-family: 'Lora', serif;
+    font-size: clamp(2.4rem, 4.8vw, 4.2rem);
+    font-weight: 500;
+    letter-spacing: -0.025em;
+    line-height: 1.15;
+}
+
+.reviews-section__header p {
+    max-width: 40rem;
+    margin: 1.75rem auto 0;
+    color: #6b675d;
+    font-family: 'Lora', serif;
+    font-size: clamp(1rem, 1.3vw, 1.2rem);
+    line-height: 1.8;
+}
+
+.reviews-stars {
+    display: inline-flex;
+    gap: 0.2rem;
+    color: #c19461;
+    font-size: 1rem;
+}
+
+/* score cards reuse the dark card from the apartments section */
+.reviews-scores {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: clamp(1.25rem, 2vw, 1.75rem);
+    max-width: 56rem;
+    margin: clamp(3.5rem, 6vw, 5rem) auto 0;
+}
+
+.reviews-scores__card {
+    display: grid;
+    grid-template-columns: 1fr 13rem 1fr;
+    align-items: center;
+    padding: clamp(1.5rem, 2.5vw, 2.25rem) clamp(1rem, 2vw, 2rem);
+    border: 1px solid rgba(154, 109, 60, 0.22);
+    border-radius: 1.8rem;
+    color: #201f1b;
+    text-decoration: none;
+    background: #faf8f3;
+    box-shadow: 0 18px 45px rgba(29, 28, 24, 0.07);
+    transition: transform 350ms ease, box-shadow 350ms ease;
+}
+
+a.reviews-scores__card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 24px 60px rgba(29, 28, 24, 0.12);
+}
+
+.reviews-scores__source {
+    display: flex;
+    gap: 0.9rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: clamp(1rem, 1.5vw, 1.3rem);
+    font-weight: 500;
+}
+
+.reviews-scores__source img {
+    width: 2.6rem;
+    height: 2.6rem;
+    object-fit: contain;
+}
+
+.reviews-scores__rating {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    align-items: center;
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 clamp(1rem, 2.5vw, 2.25rem);
+    border-right: 1px solid rgba(32, 31, 27, 0.12);
+    border-left: 1px solid rgba(32, 31, 27, 0.12);
+}
+
+.reviews-scores__rating .reviews-stars {
+    color: #b0793d;
+    font-size: 1.1rem;
+}
+
+.reviews-scores__value {
+    font-family: 'Lora', serif;
+    font-size: clamp(3rem, 4.5vw, 4.2rem);
+    font-weight: 500;
+    letter-spacing: -0.03em;
+    line-height: 1;
+}
+
+.reviews-scores__value small {
+    margin-left: 0.15rem;
+    color: #b5aea2;
+    font-size: 0.42em;
+    letter-spacing: 0;
+}
+
+.reviews-scores__count {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+    font-size: clamp(0.95rem, 1.3vw, 1.1rem);
+}
+
+.reviews-scores__count svg {
+    color: #9a6d3c;
+    font-size: 1.6rem;
+}
+
+.reviews-scores__link {
+    color: #9a6d3c;
+    font-size: 1.1rem !important;
+}
+
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: clamp(1.25rem, 2.5vw, 2.5rem);
+    margin-top: clamp(2.5rem, 4vw, 4rem);
+    list-style: none;
+}
+
+.reviews-grid li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: clamp(1.75rem, 2.5vw, 2.5rem);
+    overflow: hidden;
+    border: 1px solid rgba(154, 109, 60, 0.22);
+    border-radius: 1.8rem;
+    background: #faf8f3;
+    box-shadow: 0 18px 45px rgba(29, 28, 24, 0.05);
+    transition: transform 350ms ease, box-shadow 350ms ease;
+}
+
+.reviews-grid li:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 24px 55px rgba(29, 28, 24, 0.09);
+}
+
+/* oversized quotation mark as a quiet decoration */
+.reviews-grid li::before {
+    position: absolute;
+    top: 0.4rem;
+    right: 1.6rem;
+    color: rgba(193, 148, 97, 0.2);
+    font-family: 'Lora', serif;
+    font-size: 6.5rem;
+    line-height: 1;
+    content: '\201D';
+    pointer-events: none;
+}
+
+.reviews-grid h3 {
+    margin-top: 0.9rem;
+    font-family: 'Lora', serif;
+    font-size: 1.45rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.reviews-grid blockquote {
+    flex: 1;
+    margin: 0.9rem 0 1.75rem;
+    font-family: 'Lora', serif;
+    font-size: 1.02rem;
+    line-height: 1.8;
+}
+
+.reviews-grid footer {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(32, 31, 27, 0.12);
+}
+
+.reviews-grid__source,
+.reviews-grid__date {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    color: #6b675d;
+    font-family: 'Lora', serif;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+/* both icons share one size and muted tone so the footer reads as a pair */
+.reviews-grid__source img,
+.reviews-grid__date svg {
+    flex: none;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.reviews-grid__source img {
+    object-fit: contain;
+    filter: grayscale(1);
+    opacity: 0.55;
+}
+
+.reviews-grid__date svg {
+    color: #9b958a;
+}
+
+@media screen and (max-width: 640px) {
+    /* reviews become a swipeable row; the next card peeks in to show there is more */
+    .reviews-grid {
+        display: flex;
+        gap: 1rem;
+        overflow-x: auto;
+        padding-bottom: 1.25rem;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: none;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .reviews-grid::-webkit-scrollbar {
+        display: none;
+    }
+
+    .reviews-grid li {
+        flex: 0 0 86%;
+        scroll-snap-align: center;
+    }
+
+    .reviews-dots {
+        display: flex;
+    }
+
+    .reviews-scores {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .reviews-scores__card {
+        grid-template-columns: 1fr;
+        gap: 1.25rem;
+    }
+
+    .reviews-scores__rating {
+        padding: 1.25rem 0;
+        border-right: 0;
+        border-left: 0;
+        border-top: 1px solid rgba(32, 31, 27, 0.12);
+        border-bottom: 1px solid rgba(32, 31, 27, 0.12);
+    }
+}
+
+.reviews-dots {
+    display: none;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.25rem;
+}
+
+.reviews-dots button {
+    width: 0.5rem;
+    height: 0.5rem;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    background: rgba(154, 109, 60, 0.3);
+    cursor: pointer;
+    transition: width 300ms ease, background 300ms ease;
+}
+
+.reviews-dots button.active {
+    width: 1.5rem;
+    background: #9a6d3c;
+}
