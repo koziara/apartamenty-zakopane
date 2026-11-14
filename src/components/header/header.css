@@ -1,18 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+
 .header-container
 {
+    --hero-gold: #c9964f;
+    --hero-gold-hover: #d9a75f;
+    --hero-serif: 'Playfair Display', serif;
+    --hero-body: 'Inter', sans-serif;
+    --hero-sans: 'Inter', sans-serif;
+    position: relative;
     width: 100%;
     min-height: 100vh;
-    background-image: url("/public/img/house.webp");
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center calc(25%);
+    z-index: 500;
+    background-color: #0b1118;
+    isolation: isolate;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
+    color: #fff;
 }
 
-.header-container_button
+/* photo lives on its own layer so it can slowly zoom out on load */
+.header-container::after
 {
-    width:20%;
-    margin: 50vh auto auto 4rem;
-    min-width: 250px;
+    content: '';
+    position: absolute;
+    inset: -10vh 0 -5vh 0; /* lower the photo while keeping extra room for parallax */
+    z-index: -1;
+    background: url("/public/img/house.webp") center calc(25%) / cover no-repeat;
+    will-change: transform, filter;
+    animation:
+        hero-zoom 4.5s cubic-bezier(0.16, 1, 0.3, 1) both,
+        hero-drift 24s ease-in-out 4.5s infinite alternate;
+}
+
+/* starts dark and slightly too close, then opens up into the full-colour photo */
+@keyframes hero-zoom
+{
+    from { transform: scale(1.18); filter: brightness(0.45) saturate(0.8); }
+    to { transform: scale(1); filter: brightness(1) saturate(1); }
+}
+
+/* afterwards the photo keeps breathing very slowly so the page never feels frozen */
+@keyframes hero-drift
+{
+    from { transform: scale(1); }
+    to { transform: scale(1.06); }
+}
+
+/* hero text arrives in sequence */
+.header-container_content > *
+{
+    animation: hero-in 900ms cubic-bezier(0.2, 0.7, 0, 1) both;
+}
+
+.header-container_content > :nth-child(1) { animation-delay: 150ms; }
+.header-container_content > :nth-child(2) { animation-delay: 350ms; animation-name: hero-line; transform-origin: left; }
+.header-container_content > :nth-child(3) { animation-delay: 500ms; }
+.header-container_content > :nth-child(4) { animation-delay: 700ms; }
+
+@keyframes hero-in
+{
+    from { opacity: 0; transform: translateY(24px); }
+    to { opacity: 1; transform: none; }
+}
+
+@keyframes hero-line
+{
+    from { opacity: 0; transform: scaleX(0); }
+    to { opacity: 1; transform: scaleX(1); }
+}
+
+/* light gradient, just enough for text and nav to stay readable */
+.header-container::before
+{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(to right, rgba(4, 12, 24, 0.45) 0%, rgba(4, 12, 24, 0) 55%),
+        linear-gradient(to bottom, rgba(4, 12, 24, 0.3) 0%, rgba(4, 12, 24, 0) 20%);
+}
+
+.header-container > *
+{
+    position: relative;
+}
+
+.header-container .navbar-links { text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); }
+
+.header-container_content
+{
+    margin: auto auto 8rem 5rem;
+    width: 100%;
+    max-width: 720px;
+}
+
+.header-container_content h1
+{
+    font-family: var(--hero-serif);
+    font-size: 3.8rem;
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.01em;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
+}
+
+.header-container_line
+{
+    width: 3rem;
+    height: 2px;
+    margin: 1.3rem 0;
+    background-color: var(--hero-gold);
+}
+
+.header-container_subtitle
+{
+    max-width: 460px;
+    font-family: var(--hero-body);
+    font-size: 1.1rem;
+    font-weight: 300;
+    line-height: 1.65;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+/* translucent bar so it blends with the photo instead of sitting on top of it */
+.hero-search
+{
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    margin-top: 2.2rem;
+    padding: 0.4rem;
+    background-color: rgba(255, 255, 255, 0.14);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 6px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.hero-search_field
+{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0 0.9rem;
+    min-width: 0;
+}
+
+.hero-search_field + .hero-search_field
+{
+    border-inline-start: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.hero-search_icon
+{
+    flex-shrink: 0;
+    color: var(--hero-gold-hover);
+    font-size: 1rem;
+}
+
+.hero-search_field
+{
+    border: none;
+    background: none;
+    color: #fff;
+    cursor: pointer;
+    text-align: start;
+    font-family: var(--hero-sans);
+    font-size: 0.95rem;
+    font-weight: 300;
+    white-space: nowrap;
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+}
+
+.hero-search_field .placeholder
+{
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.hero-search_button
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.85rem 1.4rem;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--hero-gold);
+    color: #fff;
+    font-family: var(--hero-sans);
+    font-size: 0.95rem;
+    font-weight: 500;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.hero-search_button svg
+{
+    transition: transform 0.25s ease;
+}
+
+.hero-search_button:hover svg
+{
+    transform: translateX(4px);
+}
+
+.hero-search_button:active
+{
+    transform: scale(0.97);
+}
+
+.hero-search_field
+{
+    transition: background-color 0.2s;
+}
+
+.hero-search_field:hover
+{
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+.hero-search_button:hover
+{
+    background-color: var(--hero-gold-hover);
+}
+
+@media screen and (max-width: 900px)
+{
+    .header-container_content
+    {
+        margin: auto 3rem 6rem 3rem;
+    }
+    .header-container_content h1
+    {
+        font-size: 3.1rem;
+    }
+}
+
+@media screen and (max-width: 700px)
+{
+    .header-container::after
+    {
+        inset: 0;
+        animation: hero-zoom 4.5s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    /* width:100% plus side margins overflowed the viewport, cutting off text and the form */
+    .header-container_content
+    {
+        width: auto;
+        box-sizing: border-box;
+    }
+    .hero-search
+    {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .hero-search_field
+    {
+        padding: 0.8rem 0.9rem;
+    }
+    .hero-search_field + .hero-search_field
+    {
+        border-inline-start: none;
+        border-top: 1px solid rgba(255, 255, 255, 0.3);
+    }
+    .hero-search_button
+    {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    .header-container_content
+    {
+        margin: auto 1.5rem 4.5rem 1.5rem;
+    }
+    .header-container_content h1
+    {
+        font-size: 2.3rem;
+    }
+    .header-container_subtitle
+    {
+        font-size: 1rem;
+    }
 }

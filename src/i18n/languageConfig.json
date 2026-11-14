@@ -1,0 +1,72 @@
+{
+  "pl": {
+    "name": "Polski",
+    "short": "PL",
+    "intl": "pl-PL",
+    "direction": "ltr",
+    "flag": "🇵🇱"
+  },
+  "en": {
+    "name": "English",
+    "short": "EN",
+    "intl": "en-GB",
+    "direction": "ltr",
+    "flag": "🇬🇧"
+  },
+  "sk": {
+    "name": "Slovenčina",
+    "short": "SK",
+    "intl": "sk-SK",
+    "direction": "ltr",
+    "flag": "🇸🇰"
+  },
+  "hu": {
+    "name": "Magyar",
+    "short": "HU",
+    "intl": "hu-HU",
+    "direction": "ltr",
+    "flag": "🇭🇺"
+  },
+  "cs": {
+    "name": "Čeština",
+    "short": "CS",
+    "intl": "cs-CZ",
+    "direction": "ltr",
+    "flag": "🇨🇿"
+  },
+  "de": {
+    "name": "Deutsch",
+    "short": "DE",
+    "intl": "de-DE",
+    "direction": "ltr",
+    "flag": "🇩🇪"
+  },
+  "uk": {
+    "name": "Українська",
+    "short": "UK",
+    "intl": "uk-UA",
+    "direction": "ltr",
+    "flag": "🇺🇦"
+  },
+  "lt": {
+    "name": "Lietuvių",
+    "short": "LT",
+    "intl": "lt-LT",
+    "direction": "ltr",
+    "flag": "🇱🇹"
+  },
+  "lv": {
+    "name": "Latviešu",
+    "short": "LV",
+    "intl": "lv-LV",
+    "direction": "ltr",
+    "flag": "🇱🇻"
+  },
+  "ar": {
+    "name": "العربية",
+    "short": "AR",
+    "intl": "ar",
+    "direction": "rtl",
+    "flag": "🇸🇦"
+  }
+}

@@ -1,0 +1,250 @@
+.location-map,
+.location-map + .site-footer {
+    --location-ridge-height: clamp(40px, 7vw, 96px);
+}
+
+.location-map {
+    width: 100%;
+    /* Reserve room below the image for the meadow and ridge. */
+    padding-bottom: calc(var(--location-ridge-height) + 2rem);
+    color: #201f1b;
+    /* Green meadow below the map matches its bottom edge so the labels aren't cut off. */
+    background: linear-gradient(#ffffff calc(100% - var(--location-ridge-height) - 2rem), #dcefcd 0);
+}
+
+/* A two-layer Tatra ridge in footer sand replaces the flat edge. */
+.location-map + .site-footer {
+    position: relative;
+    z-index: 1;
+    border-top: 0;
+}
+
+.location-map + .site-footer::before {
+    position: absolute;
+    top: calc(1px - var(--location-ridge-height));
+    right: 0;
+    left: 0;
+    height: var(--location-ridge-height);
+    background:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 64' preserveAspectRatio='none'%3E%3Cpath fill='%23ffffff' d='M0 64V48l140-10 120 12 140-20 120 16 140-12 120 18 140-16 130 14 150-18 120 16 120-8v28z'/%3E%3C/svg%3E") center bottom / 100% 100% no-repeat,
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 64' preserveAspectRatio='none'%3E%3Cpath fill='%23a9cf98' fill-opacity='.8' d='M0 64V34l120-12 100 16 120-26 90 18 130-12 130 22 130-26 110 18 130-22 120 24 120-14 140 16v28z'/%3E%3C/svg%3E") center bottom / 100% 100% no-repeat;
+    content: '';
+    pointer-events: none;
+}
+
+.location-map__header {
+    width: min(100%, calc(1400px + 2 * clamp(1.25rem, 4vw, 4rem)));
+    margin: 0 auto;
+    padding: 2.5rem clamp(1.25rem, 4vw, 4rem) 1.75rem;
+}
+
+.location-map__header h2 {
+    margin: 0;
+    font-family: 'Lora', serif;
+    font-size: clamp(1.75rem, 2.6vw, 2.5rem);
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.location-map__subtitle {
+    margin-top: 0.65rem;
+    color: #6b675d;
+    font-size: 0.95rem;
+    line-height: 1.7;
+}
+
+/* Keep the large map clear and retain its warm color treatment. */
+.location-map__image {
+    display: block;
+    width: 100%;
+    height: auto;
+    filter: contrast(1.12) sepia(0.24) saturate(0.85) hue-rotate(-12deg);
+}
+
+.location-map__info {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    padding-top: 2rem;
+}
+
+.location-map__distances {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.2fr) minmax(0, 1.4fr);
+    flex: 1;
+    margin: 0;
+    align-items: stretch;
+    list-style: none;
+}
+
+.location-map__distances > li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    min-width: 0;
+    padding: 0 clamp(1rem, 2vw, 2rem);
+}
+
+.location-map__distances > li:first-child {
+    padding-left: 0;
+}
+
+.location-map__distances > li + li {
+    border-left: 1px solid rgba(154, 109, 60, 0.18);
+}
+
+.location-map__place-icon {
+    flex: none;
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+.location-map__place-name {
+    color: #3a3731;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.location-map__walking-time {
+    margin: 0.3rem 0 0;
+    color: #9a6d3c;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.location-map__action {
+    padding-left: clamp(1.5rem, 2.5vw, 2.5rem);
+    border-left: 1px solid rgba(154, 109, 60, 0.18);
+}
+
+.location-map__directions {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 2.75rem;
+    padding: 0.75rem 1.25rem;
+    border: 1px solid #9a6d3c;
+    border-radius: 0.4rem;
+    color: #fff;
+    background: #9a6d3c;
+    font-size: 0.85rem;
+    line-height: 1.5;
+    text-decoration: none;
+    transition: background-color 200ms ease, border-color 200ms ease;
+}
+
+.location-map__directions:hover {
+    border-color: #805a32;
+    background: #805a32;
+}
+
+.location-map__directions:focus-visible {
+    outline: 2px solid #9a6d3c;
+    outline-offset: 4px;
+}
+
+.location-map__directions img {
+    flex: none;
+    width: 2rem;
+    height: 2rem;
+    filter: brightness(0) invert(1);
+}
+
+@media screen and (max-width: 1000px) {
+    .location-map__info {
+        flex-wrap: wrap;
+        gap: 1.25rem;
+    }
+
+    .location-map__distances {
+        flex-basis: 100%;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .location-map__action {
+        padding-left: 0;
+        border-left: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .location-map__distances {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.65rem;
+    }
+
+    .location-map__distances > li {
+        padding: 0.75rem 0;
+    }
+
+    .location-map__distances > li + li {
+        border-left: 0;
+        border-top: 1px solid rgba(154, 109, 60, 0.18);
+    }
+
+    .location-map__walking-time {
+        margin-top: 0.3rem;
+    }
+}
+
+/* map settles out of a slow zoom, then a ring pulses from the pin that is part of the picture */
+.location-map__map {
+    position: relative;
+    overflow: hidden;
+}
+
+.location-map__map.reveal.is-visible .location-map__image {
+    animation: map-zoom 2200ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes map-zoom {
+    from { scale: 1.1; }
+    to { scale: 1; }
+}
+
+.location-map__pulse {
+    position: absolute;
+    left: 46%;
+    top: 50.5%;
+    width: 2.2rem;
+    height: 2.2rem;
+    margin: -1.1rem 0 0 -1.1rem;
+    border: 2px solid rgba(212, 3, 3, 0.7);
+    border-radius: 50%;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.location-map__map.reveal.is-visible .location-map__pulse {
+    animation: pin-pulse 2800ms ease-out 2000ms infinite;
+}
+
+@keyframes pin-pulse {
+    0% { opacity: 0.9; scale: 0.3; }
+    70%, 100% { opacity: 0; scale: 2.2; }
+}
+
+/* walking times slide in from the left one by one */
+.location-map__distances > li.reveal.is-visible {
+    animation-name: slide-in-left;
+}
+
+@keyframes slide-in-left {
+    from { opacity: 0; translate: -28px 0; }
+    to { opacity: 1; translate: 0 0; }
+}
+
+/* footer ridge rises from the bottom edge */
+.location-map + .site-footer::before {
+    transition: clip-path 1500ms cubic-bezier(0.16, 1, 0.3, 1);
+    clip-path: inset(0);
+}
+
+.location-map + .site-footer.ridge-hidden::before {
+    clip-path: inset(100% 0 0 0);
+}

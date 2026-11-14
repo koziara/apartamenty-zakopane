@@ -1,38 +1,67 @@
-.room-container{
+.room-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(13rem, 1fr));
+    gap: 1rem;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    max-width: calc(var(--sleeping-option-count) * 18rem - 1rem);
 }
 
-.room-container_detail{
-    width: 48%;
-    border: 2px solid var(--color-dark);
-    padding: 2rem;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.room-card {
+    position: relative;
+    min-width: 0;
+    padding: 1.25rem;
+    border: 1px solid var(--overview-line, #e4dace);
+    border-radius: 1rem;
+    color: var(--overview-ink, #29251f);
+    background: var(--overview-card, #fffcf7);
 }
 
-.room-container_detail h2{
-    font-size: 26px;
+.room-card__icon {
+    display: block;
+    width: 1.75rem;
+    height: 1.75rem;
+    margin-bottom: 0.85rem;
+    color: var(--overview-accent, #a7773f);
+    stroke-width: 1.5;
 }
 
-@media screen and (max-width: 1050px) {
-    .room-container{
-        flex-direction: column;
+.room-card__capacity {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+    color: var(--overview-muted, #71695e);
+    font-size: 0.7rem;
+    line-height: 1.75rem;
+}
+
+.room-card h4 {
+    margin: 0 0 0.5rem;
+    font-family: 'Lora', serif;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+.room-card p {
+    color: var(--overview-muted, #71695e);
+    font-size: 0.8rem;
+    line-height: 1.8;
+}
+
+@media screen and (max-width: 600px) {
+    .room-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        max-width: none;
     }
-    .room-container_detail{
-        margin-bottom: 2rem;
-        width: fit-content;
+
+    /* a lone last card fills the whole row instead of leaving an empty gap beside it */
+    .room-card:last-child:nth-child(odd) {
+        grid-column: 1 / -1;
     }
 }
 
-@media screen and (max-width: 700px) {
-    .room-container_detail h3{
-        font-size: 18px;
-    }
-    .room-container_detail p{
-        font-size: 14px;
+@media screen and (max-width: 360px) {
+    .room-container {
+        grid-template-columns: minmax(0, 1fr);
     }
 }

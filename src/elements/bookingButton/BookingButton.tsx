@@ -1,12 +1,13 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import "./bookingButton.css"
 import { FaArrowRight } from 'react-icons/fa';
+import { useI18n, LangLink } from '../../i18n';
 
 const BookingButton = () => {
+  const { t } = useI18n();
   return (
     <div className='booking-button_container'>
-      <Link to={"/Rezerwacje"}><div className='booking-button'>Rezerwuj online <FaArrowRight className='button-icon'/></div></Link>
+      <LangLink to={"/Rezerwacje"}><div className='booking-button'>{t('common.bookOnline')} <FaArrowRight className='button-icon'/></div></LangLink>
     </div>
 
   )

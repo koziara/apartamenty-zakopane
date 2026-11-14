@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "title": "Apartamenty Dolina Strążyska | Szállás túraútvonalak közelében, Zakopanéban",
+    "description": "Kényelmes apartmanok Zakopanéban, a Strążyska-völgy közelében. Ideális pároknak és családoknak. Ingyenes parkolás, Wi-Fi és közeli hegyi túraútvonalak. Nézze meg a szabad időpontokat!",
+    "ogTitle": "Dolina Strążyska Apartmanok - Zakopane",
+    "contactTitle": "Kapcsolat és megközelítés | Apartamenty Dolina Strążyska - Zakopane",
+    "contactDescription": "Lépjen kapcsolatba az Apartamenty Dolina Strążyska szálláshellyel Zakopanéban. Címünk, telefonszámunk és útbaigazítás. Strążyska utca 4A.",
+    "reservationTitle": "Apartmanfoglalás Zakopanéban | Dolina Strążyska",
+    "reservationDescription": "Foglaljon apartmant Zakopanéban, a Strążyska-völgy közelében. Tátrai kilátás, ingyenes parkolás és Wi-Fi. Válasszon időpontot, és ellenőrizze az elérhetőséget!",
+    "notFoundTitle": "Az oldal nem található - Dolina Strążyska Apartmanok",
+    "apartments": {
+      "1": {
+        "title": "Apartman 5 főre, 45 m², erkéllyel és tátrai kilátással | Dolina Strążyska",
+        "description": "Kényelmes apartman 5 fő részére Zakopanéban, a Strążyska-völgy közelében. 45 m², erkély tátrai kilátással, felszerelt konyha és ingyenes parkolás. Ellenőrizze az elérhetőséget!"
+      },
+      "2": {
+        "title": "Apartman 4 főre erkéllyel és tátrai kilátással | Dolina Strążyska",
+        "description": "Apartman 4 fő részére Zakopanéban, a Strążyska-völgy közelében. Erkély tátrai kilátással, felszerelt konyha, ingyenes parkolás és Wi-Fi. Foglalja le szállását!"
+      },
+      "3": {
+        "title": "Családi apartman 5 főre, erkéllyel és tátrai kilátással | Dolina Strążyska",
+        "description": "Családi apartman 5 fő részére Zakopanéban. 43 m², erkély tátrai kilátással, felszerelt konyha és ingyenes parkolás. Közel a Strążyska-völgyhöz és a hegyi túraútvonalakhoz."
+      },
+      "4": {
+        "title": "Apartman 5 főre erkéllyel és tátrai kilátással | Dolina Strążyska - Világoskék apartman",
+        "description": "Tágas apartman 5 fő részére Zakopanéban. 43 m², erkély tátrai kilátással, felszerelt konyha és Wi-Fi. Közel a Strążyska-völgyhöz. Ellenőrizze az elérhetőséget!"
+      },
+      "5": {
+        "title": "Stúdió 2 főre, kilátással a Tátrára | Dolina Strążyska",
+        "description": "Hangulatos stúdió 2 fő részére Zakopanéban, pároknak ideális. Kilátás a Tátrára, felszerelt konyhasarok és ingyenes parkolás. Közel a Strążyska-völgyhöz és a túraútvonalakhoz."
+      },
+      "6": {
+        "title": "Apartman 4 főre, kilátással a Tátrára | Dolina Strążyska",
+        "description": "Kényelmes apartman 4 fő részére Zakopanéban. Kilátás a Tátrára, felszerelt konyha, Wi-Fi és ingyenes parkolás. Közel a Strążyska-völgyhöz. Foglalja le szállását!"
+      }
+    }
+  },
+  "brand": {
+    "name": "Dolina Strążyska Apartmanok",
+    "home": "Dolina Strążyska Apartmanok - főoldal"
+  },
+  "common": {
+    "backToTop": "Vissza az oldal tetejére",
+    "price": "{price} zł",
+    "bookOnline": "Foglalás online",
+    "checkAvailability": "Szabad időpontok megtekintése"
+  },
+  "nav": {
+    "apartments": "Apartmanok",
+    "reservations": "Foglalások",
+    "contact": "Kapcsolat",
+    "openMenu": "Menü megnyitása",
+    "closeMenu": "Menü bezárása"
+  },
+  "language": {
+    "label": "Nyelv"
+  },
+  "hero": {
+    "titleLine1": "Az Ön helye Zakopanéban",
+    "subtitle": "Hagyományos gorál hangulat, kilátás a Tátrára és nyugodt pihenés. Fedezze fel kényelmes apartmanjainkat a hegyi túraútvonalak és Zakopane központja közelében.",
+    "arrival": "Érkezés dátuma",
+    "departure": "Távozás dátuma"
+  },
+  "dateModal": {
+    "label": "Időpont kiválasztása",
+    "pickArrival": "Válassza ki az érkezés dátumát.",
+    "pickDeparture": "Válassza ki a távozás dátumát."
+  },
+  "apartmentsSection": {
+    "title": "Apartmanjaink Zakopanéban",
+    "intro": "Egyedileg berendezett belső terek, kézzel faragott bútorok és egyedi hegyvidéki hangulat. Válassza ki a zakopanei tartózkodásához leginkább illő apartmant.",
+    "facts": {
+      "capacity": "Akár {count} fő részére",
+      "wifi": "Ingyenes Wi‑Fi",
+      "parking": "Parkolás",
+      "trails": "Turistautak közelében"
+    }
+  },
+  "card": {
+    "capacity": "akár {count} fő részére",
+    "defaultHighlight": "Kilátás a hegyekre",
+    "view": "Apartman megtekintése",
+    "previousPhoto": "Előző fénykép",
+    "nextPhoto": "Következő fénykép",
+    "photoOf": "{current}. fénykép, összesen {total}"
+  },
+  "facilities": {
+    "title": "Minden az Ön kényelméért",
+    "intro": "Minden részletre odafigyeltünk, hogy a lehető legkényelmesebben tölthesse zakopanei pihenését.",
+    "items": {
+      "parking": {
+        "title": "Ingyenes parkolás",
+        "text": "Kamerával megfigyelt, privát parkoló a szállás területén."
+      },
+      "wifi": {
+        "title": "Ingyenes Wi-Fi",
+        "text": "Minden vendég számára elérhető."
+      },
+      "kitchen": {
+        "title": "Konyhasarok",
+        "text": "Minden apartmanban teljesen felszerelt."
+      },
+      "checkin": {
+        "title": "Rugalmas bejelentkezés",
+        "text": "A bejelentkezést az érkezési időponthoz igazítjuk."
+      },
+      "lounge": {
+        "title": "Közösségi helyiség",
+        "text": "Találkozásra és pihenésre szolgáló tér."
+      },
+      "playroom": {
+        "title": "Játszószoba",
+        "text": "A legkisebb vendégeinknek."
+      },
+      "ski": {
+        "title": "Sítároló",
+        "text": "Sícipőszárítóval."
+      },
+      "trails": {
+        "title": "Turistautak közelében",
+        "text": "A Strążyska-völgy sétatávolságra"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Vendégeink véleménye",
+    "intro": "Nézze meg, mit értékelnek leginkább vendégeink a Dolina Strążyska Apartmanokban.",
+    "count": {
+      "one": "{count} értékelés",
+      "few": "{count} értékelés",
+      "many": "{count} értékelés",
+      "other": "{count} értékelés"
+    },
+    "texts": {
+      "1": "Remek elhelyezkedés, csodálatos szobák. Az ablakból fantasztikus a kilátás. Nyugodt környék, mégis minden elérhető gyalog.",
+      "2": "Gyönyörű berendezés, zakopanei stílusú bútorok. Nagyon jó elhelyezkedés, közel a túraútvonalhoz, a központhoz és a bolthoz. Csend és nyugalom. A reggeli kávé a teraszon, kilátással a Giewontra, fantasztikus volt!",
+      "3": "Számunkra tökéletes hely volt. Egyeseknek talán túl messze van a központtól, de nekünk éppen a csend, a túraútvonalak gyors elérhetősége és a nyüzsgéstől való távolság jelentette a kényelmet. A szobák gyönyörűek és makulátlanul tiszták voltak, az ágyakból pedig... ó, ki sem akartunk kelni. A Giewontra nyíló kilátás azonban minden nap ösztönzött minket.",
+      "4": "Gyönyörű hely volt. A túraútvonal és a városközpont is közel volt. A szobák tágasak voltak, és minden megvolt bennük, amire szükségünk volt. A hagyományos lengyel stílus miatt igazán úgy éreztük, hogy egy másik országban járunk! A szobából csodálatos kilátás nyílt a hegyekre. Szívesen visszatérek."
+    },
+    "scoreLabels": {
+      "Booking.com": "Kivételes",
+      "Google Maps": "Kiváló"
+    }
+  },
+  "location": {
+    "title": "Közel a Tátrához és a központhoz",
+    "subtitle": "Nyugodt környék, közel a túraútvonalakhoz és Zakopane fő látnivalóihoz.",
+    "distancesLabel": "Becsült gyalogos menetidő",
+    "walking": "kb. {minutes} perc gyalog",
+    "places": {
+      "krupowki": "Krupówki",
+      "valley": "A Strążyska-völgy bejárata",
+      "museum": "Karol Szymanowski Múzeum"
+    },
+    "directions": "Útvonal megtekintése",
+    "mapAlt": "A Dolina Strążyska Apartmanok elhelyezkedése Zakopanéban - térkép"
+  },
+  "footer": {
+    "links": "Hivatkozások",
+    "contact": "Kapcsolat",
+    "englishLabel": "Angolul · WhatsApp:"
+  },
+  "contact": {
+    "title": "Lépjen kapcsolatba velünk",
+    "intro": "Kérdése van a tartózkodásával kapcsolatban? Szívesen segítünk a megfelelő apartman kiválasztásában.",
+    "detailsTitle": "Lépjen kapcsolatba velünk",
+    "detailsIntro": "Szívesen válaszolunk kérdéseire.",
+    "phone": "Telefon",
+    "englishChannel": "Kapcsolatfelvétel angolul",
+    "email": "E-mail",
+    "follow": "Kövessen minket",
+    "whatsappPolish": "WhatsApp lengyelül",
+    "locationTitle": "Elhelyezkedésünk",
+    "openMapAria": "Apartmanjaink megtekintése a Google Térképen",
+    "mapAlt": "A Dolina Strążyska Apartmanok környékének térképe Zakopanéban",
+    "openMap": "Megnyitás a Google Térképen",
+    "locationText": "Zakopane nyugodt részén, közel a tátrai túraútvonalakhoz.",
+    "directions": "Útvonaltervezés",
+    "planTitle": "Tervezze meg pihenését",
+    "planText": "Válasszon időpontot, és találja meg az Önnek megfelelő apartmant."
+  },
+  "reservation": {
+    "back": "Vissza az apartmanokhoz",
+    "title": "Foglalja le szállását",
+    "intro": "Válasszon időpontot és apartmant. Várjuk Zakopanéban!",
+    "bookingLabel": "Apartmanfoglalás",
+    "help": "Segítségre van szüksége a foglaláshoz?",
+    "writeToUs": "Írjon nekünk"
+  },
+  "documents": {
+    "termsTitle": "Házirend",
+    "privacyTitle": "Adatvédelmi szabályzat",
+    "close": "Dokumentum bezárása"
+  },
+  "details": {
+    "previousPhoto": "Előző fénykép",
+    "nextPhoto": "Következő fénykép",
+    "openFullscreen": "Teljes képernyős nézet",
+    "closeFullscreen": "Teljes képernyős nézet bezárása",
+    "thumbnailAlt": "{title} - {number}. bélyegkép",
+    "factsLabel": "Az apartman adatai",
+    "capacity": "akár {count} fő részére",
+    "mountainView": "kilátás a hegyekre",
+    "amenitiesLabel": "Az apartman felszereltsége",
+    "amenities": {
+      "bathroom": "Saját fürdőszoba",
+      "kitchen": "Teljesen felszerelt konyhasarok",
+      "parking": "Ingyenes helyszíni parkolás",
+      "balcony": "Erkély",
+      "rooms": {
+        "one": "{count} szoba",
+        "few": "{count} szoba",
+        "many": "{count} szoba",
+        "other": "{count} szoba"
+      }
+    },
+    "priceFrom": "Kezdőár",
+    "perNight": "/éj",
+    "directBooking": "Közvetlen foglalással kevesebbet fizet.",
+    "bookOnline": "Foglalás online",
+    "about": "Az apartmanról",
+    "expand": "Leírás kibontása",
+    "collapse": "Leírás összecsukása",
+    "sleeping": "Hol lehet aludni?",
+    "whatYouFind": "Mit talál itt?",
+    "photoNavigation": "Navigáció a fényképek között"
+  },
+  "rooms": {
+    "names": {
+      "livingRoom": "Nappali",
+      "bedroom": "Hálószoba",
+      "studio": "Stúdió"
+    },
+    "beds": {
+      "sofa": "Kinyitható kanapé",
+      "couch": "Kinyitható heverő",
+      "single": "Egyszemélyes ágy",
+      "double": "Franciaágy",
+      "largeDouble": "Nagy franciaágy"
+    },
+    "guests": {
+      "one": "{count} fő",
+      "few": "{count} fő",
+      "many": "{count} fő",
+      "other": "{count} fő"
+    }
+  },
+  "equipment": {
+    "living": "Nappali",
+    "kitchen": "Konyhasarok",
+    "bathroom": "Fürdőszoba",
+    "misc": "Egyéb"
+  },
+  "accessories": {
+    "1": "Televízió",
+    "2": "Wi-Fi",
+    "3": "Törölközők",
+    "4": "Hajszárító",
+    "5": "Vízforraló",
+    "6": "Kávé- és teakészlet",
+    "7": "Indukciós főzőlap",
+    "8": "Hűtőszekrény",
+    "9": "Ingyenes parkolás",
+    "10": "Kilátás a hegyekre",
+    "11": "Kamerás megfigyelés a szállás területén"
+  },
+  "errorPage": {
+    "title": "Az oldal nem található",
+    "text": "A keresett oldal nem létezik, vagy áthelyezték.",
+    "home": "Vissza a főoldalra"
+  },
+  "apartments": {
+    "1": {
+      "title": "Narancssárga apartman",
+      "size": "45 m²",
+      "description": "A Narancssárga apartmant meleg színvilága, bőséges természetes fénye és otthonos hangulata teszi különlegessé. A narancssárga és bordó részletek, a világos fa és a hagyományos zakopanei díszítőelemek egyedi karaktert adnak a belső térnek.\n\nKülönösen figyelemre méltók a kézzel faragott fabútorok, amelyek kiemelik az apartman helyi stílusát. A gondosan kiválasztott kiegészítők, a mintás textíliák és a meleg színek olyan környezetet teremtenek, ahol a Podhale vidékének autentikus hangulatát élvezheti a mindennapi kényelem feladása nélkül.\n\nA nagy ablakokon át sok természetes fény áramlik be, a hangulatos pihenősarok pedig közös időtöltésre csábít. Ideális hely egy nyugodt, kávézással töltött reggelhez vagy a hegyi túrák utáni pihenéshez.\n\nA Narancssárga apartman remek választás azoknak, akik értékelik az otthonos légkört, az egyedi belső tereket és a tátrai természet közelségét.",
+      "floor": "Földszint",
+      "highlight": "Világos belső tér",
+      "equipment": {
+        "living": [
+          "Kinyitható kanapé",
+          "Fotelek",
+          "Dohányzóasztal",
+          "Étkezőasztal",
+          "Televízió"
+        ],
+        "kitchen": [
+          "Hűtőszekrény",
+          "Indukciós főzőlap",
+          "Elektromos vízforraló",
+          "Nádobí",
+          "Konyhai eszközök"
+        ],
+        "bathroom": [
+          "Saját fürdőszoba zuhanyzóval",
+          "Törölközők",
+          "Hajszárító"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Kézzel készített fabútorok",
+          "Erkély",
+          "Kilátás a hegyekre",
+          "Ingyenes, kamerával megfigyelt parkolás"
+        ]
+      }
+    },
+    "2": {
+      "title": "Türkiz apartman",
+      "size": "36 m²",
+      "description": "A Türkiz apartman a világos fa, a természetes anyagok és a jellegzetes türkiz részletek elegáns kombinációjával tűnik ki. Hangulatos belső tere a hagyományos zakopanei stílust a modern kényelemmel ötvözi, így ideális helyet kínál a Tátra közelségében eltöltött nyugodt pihenéshez.\n\nKülönleges jellegét a kézzel faragott fabútorok, a díszes mennyezeti gerendák és a Podhale kultúrája által ihletett, gondosan kiválasztott dekorációk adják. A türkiz fotelek és a kanapé frissességet visznek a térbe, míg a fa meleg árnyalatai igazán otthonossá teszik az összhatást.\n\nA déli tájolásnak köszönhetően a nagy ablakokon át rengeteg természetes fény jut be. Az apartman további előnye az erkély, ahol egy csésze reggeli kávé mellett gyönyörködhet a hegyvidéki tájban, vagy kipihenheti a tátrai túrák fáradalmait.\n\nAz átgondolt elrendezés kényelmes teret biztosít a közös időtöltéshez és a nyugodt pihenéshez egyaránt. A hangulatos pihenőrész és az étkezősarok kellemes estékre és közös étkezésekre invitál.\n\nA Türkiz apartman kiváló választás pároknak és családoknak, akik a hegyvidéki hangulatot, a kényelmet és a tátrai természet közelségét keresik.",
+      "floor": "Földszint",
+      "highlight": "Erkély kilátással",
+      "equipment": {
+        "living": [
+          "Kinyitható kanapé",
+          "Fotelek",
+          "Dohányzóasztal",
+          "Étkezőasztal",
+          "Televízió"
+        ],
+        "kitchen": [
+          "Hűtőszekrény",
+          "Indukciós főzőlap",
+          "Elektromos vízforraló",
+          "Nádobí",
+          "Konyhai eszközök"
+        ],
+        "bathroom": [
+          "Saját fürdőszoba zuhanyzóval",
+          "Törölközők",
+          "Hajszárító"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Kézzel készített fabútorok",
+          "Erkély",
+          "Kilátás a hegyekre",
+          "Ingyenes, kamerával megfigyelt parkolás"
+        ]
+      }
+    },
+    "3": {
+      "title": "Okker apartman",
+      "size": "43 m²",
+      "description": "Az Okker apartman meleg színeivel, természetes faburkolataival és a hagyományos zakopanei stílus ihlette otthonos hangulatával varázsolja el vendégeit. A világos falak, a fa részletek és a jellegzetes okker árnyalatok harmonikus teret alkotnak, ahol megérezheti Podhale vidékének autentikus hangulatát.\n\nKülönleges báját a kézzel készített fabútorok, a díszes részletek és a gondosan válogatott kiegészítők adják. A meleg színű kanapékkal berendezett pihenősarok közös időtöltésre csábít, a nagy ablakok pedig természetes fénnyel töltik meg a belső teret.\n\nAz apartman egyik legnagyobb előnye az erkély, ahonnan gyönyörű kilátás nyílik a festői környékre. Tökéletes hely a reggeli kávéhoz, egy kis friss levegőn töltött pihenéshez vagy a tátrai túrák utáni feltöltődéshez.\n\nAz Okker apartman kiválóan alkalmas családi vagy baráti pihenéshez. A tágas tér közös étkezésekre, beszélgetésekre és nyugodt estékre ösztönöz, ideális feltételeket teremtve Zakopane különleges hangulatának élvezetéhez.",
+      "floor": "Földszint",
+      "highlight": "Pótágy",
+      "equipment": {
+        "living": [
+          "Két kinyitható kanapé",
+          "Fotelek",
+          "Dohányzóasztal",
+          "Étkezőasztal",
+          "Televízió"
+        ],
+        "kitchen": [
+          "Hűtőszekrény",
+          "Indukciós főzőlap",
+          "Elektromos vízforraló",
+          "Nádobí",
+          "Konyhai eszközök"
+        ],
+        "bathroom": [
+          "Saját fürdőszoba zuhanyzóval",
+          "Törölközők",
+          "Hajszárító"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Kézzel készített fabútorok",
+          "Erkély",
+          "Kilátás a hegyekre",
+          "Ingyenes, kamerával megfigyelt parkolás"
+        ]
+      }
+    },
+    "4": {
+      "title": "Világoskék apartman",
+      "size": "43 m²",
+      "description": "A Világoskék apartman az első emeleten található, és meleg hangulatú, faburkolatos belső tereivel, valamint világoskék részleteivel tűnik ki. A hagyományos, helyi stílusú, kézzel faragott bútorok különleges hegyvidéki karaktert adnak neki.\n\nA nappaliban kényelmes, két személy számára is alkalmas kinyitható kanapé és televízió várja a vendégeket az esti pihenéshez. A konyhasarokban hűtőszekrény, indukciós főzőlap és vízforraló található.\n\nA külön hálószobában egy franciaágy és egy egyszemélyes ágy gondoskodik a nyugodt pihenésről a hosszú túrák után. A saját fürdőszobában törölközők és hajszárító áll rendelkezésre, az erkélyről pedig gyönyörű kilátás nyílik a hegyekre.\n\nA Világoskék apartman jó választás családoknak és baráti társaságoknak, akik otthonos, hegyvidéki hangulatban szeretnének pihenni Zakopanéban. A vendégek ingyenes Wi-Fi-t és kamerával megfigyelt parkolót is használhatnak.",
+      "equipment": {
+        "living": [
+          "Kinyitható kanapé",
+          "Fotelek",
+          "Dohányzóasztal",
+          "Étkezőasztal",
+          "Televízió"
+        ],
+        "kitchen": [
+          "Hűtőszekrény",
+          "Indukciós főzőlap",
+          "Elektromos vízforraló",
+          "Nádobí",
+          "Konyhai eszközök"
+        ],
+        "bathroom": [
+          "Saját fürdőszoba zuhanyzóval",
+          "Törölközők",
+          "Hajszárító"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Kézzel készített fabútorok",
+          "Erkély",
+          "Kilátás a hegyekre",
+          "Ingyenes, kamerával megfigyelt parkolás"
+        ]
+      }
+    },
+    "5": {
+      "title": "Szürke apartman",
+      "size": "kb. 16 m²",
+      "description": "A Szürke apartman meghitt, otthonos tér, amelyet kifejezetten a kettesben töltött pihenéshez alakítottunk ki. Visszafogott színei, finom szürke árnyalatai és nyugodt hangulata ideális feltételeket teremtenek egy romantikus hétvégéhez vagy egy hosszabb zakopanei tartózkodáshoz.\n\nAz elegáns, harmonikus belső tér segít kikapcsolódni és elszakadni a mindennapok rohanásától. Tökéletes hely a közös reggeli kávézáshoz, a hegyi túrák utáni pihenéshez és a kettesben töltött nyugodt estékhez.\n\nA tátrai túraútvonalak és Zakopane központjának közelsége lehetővé teszi, hogy az aktív kikapcsolódást csenddel és magánszférával ötvözzék.\n\nA Szürke apartman ideális választás azoknak a pároknak, akik meghitt szállást keresnek egy közös pihenéshez Podhale különleges hangulatában.",
+      "highlight": "Stúdió",
+      "equipment": {
+        "living": [
+          "Fotelek",
+          "Dohányzóasztal",
+          "Étkezőasztal",
+          "Televízió"
+        ],
+        "kitchen": [
+          "Hűtőszekrény",
+          "Indukciós főzőlap",
+          "Elektromos vízforraló",
+          "Nádobí",
+          "Konyhai eszközök"
+        ],
+        "bathroom": [
+          "Saját fürdőszoba zuhanyzóval",
+          "Törölközők",
+          "Hajszárító"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Kézzel készített fabútorok",
+          "Kilátás a hegyekre",
+          "Ingyenes, kamerával megfigyelt parkolás"
+        ]
+      }
+    },
+    "6": {
+      "title": "Kék apartman",
+      "size": "26 m²",
+      "description": "A Kék apartman a zakopanei belső terek meghittségét a kék árnyalatok frissességével és nyugalmával ötvözi. Hangulatát a hegyi pihenés ihlette, ahol megfeledkezhet a mindennapi teendőkről, és teljes mértékben átadhatja magát a Tátrában töltött pillanatoknak.\n\nA finom kék tónusok harmóniát árasztanak, míg a természetes anyagok és a helyi stílusú részletek meleg, otthonos karaktert adnak a térnek. Az egész apartman pihenésre, nyugodt reggelekre és kellemes estékre csábít.\n\nAz apartman aktív kikapcsolódáshoz és csendes feltöltődéshez egyaránt ideális. A hegyi túraútvonalak és Zakopane látnivalóinak felfedezése után visszatérhet a hangulatos szállásra, megpihenhet, és megtervezheti a következő kalandokat.\n\nA Kék apartman azoknak szól, akik kedvelik a világos, nyugodt berendezést, és olyan helyet keresnek, ahol a hegyvidéki hangulat találkozik a mindennapi kényelemmel.",
+      "highlight": "Ágy és kanapé",
+      "equipment": {
+        "living": [
+          "Kinyitható kanapé",
+          "Fotelek",
+          "Dohányzóasztal",
+          "Étkezőasztal",
+          "Televízió"
+        ],
+        "kitchen": [
+          "Hűtőszekrény",
+          "Indukciós főzőlap",
+          "Elektromos vízforraló",
+          "Nádobí",
+          "Konyhai eszközök"
+        ],
+        "bathroom": [
+          "Saját fürdőszoba zuhanyzóval",
+          "Törölközők",
+          "Hajszárító"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Kézzel készített fabútorok",
+          "Kilátás a hegyekre",
+          "Ingyenes, kamerával megfigyelt parkolás"
+        ]
+      }
+    }
+  },
+  "photoAlts": {
+    "1": [
+      "nappali piros fotellel és narancssárga kanapéval",
+      "hálószoba faragott faággyal",
+      "franciaágy törölközőkkel",
+      "nappalirész konyhasarokkal és televízióval",
+      "étkezőasztal faragott székekkel egy nagy ablak mellett",
+      "fürdőszoba zuhanyzóval és mosdóval",
+      "ágyfejtámla gorál hímzéssel"
+    ],
+    "2": [
+      "nappali zöld kanapéval és étkezőasztallal",
+      "fa komód és ágy törölközőkkel",
+      "franciaágy hímzett fejtámlával",
+      "nappali zöld fotelekkel, televízióval és kilátással a hálószobára",
+      "fürdőszoba mosdóval",
+      "fürdőszoba törölközőszárító radiátorral",
+      "WC a fürdőszobában"
+    ],
+    "3": [
+      "konyhasarok és kanapé a nappalirészben",
+      "étkezőasztal az erkélyablaknál",
+      "nappali kanapéval, fotellel és televízióval",
+      "hálószoba franciaággyal és egyszemélyes ággyal",
+      "ágyak friss törölközőkkel",
+      "erkély hegyi kilátással",
+      "fürdőszoba zuhanykabinnal"
+    ],
+    "4": [
+      "konyhasarok és kék kanapé",
+      "tetőtéri nappali kanapéval, fotellel és dohányzóasztallal",
+      "franciaágy és komód",
+      "étkezőasztal a ferde tető alatt",
+      "pihenősarok az erkélyablaknál",
+      "fürdőszoba mosdóval és zuhanyzóval",
+      "fürdőszoba WC-vel és radiátorral"
+    ],
+    "5": [
+      "tetőtéri szoba televízióval, fotellel és zöldre néző ablakkal",
+      "konyhasarok és tetőablak tátrai kilátással",
+      "franciaágy az ablak alatt",
+      "ágy díszpárnákkal és nagy ablakkal",
+      "fürdőszoba mosdóval és zuhanyzóval"
+    ],
+    "6": [
+      "nappali kék fotelekkel és televízióval a nagy ablak mellett",
+      "tetőtér kék fotelekkel és televízióval",
+      "lila kanapé az ablaknál a nappalirészben",
+      "két ágy törölközőkkel az ablak alatt",
+      "konyhasarok a ferde tető alatt",
+      "zuhanyzó a fürdőszobában"
+    ]
+  },
+  "nearbyTrails": {
+    "navLabel": "Közeli túraútvonalak",
+    "heroLine1": "Irány a hegyek.",
+    "heroLine2": "A saját ritmusában.",
+    "intro": "Nyugodt séta egy völgyben vagy túra a lenyűgöző panorámáért? Fedezze fel az apartmanjaink közelében található túraútvonalakat, és találja meg az Önnek megfelelő útvonalat.",
+    "explore": "Fedezze fel a közeli ösvényeket",
+    "mapCaption": "A Tátra közelebb van, mint gondolná",
+    "enlargeMap": "Térkép nagyítása",
+    "mapAlt": "A zakopanei Dolina Strążyska apartmanok közelében található túraútvonalak térképe.",
+    "locationIntro": "Itt kezdődik a pihenés",
+    "heading": "Válasszon útirányt",
+    "featured": "Kezdésnek",
+    "mapLink": "Megtekintés a térképen",
+    "newTab": "új lap",
+    "stayHeading": "Apartmanja a túraútvonalak közelében",
+    "stayText": "Válassza ki az Önnek megfelelő apartmant, és pihenjen egy élményekkel teli tátrai túranap után.",
+    "viewApartments": "Apartmanok megtekintése",
+    "labels": {
+      "difficulty": "Nehézség",
+      "time": "Időtartam",
+      "destination": "Úti cél"
+    },
+    "items": [
+      {
+        "name": "Strążyska-völgy",
+        "difficulty": "Könnyű",
+        "duration": "kb. 40 perc",
+        "via": "Polana Strążyska",
+        "description": "A hegyi patak mentén haladó erdei ösvény a festői Polana Strążyska tisztásra vezet, ahonnan lenyűgöző kilátás nyílik a Giewontra. Tökéletes választás egy nyugodt sétához és a Tátrával való első találkozáshoz."
+      },
+      {
+        "name": "Siklawica-vízesés",
+        "difficulty": "Könnyű-közepes",
+        "duration": "kb. 55-60 perc",
+        "via": "A vízeséshez a Strążyska-völgyön keresztül",
+        "description": "Festői vízesés a Giewont lábánál. Az út a Strążyska-völgyön és a Polana Strążyska tisztáson keresztül vezet, majd egy köves ösvényen folytatódik a sziklák között."
+      },
+      {
+        "name": "Sarnia Skała",
+        "difficulty": "Közepes",
+        "duration": "kb. 1 óra 40 perc",
+        "via": "A csúcsra a Czerwona Przełęcz hágón át",
+        "description": "A környék egyik legszebb kilátópontja, ahonnan Zakopane panorámája és a Giewont lenyűgöző sziklafala tárul elénk. Az útvonal meredek emelkedőt és egy sziklás utolsó szakaszt is tartalmaz."
+      },
+      {
+        "name": "Dolina ku Dziurze és Dziura-barlang",
+        "difficulty": "Könnyű",
+        "duration": "kb. 20-25 perc",
+        "via": "A Dziura-barlang bejárata",
+        "description": "Rövid, nyugodt erdei ösvény vezet egy sziklák között megbúvó természetes barlanghoz. Remek választás egy kis kalandhoz, hosszú túra nélkül."
+      },
+      {
+        "name": "Białego-völgy",
+        "difficulty": "Könnyű-közepes",
+        "duration": "kb. 30 perc",
+        "via": "A Białego-völgy vízesése",
+        "description": "Festői völgy sziklafalakkal, fahidakkal és apró vízeséseket alkotó hegyi patakkal. Választhat egy rövid sétát a vízeséshez, vagy folytathatja a túrát a Sarnia Skała felé."
+      },
+      {
+        "name": "Za Bramką-völgy",
+        "difficulty": "Könnyű",
+        "duration": "kb. 25 perc",
+        "via": "A látogatható ösvény vége",
+        "description": "Csendes völgy mészkősziklák között, patak mentén haladó erdei ösvénnyel. Ideális egy rövid, pihentető sétához, távol a forgalmasabb túraútvonalaktól."
+      },
+      {
+        "name": "Droga pod Reglami",
+        "difficulty": "Könnyű",
+        "duration": "kb. 30 perc",
+        "via": "A Strążyska-völgytől a Za Bramką-völgyig",
+        "description": "Látványos sétaút a Tátra lábánál, erdők és rétek mentén. Több gyönyörű völgy bejáratát köti össze, így szabadon választhatja meg a séta hosszát és irányát."
+      },
+      {
+        "name": "Mała Łąka-völgy",
+        "difficulty": "Könnyű-közepes",
+        "duration": "kb. 50-60 perc",
+        "via": "Wielka Polana Małołącka, Gronik felől",
+        "description": "Nyugodt erdei túra vezet egy hatalmas hegyi tisztásra, amelyet lenyűgöző tátrai csúcsok vesznek körül. Kiváló választás egy hosszabb sétához, gyönyörű hegyi panorámával."
+      }
+    ],
+    "timeNote": "A megadott menetidők tájékoztató jellegűek, és a jelzett túraútvonal kiindulópontjától számított egyirányú gyaloglásra vonatkoznak, az apartmanoktól való odajutás és a pihenők nélkül. A nehézségi szintek kedvező időjárási körülményekre érvényesek. Indulás előtt ellenőrizze a Lengyel-Tátrai Nemzeti Park aktuális körülményeit.",
+    "conditionsNote": "Indulás előtt ellenőrizze a túraútvonalak aktuális állapotát.",
+    "parkInfo": "A TPN információi",
+    "informationHeading": "Információk a túraútvonalakról",
+    "metaTitle": "Túraútvonalak a Strążyska-völgy közelében | Zakopane",
+    "metaDescription": "Fedezze fel a Strążyska-völgy környéki túraútvonalakat Zakopanéban. Siklawica-vízesés, Sarnia Skała, Białego-völgy és további gyönyörű hegyi túrák."
+  }
+}

@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "title": "Apartamenty Dolina Strążyska | Naktsmītnes pie pārgājienu takām Zakopanē",
+    "description": "Ērti apartamenti Zakopanē netālu no Strążyska ielejas. Ideāli piemēroti pāriem un ģimenēm. Bezmaksas autostāvvieta, Wi-Fi un kalnu pārgājienu takas tuvumā. Pārbaudiet pieejamību!",
+    "ogTitle": "Apartamenty Dolina Strążyska - Zakopane",
+    "contactTitle": "Kontakti un nokļūšana | Apartamenty Dolina Strążyska - Zakopane",
+    "contactDescription": "Sazinieties ar Apartamenty Dolina Strążyska Zakopanē. Atrodiet mūsu adresi, tālruņa numuru un norādes nokļūšanai. Mūsu adrese: Strążyska iela 4A.",
+    "reservationTitle": "Apartamentu rezervācija Zakopanē | Dolina Strążyska",
+    "reservationDescription": "Rezervējiet apartamentus Zakopanē netālu no Strążyska ielejas. Skats uz Tatriem, bezmaksas autostāvvieta un Wi-Fi. Izvēlieties datumus un pārbaudiet pieejamību!",
+    "notFoundTitle": "Lapa nav atrasta - Apartamenty Dolina Strążyska",
+    "apartments": {
+      "1": {
+        "title": "Apartamenti 5 viesiem, 45 m², balkons un skats uz Tatriem | Dolina Strążyska",
+        "description": "Ērti apartamenti 5 viesiem Zakopanē, netālu no Strążyska ielejas. 45 m², balkons ar skatu uz Tatriem, aprīkota virtuve un bezmaksas autostāvvieta. Pārbaudiet pieejamību!"
+      },
+      "2": {
+        "title": "Apartamenti 4 viesiem ar balkonu un skatu uz Tatriem | Dolina Strążyska",
+        "description": "Apartamenti 4 viesiem Zakopanē, netālu no Strążyska ielejas. Balkons ar skatu uz Tatriem, aprīkota virtuve, bezmaksas autostāvvieta un Wi-Fi. Rezervējiet uzturēšanos!"
+      },
+      "3": {
+        "title": "Ģimenes apartamenti 5 viesiem ar balkonu un skatu uz Tatriem | Dolina Strążyska",
+        "description": "Ģimenes apartamenti 5 viesiem Zakopanē. 43 m², balkons ar skatu uz Tatriem, aprīkota virtuve un bezmaksas autostāvvieta. Netālu no Strążyska ielejas un kalnu takām."
+      },
+      "4": {
+        "title": "Apartamenti 5 viesiem ar balkonu un skatu uz Tatriem | Dolina Strążyska - Gaišzili apartamenti",
+        "description": "Plaši apartamenti 5 viesiem Zakopanē. 43 m², balkons ar skatu uz Tatriem, aprīkota virtuve un Wi-Fi. Netālu no Strążyska ielejas. Pārbaudiet pieejamību!"
+      },
+      "5": {
+        "title": "Studija 2 viesiem ar skatu uz Tatriem | Dolina Strążyska",
+        "description": "Mājīga studija 2 viesiem Zakopanē, ideāli piemērota pāriem. Skats uz Tatriem, aprīkota virtuves zona un bezmaksas autostāvvieta. Netālu no Strążyska ielejas un pārgājienu takām."
+      },
+      "6": {
+        "title": "Apartamenti 4 viesiem ar skatu uz Tatriem | Dolina Strążyska",
+        "description": "Ērti apartamenti 4 viesiem Zakopanē. Skats uz Tatriem, aprīkota virtuve, Wi-Fi un bezmaksas autostāvvieta. Netālu no Strążyska ielejas. Rezervējiet uzturēšanos!"
+      }
+    }
+  },
+  "brand": {
+    "name": "Apartamenty Dolina Strążyska",
+    "home": "Apartamenty Dolina Strążyska - sākumlapa"
+  },
+  "common": {
+    "backToTop": "Atgriezties augšā",
+    "price": "{price} zł",
+    "bookOnline": "Rezervēt tiešsaistē",
+    "checkAvailability": "Pārbaudīt pieejamību"
+  },
+  "nav": {
+    "apartments": "Apartamenti",
+    "reservations": "Rezervācijas",
+    "contact": "Kontakti",
+    "openMenu": "Atvērt izvēlni",
+    "closeMenu": "Aizvērt izvēlni"
+  },
+  "language": {
+    "label": "Valoda"
+  },
+  "hero": {
+    "titleLine1": "Jūsu vieta Zakopanē",
+    "subtitle": "Goralu noskaņa, skats uz Tatriem un mierpilna atpūta. Atklājiet ērtus apartamentus netālu no kalnu takām un Zakopanes centra.",
+    "arrival": "Ierašanās datums",
+    "departure": "Izbraukšanas datums"
+  },
+  "dateModal": {
+    "label": "Izvēlieties datumus",
+    "pickArrival": "Izvēlieties ierašanās datumu.",
+    "pickDeparture": "Izvēlieties izbraukšanas datumu."
+  },
+  "apartmentsSection": {
+    "title": "Mūsu apartamenti Zakopanē",
+    "intro": "Individuāli iekārtoti interjeri, ar rokām grebtas mēbeles un īpaša kalniešu noskaņa. Izvēlieties sev piemērotākos apartamentus atpūtai Zakopanē.",
+    "facts": {
+      "capacity": "Līdz {count} viesiem",
+      "wifi": "Bezmaksas Wi-Fi",
+      "parking": "Autostāvvieta",
+      "trails": "Netālu no pārgājienu takām"
+    }
+  },
+  "card": {
+    "capacity": "līdz {count} viesiem",
+    "defaultHighlight": "Skats uz kalniem",
+    "view": "Apskatīt apartamentus",
+    "previousPhoto": "Iepriekšējais fotoattēls",
+    "nextPhoto": "Nākamais fotoattēls",
+    "photoOf": "Fotoattēls {current} no {total}"
+  },
+  "facilities": {
+    "title": "Viss jūsu ērtībām",
+    "intro": "Esam parūpējušies par detaļām, lai jūsu uzturēšanās Zakopanē būtu pēc iespējas ērtāka.",
+    "items": {
+      "parking": {
+        "title": "Bezmaksas autostāvvieta",
+        "text": "Privāta autostāvvieta īpašuma teritorijā ar videonovērošanu."
+      },
+      "wifi": {
+        "title": "Bezmaksas Wi-Fi",
+        "text": "Pieejams visiem viesiem."
+      },
+      "kitchen": {
+        "title": "Virtuves zona",
+        "text": "Pilnībā aprīkota katros apartamentos."
+      },
+      "checkin": {
+        "title": "Elastīga reģistrēšanās",
+        "text": "Reģistrēšanās laiku pielāgosim jūsu ierašanās laikam."
+      },
+      "lounge": {
+        "title": "Koplietošanas atpūtas telpa",
+        "text": "Vieta kopīgai atpūtai un tikšanās reizēm."
+      },
+      "playroom": {
+        "title": "Rotaļu istaba",
+        "text": "Mūsu mazākajiem viesiem."
+      },
+      "ski": {
+        "title": "Slēpju glabātava",
+        "text": "Ar slēpošanas zābaku žāvētāju."
+      },
+      "trails": {
+        "title": "Netālu no pārgājienu takām",
+        "text": "Strążyska ieleja pastaigas attālumā"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Mūsu viesu atsauksmes",
+    "intro": "Uzziniet, ko viesi visaugstāk novērtē naktsmītnē Apartamenty Dolina Strążyska.",
+    "count": {
+      "one": "{count} atsauksme",
+      "few": "{count} atsauksmes",
+      "many": "{count} atsauksmju",
+      "other": "{count} atsauksmju"
+    },
+    "texts": {
+      "1": "Lieliska atrašanās vieta, brīnišķīgas istabas. Skats pa logu ir fantastisks. Klusa apkārtne, bet visur var aiziet kājām.",
+      "2": "Skaists iekārtojums, mēbeles Zakopanes stilā. Ļoti laba atrašanās vieta - netālu pārgājienu taka, centrs un veikals. Klusums un miers. Rīta kafija uz terases ar skatu uz Gievontu - lieliski!",
+      "3": "Mums šī bija ideāla vieta. Dažiem varbūt par tālu no centra, bet mums patika miers, iespēja ātri nokļūt pārgājienu takās un būt prom no pilsētas kņadas. Jutāmies ļoti ērti. Istabas skaistas un nevainojami tīras, bet gultas... no tām pat negribējās celties. Tomēr skats uz Gievontu katru rītu mudināja doties piedzīvojumos.",
+      "4": "Šī vieta bija ārkārtīgi skaista. Gan pārgājienu taka, gan pilsētas centrs atradās netālu. Istabas bija plašas, un tajās bija viss nepieciešamais. Tradicionālais poļu stils radīja sajūtu, it kā būtu nokļuvuši citā pasaulē! No istabas paveras brīnišķīgs skats uz kalniem. Labprāt šeit atgrieztos."
+    },
+    "scoreLabels": {
+      "Booking.com": "Izcili",
+      "Google Maps": "Lieliski"
+    }
+  },
+  "location": {
+    "title": "Netālu no Tatriem un centra",
+    "subtitle": "Klusa apkārtne pie pārgājienu takām un svarīgākajiem Zakopanes apskates objektiem.",
+    "distancesLabel": "Aptuvenais iešanas laiks",
+    "walking": "aptuveni {minutes} min kājām",
+    "places": {
+      "krupowki": "Krupówki",
+      "valley": "Ieeja Strążyska ielejā",
+      "museum": "Karola Šimanovska muzejs"
+    },
+    "directions": "Kā nokļūt",
+    "mapAlt": "Apartamenty Dolina Strążyska atrašanās vietas karte Zakopanē"
+  },
+  "footer": {
+    "links": "Saites",
+    "contact": "Kontakti",
+    "englishLabel": "English · WhatsApp:"
+  },
+  "contact": {
+    "title": "Sazinieties ar mums",
+    "intro": "Vai ir jautājumi par uzturēšanos? Labprāt palīdzēsim un ieteiksim piemērotākos apartamentus.",
+    "detailsTitle": "Sazinieties ar mums",
+    "detailsIntro": "Esam gatavi atbildēt uz jūsu jautājumiem.",
+    "phone": "Tālrunis",
+    "englishChannel": "Saziņa angļu valodā",
+    "email": "E-pasts",
+    "follow": "Sekojiet mums",
+    "whatsappPolish": "WhatsApp poļu valodā",
+    "locationTitle": "Mūsu atrašanās vieta",
+    "openMapAria": "Skatīt apartamentu atrašanās vietu Google Maps",
+    "mapAlt": "Apartamenty Dolina Strążyska apkārtnes karte Zakopanē",
+    "openMap": "Atvērt Google Maps",
+    "locationText": "Klusā Zakopanes daļā, netālu no Tatru pārgājienu takām.",
+    "directions": "Saņemt norādes",
+    "planTitle": "Plānojiet savu uzturēšanos",
+    "planText": "Izvēlieties datumus un atrodiet sev piemērotus apartamentus."
+  },
+  "reservation": {
+    "back": "Atgriezties pie apartamentiem",
+    "title": "Rezervējiet savu uzturēšanos",
+    "intro": "Izvēlieties datumus un apartamentus. Uz tikšanos Zakopanē!",
+    "bookingLabel": "Apartamentu rezervācija",
+    "help": "Nepieciešama palīdzība ar rezervāciju?",
+    "writeToUs": "Rakstiet mums"
+  },
+  "documents": {
+    "termsTitle": "Noteikumi",
+    "privacyTitle": "Privātuma politika",
+    "close": "Aizvērt dokumentu"
+  },
+  "details": {
+    "previousPhoto": "Iepriekšējais fotoattēls",
+    "nextPhoto": "Nākamais fotoattēls",
+    "openFullscreen": "Atvērt pilnekrāna režīmā",
+    "closeFullscreen": "Aizvērt pilnekrāna režīmu",
+    "thumbnailAlt": "{title} - sīktēls {number}",
+    "factsLabel": "Apartamentu raksturojums",
+    "capacity": "līdz {count} viesiem",
+    "mountainView": "skats uz kalniem",
+    "amenitiesLabel": "Apartamentu ērtības",
+    "amenities": {
+      "bathroom": "Privāta vannas istaba",
+      "kitchen": "Pilnībā aprīkota virtuves zona",
+      "parking": "Bezmaksas autostāvvieta uz vietas",
+      "balcony": "Balkons",
+      "rooms": {
+        "one": "{count} istaba",
+        "few": "{count} istabas",
+        "many": "{count} istabu",
+        "other": "{count} istabu"
+      }
+    },
+    "priceFrom": "Cena no",
+    "perNight": "/nakts",
+    "directBooking": "Rezervējot tieši, maksāsiet mazāk.",
+    "bookOnline": "Rezervēt tiešsaistē",
+    "about": "Par apartamentiem",
+    "expand": "Lasīt vairāk",
+    "collapse": "Rādīt mazāk",
+    "sleeping": "Kur jūs gulēsiet?",
+    "whatYouFind": "Kas ir pieejams?",
+    "photoNavigation": "Fotoattēlu navigācija"
+  },
+  "rooms": {
+    "names": {
+      "livingRoom": "Dzīvojamā istaba",
+      "bedroom": "Guļamistaba",
+      "studio": "Studija"
+    },
+    "beds": {
+      "sofa": "Izvelkamais dīvāns",
+      "couch": "Izvelkams dīvāns",
+      "single": "Vienvietīga gulta",
+      "double": "Divguļamā gulta",
+      "largeDouble": "Liela divguļamā gulta"
+    },
+    "guests": {
+      "one": "{count} viesis",
+      "few": "{count} viesi",
+      "many": "{count} viesu",
+      "other": "{count} viesi"
+    }
+  },
+  "equipment": {
+    "living": "Dzīvojamā istaba",
+    "kitchen": "Virtuves zona",
+    "bathroom": "Vannas istaba",
+    "misc": "Cits"
+  },
+  "accessories": {
+    "1": "Televizors",
+    "2": "Wi-Fi",
+    "3": "Dvieļi",
+    "4": "Fēns",
+    "5": "Tējkanna",
+    "6": "Kafijas un tējas komplekts",
+    "7": "Indukcijas plīts virsma",
+    "8": "Ledusskapis",
+    "9": "Bezmaksas autostāvvieta",
+    "10": "Skats uz kalniem",
+    "11": "Videonovērošana īpašuma teritorijā"
+  },
+  "errorPage": {
+    "title": "Lapa nav atrasta",
+    "text": "Meklētā lapa neeksistē vai ir pārvietota.",
+    "home": "Atgriezties sākumlapā"
+  },
+  "apartments": {
+    "1": {
+      "title": "Oranžie apartamenti",
+      "size": "45 m²",
+      "description": "Oranžie apartamenti izceļas ar siltām krāsām, bagātīgu dabisko gaismu un mājīgu noskaņu. Oranžo un bordo toņu apvienojums ar gaišu koku un tradicionālām Zakopanes stila detaļām piešķir interjeram īpašu raksturu.\n\nĪpašu uzmanību piesaista ar rokām grebtas koka mēbeles, kas izceļ apartamentu reģionālo stilu. Rūpīgi izvēlēti dekori, rakstaini audumi un siltas krāsas rada vidi, kurā var izjust īsto Podhales noskaņu, nezaudējot ikdienas ērtības.\n\nLielie logi ielaiž daudz dabiskās gaismas, bet mājīgā atpūtas zona aicina pavadīt laiku kopā. Šī ir lieliska vieta nesteidzīgam rītam ar kafiju vai atpūtai pēc dienas pārgājieniem kalnos.\n\nOranžie apartamenti būs lieliska izvēle tiem, kuri novērtē mājīgu atmosfēru, oriģinālu interjeru un atpūtu Tatru dabas tuvumā.",
+      "floor": "Pirmais stāvs",
+      "highlight": "Gaišs interjers",
+      "equipment": {
+        "living": [
+          "Izvelkamais dīvāns",
+          "Atzveltnes krēsli",
+          "Kafijas galdiņš",
+          "Ēdamgalds",
+          "Televizors"
+        ],
+        "kitchen": [
+          "Ledusskapis",
+          "Indukcijas plīts virsma",
+          "Elektriskā tējkanna",
+          "Trauki",
+          "Virtuves piederumi"
+        ],
+        "bathroom": [
+          "Privāta vannas istaba ar dušu",
+          "Dvieļi",
+          "Fēns"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ar rokām darinātas koka mēbeles",
+          "Balkons",
+          "Skats uz kalniem",
+          "Bezmaksas autostāvvieta ar videonovērošanu"
+        ]
+      }
+    },
+    "2": {
+      "title": "Tirkīzzilie apartamenti",
+      "size": "36 m²",
+      "description": "Tirkīzzilie apartamenti izceļas ar elegantu gaiša koka, dabisku materiālu un raksturīgu tirkīzzilu akcentu savienojumu. Mājīgais interjers apvieno tradicionālo Zakopanes stilu ar mūsdienu ērtībām, radot lielisku vietu mierīgai atpūtai Tatru tuvumā.\n\nĪpašu raksturu piešķir ar rokām grebtas koka mēbeles, dekoratīvas griestu sijas un rūpīgi izvēlēti Podhales kultūras iedvesmoti elementi. Tirkīzzilie atzveltnes krēsli un dīvāns ienes svaigumu, savukārt siltie koka toņi rada omulību.\n\nPateicoties dienvidu pusei, lielie logi ielaiž daudz dabiskās gaismas. Papildu priekšrocība ir balkons, kur var sākt dienu ar rīta kafiju un kalnu ainavām vai atpūsties pēc pārgājiena Tatru takās.\n\nPārdomātais plānojums nodrošina ērtības gan kopā pavadītam laikam, gan atpūtas brīžiem. Mājīgā atpūtas zona un ēdamzona aicina izbaudīt mierīgus vakarus un kopīgas maltītes īpašā gaisotnē.\n\nTirkīzzilie apartamenti ir lieliska izvēle pāriem un ģimenēm, kas vēlas apvienot kalniešu noskaņu, ērtības un Tatru dabas tuvumu.",
+      "floor": "Pirmais stāvs",
+      "highlight": "Balkons ar skatu",
+      "equipment": {
+        "living": [
+          "Izvelkamais dīvāns",
+          "Atzveltnes krēsli",
+          "Kafijas galdiņš",
+          "Ēdamgalds",
+          "Televizors"
+        ],
+        "kitchen": [
+          "Ledusskapis",
+          "Indukcijas plīts virsma",
+          "Elektriskā tējkanna",
+          "Trauki",
+          "Virtuves piederumi"
+        ],
+        "bathroom": [
+          "Privāta vannas istaba ar dušu",
+          "Dvieļi",
+          "Fēns"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ar rokām darinātas koka mēbeles",
+          "Balkons",
+          "Skats uz kalniem",
+          "Bezmaksas autostāvvieta ar videonovērošanu"
+        ]
+      }
+    },
+    "3": {
+      "title": "Okera apartamenti",
+      "size": "43 m²",
+      "description": "Okera apartamenti valdzina ar siltām krāsām, dabisku koku un mājīgu gaisotni, kas iedvesmota no tradicionālā Zakopanes stila. Gaišas sienas, koka apdare un raksturīgie okera toņi rada harmonisku vidi, kurā var sajust īsto Podhales noskaņu.\n\nĪpašu šarmu piešķir ar rokām darinātas koka mēbeles, dekoratīvas detaļas un rūpīgi izvēlēti aksesuāri. Mājīgā atpūtas zona ar siltu toņu dīvāniem aicina pavadīt laiku kopā, bet lielie logi piepilda telpu ar dabisko gaismu.\n\nViena no lielākajām apartamentu priekšrocībām ir balkons ar skatu uz gleznaino apkārtni. Tā ir lieliska vieta rīta kafijai, atelpai svaigā gaisā vai atpūtai pēc dienas Tatru pārgājienos.\n\nOkera apartamenti ir ļoti piemēroti ģimenēm vai draugu grupām. Plašā vide aicina kopīgi ieturēt maltītes, sarunāties un baudīt mierīgus vakarus, radot lieliskus apstākļus atpūtai Zakopanes īpašajā gaisotnē.",
+      "floor": "Pirmais stāvs",
+      "highlight": "Papildu gulta",
+      "equipment": {
+        "living": [
+          "Divi izvelkami dīvāni",
+          "Atzveltnes krēsli",
+          "Kafijas galdiņš",
+          "Ēdamgalds",
+          "Televizors"
+        ],
+        "kitchen": [
+          "Ledusskapis",
+          "Indukcijas plīts virsma",
+          "Elektriskā tējkanna",
+          "Trauki",
+          "Virtuves piederumi"
+        ],
+        "bathroom": [
+          "Privāta vannas istaba ar dušu",
+          "Dvieļi",
+          "Fēns"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ar rokām darinātas koka mēbeles",
+          "Balkons",
+          "Skats uz kalniem",
+          "Bezmaksas autostāvvieta ar videonovērošanu"
+        ]
+      }
+    },
+    "4": {
+      "title": "Gaišzili apartamenti",
+      "size": "43 m²",
+      "description": "Gaišzilie apartamenti atrodas otrajā stāvā, un tiem raksturīgs silts koka interjers ar gaišziliem akcentiem. Ar rokām grebtas reģionālā stila mēbeles piešķir telpām neatkārtojamu kalnu mājokļa noskaņu.\n\nDzīvojamajā zonā ir ērts izvelkamais dīvāns, kurā var gulēt divi cilvēki, un televizors vakara atpūtai. Virtuves zonā atradīsiet ledusskapi, indukcijas plīts virsmu un tējkannu.\n\nAtsevišķā guļamistabā ar divguļamo un vienvietīgo gultu var mierīgi atpūsties pēc dienas pārgājieniem. Privātajā vannas istabā ir dvieļi un fēns, bet no balkona paveras skats uz kalniem.\n\nGaišzilie apartamenti būs piemēroti ģimenēm un draugu grupām, kuras vēlas atpūsties Zakopanē mājīgā, tradicionālā kalniešu gaisotnē. Viesiem pieejams arī bezmaksas Wi-Fi un autostāvvieta ar videonovērošanu.",
+      "equipment": {
+        "living": [
+          "Izvelkamais dīvāns",
+          "Atzveltnes krēsli",
+          "Kafijas galdiņš",
+          "Ēdamgalds",
+          "Televizors"
+        ],
+        "kitchen": [
+          "Ledusskapis",
+          "Indukcijas plīts virsma",
+          "Elektriskā tējkanna",
+          "Trauki",
+          "Virtuves piederumi"
+        ],
+        "bathroom": [
+          "Privāta vannas istaba ar dušu",
+          "Dvieļi",
+          "Fēns"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ar rokām darinātas koka mēbeles",
+          "Balkons",
+          "Skats uz kalniem",
+          "Bezmaksas autostāvvieta ar videonovērošanu"
+        ]
+      }
+    },
+    "5": {
+      "title": "Pelēkie apartamenti",
+      "size": "aptuveni 16 m²",
+      "description": "Pelēkie apartamenti ir neliela, mājīga vieta, kas radīta atpūtai divatā. Atturīgās krāsas, smalkie pelēkie toņi un mierīgā noskaņa rada lieliskus apstākļus romantiskai nedēļas nogalei vai ilgākai uzturēšanās reizei Zakopanē.\n\nElegants, harmonisks interjers palīdz atslābināties un aizmirst ikdienas steigu. Šeit var baudīt nesteidzīgus rītus pie kafijas tases, atpūsties pēc pārgājieniem kalnos un pavadīt vakarus tikai divatā.\n\nTatru taku un Zakopanes centra tuvums ļauj lieliski apvienot aktīvu atpūtu ar mieru un privātumu.\n\nPelēkie apartamenti būs ideāla izvēle pāriem, kuri meklē mājīgu vietu kopīgai atpūtai īpašajā Podhales gaisotnē.",
+      "highlight": "Studija",
+      "equipment": {
+        "living": [
+          "Atzveltnes krēsli",
+          "Kafijas galdiņš",
+          "Ēdamgalds",
+          "Televizors"
+        ],
+        "kitchen": [
+          "Ledusskapis",
+          "Indukcijas plīts virsma",
+          "Elektriskā tējkanna",
+          "Trauki",
+          "Virtuves piederumi"
+        ],
+        "bathroom": [
+          "Privāta vannas istaba ar dušu",
+          "Dvieļi",
+          "Fēns"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ar rokām darinātas koka mēbeles",
+          "Skats uz kalniem",
+          "Bezmaksas autostāvvieta ar videonovērošanu"
+        ]
+      }
+    },
+    "6": {
+      "title": "Zilie apartamenti",
+      "size": "26 m²",
+      "description": "Zilie apartamenti apvieno Zakopanes interjeriem raksturīgo mājīgumu ar svaigiem un mierīgiem ziliem toņiem. To noskaņu iedvesmojusi atpūta kalnos, kur var aizmirst ikdienas rūpes un pilnībā izbaudīt Tatros pavadīto laiku.\n\nMaigie zilie toņi ienes interjerā harmoniju, bet dabiskie materiāli un reģionālie akcenti rada siltu, mājīgu atmosfēru. Telpas aicina atpūsties, baudīt mierīgus rītus un patīkamus vakarus.\n\nApartamenti ir piemēroti gan aktīvai atpūtai, gan mierīgiem brīžiem. Pēc dienas, kas pavadīta, iepazīstot kalnu takas un Zakopanes burvību, var atgriezties mājīgā vidē, atpūsties un ieplānot nākamos piedzīvojumus.\n\nZilie apartamenti ir lieliska izvēle tiem, kuriem patīk gaišs, mierīgs iekārtojums un kuri meklē vietu, kur kalnu noskaņa apvienojas ar ikdienas ērtībām.",
+      "highlight": "Gulta un dīvāns",
+      "equipment": {
+        "living": [
+          "Izvelkamais dīvāns",
+          "Atzveltnes krēsli",
+          "Kafijas galdiņš",
+          "Ēdamgalds",
+          "Televizors"
+        ],
+        "kitchen": [
+          "Ledusskapis",
+          "Indukcijas plīts virsma",
+          "Elektriskā tējkanna",
+          "Trauki",
+          "Virtuves piederumi"
+        ],
+        "bathroom": [
+          "Privāta vannas istaba ar dušu",
+          "Dvieļi",
+          "Fēns"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ar rokām darinātas koka mēbeles",
+          "Skats uz kalniem",
+          "Bezmaksas autostāvvieta ar videonovērošanu"
+        ]
+      }
+    }
+  },
+  "photoAlts": {
+    "1": [
+      "dzīvojamā istaba ar sarkanu atzveltnes krēslu un oranžu dīvānu",
+      "guļamistaba ar grebtu koka gultu",
+      "divguļamā gulta ar dvieļiem",
+      "dzīvojamā zona ar virtuves stūrīti un televizoru",
+      "ēdamgalds ar grebtiem krēsliem pie liela loga",
+      "vannas istaba ar dušu un izlietni",
+      "gultas galvgalis ar kalniešu izšuvumu"
+    ],
+    "2": [
+      "dzīvojamā istaba ar zaļu dīvānu un ēdamgaldu",
+      "koka kumode un gulta ar dvieļiem",
+      "divguļamā gulta ar izšūtu galvgali",
+      "dzīvojamā istaba ar zaļiem atzveltnes krēsliem, televizoru un skatu uz guļamistabu",
+      "vannas istaba ar izlietni",
+      "vannas istaba ar dvieļu žāvētāju",
+      "tualete vannas istabā"
+    ],
+    "3": [
+      "virtuves zona un dīvāns dzīvojamajā istabā",
+      "ēdamgalds pie balkona loga",
+      "dzīvojamā istaba ar dīvānu, atzveltnes krēslu un televizoru",
+      "guļamistaba ar divguļamo un vienvietīgo gultu",
+      "gultas ar tīriem dvieļiem",
+      "balkons ar skatu uz kalniem",
+      "vannas istaba ar dušas kabīni"
+    ],
+    "4": [
+      "virtuves zona un zils dīvāns",
+      "mansarda dzīvojamā istaba ar dīvānu, atzveltnes krēslu un kafijas galdiņu",
+      "divguļamā gulta un kumode",
+      "ēdamgalds zem slīpā jumta",
+      "atpūtas zona pie balkona loga",
+      "vannas istaba ar izlietni un dušu",
+      "vannas istaba ar tualeti un radiatoru"
+    ],
+    "5": [
+      "mansards ar televizoru, atzveltnes krēslu un logu ar skatu uz zaļumiem",
+      "virtuves zona un jumta logs ar skatu uz Tatriem",
+      "divguļamā gulta zem loga",
+      "gulta ar dekoratīviem spilveniem pie liela loga",
+      "vannas istaba ar izlietni un dušu"
+    ],
+    "6": [
+      "dzīvojamā istaba ar ziliem atzveltnes krēsliem un televizoru pie liela loga",
+      "mansards ar ziliem atzveltnes krēsliem un televizoru",
+      "violets dīvāns pie loga dzīvojamajā zonā",
+      "divas gultas ar dvieļiem zem loga",
+      "virtuves zona zem slīpā jumta",
+      "duša vannas istabā"
+    ]
+  },
+  "nearbyTrails": {
+    "navLabel": "Takas tuvumā",
+    "heroLine1": "Kalnos.",
+    "heroLine2": "Pa savam.",
+    "intro": "Mierīga pastaiga pa ieleju vai pārgājiens, lai baudītu elpu aizraujošus skatus? Atklājiet takas mūsu apartamentu tuvumā un izvēlieties savu maršrutu.",
+    "explore": "Atklājiet tuvējās takas",
+    "mapCaption": "Tatri ir tuvāk, nekā domājat",
+    "enlargeMap": "Palielināt karti",
+    "mapAlt": "Taku karte netālu no Dolina Strążyska apartamentiem Zakopanē.",
+    "locationIntro": "Šeit sākas jūsu atpūta",
+    "heading": "Izvēlieties savu virzienu",
+    "featured": "Sākumam",
+    "mapLink": "Skatīt kartē",
+    "newTab": "jauna cilne",
+    "stayHeading": "Jūsu apartamenti netālu no pārgājienu takām",
+    "stayText": "Izvēlieties sev piemērotākos apartamentus un atpūtieties pēc piedzīvojumiem bagātas dienas Tatru kalnu takās.",
+    "viewApartments": "Apskatīt apartamentus",
+    "labels": {
+      "difficulty": "Grūtības pakāpe",
+      "time": "Laiks",
+      "destination": "Galamērķis"
+    },
+    "items": [
+      {
+        "name": "Dolina Strążyska",
+        "difficulty": "Viegla",
+        "duration": "aptuveni 40 min",
+        "via": "Polana Strążyska pļava",
+        "description": "Mierīga meža taka gar kalnu strautu ved uz gleznaino Polana Strążyska pļavu, no kuras paveras iespaidīgs skats uz Gievontu. Lieliska izvēle nesteidzīgai pastaigai un pirmajai iepazīšanai ar Tatriem."
+      },
+      {
+        "name": "Siklawica ūdenskritums",
+        "difficulty": "Viegla-vidēja",
+        "duration": "aptuveni 55-60 min",
+        "via": "Līdz ūdenskritumam caur Dolina Strążyska",
+        "description": "Gleznains ūdenskritums Gievonta pakājē. Maršruts ved caur Dolina Strążyska ieleju un Polana Strążyska pļavu, bet pēdējais posms turpinās pa akmeņainu taku starp klintīm."
+      },
+      {
+        "name": "Sarnia Skała",
+        "difficulty": "Vidēja",
+        "duration": "aptuveni 1 st. 40 min",
+        "via": "Uz virsotni caur Czerwona Przełęcz pāreju",
+        "description": "Viena no skaistākajām skatu vietām apkārtnē, no kuras paveras Zakopanes panorāma un iespaidīga Gievonta klinšu siena. Maršrutā ir stāvs kāpums un akmeņains noslēguma posms."
+      },
+      {
+        "name": "Dolina ku Dziurze un Dziura ala",
+        "difficulty": "Viegla",
+        "duration": "aptuveni 20-25 min",
+        "via": "Līdz Dziura alas ieejai",
+        "description": "Īsa, mierīga meža taka caur klusu ieleju ved uz dabisku alu, kas paslēpusies starp klintīm. Lieliska ideja nelielam piedzīvojumam bez gara pārgājiena."
+      },
+      {
+        "name": "Dolina Białego",
+        "difficulty": "Viegla-vidēja",
+        "duration": "aptuveni 30 min",
+        "via": "Līdz ūdenskritumam Dolina Białego ielejā",
+        "description": "Gleznaina ieleja ar klinšu sienām, koka tiltiņiem un kalnu strautu, kas veido nelielas kaskādes. Varat izvēlēties īsu pastaigu līdz ūdenskritumam vai turpināt pārgājienu Sarnia Skała virzienā."
+      },
+      {
+        "name": "Dolina Za Bramką",
+        "difficulty": "Viegla",
+        "duration": "aptuveni 25 min",
+        "via": "Līdz apmeklētājiem pieejamās takas beigām",
+        "description": "Mierīga ieleja starp kaļķakmens klintīm ar meža taku gar strautu. Ideāli piemērota īsai, nesteidzīgai pastaigai prom no populārākajiem tūrisma maršrutiem."
+      },
+      {
+        "name": "Droga pod Reglami",
+        "difficulty": "Viegla",
+        "duration": "aptuveni 30 min",
+        "via": "No Dolina Strążyska līdz Dolina Za Bramką",
+        "description": "Ainavisks pastaigu maršruts Tatru pakājē, gar mežiem un pļavām. Tas savieno vairāku skaistu ieleju ieejas, ļaujot pašiem izvēlēties pastaigas garumu un virzienu."
+      },
+      {
+        "name": "Dolina Małej Łąki",
+        "difficulty": "Viegla-vidēja",
+        "duration": "aptuveni 50-60 min",
+        "via": "Līdz Wielka Polana Małołącka no Gronikas",
+        "description": "Mierīgs pārgājiens caur mežu ved uz plašu kalnu pļavu, ko ieskauj iespaidīgas Tatru virsotnes. Lieliska izvēle garākai pastaigai ar skaistiem kalnu skatiem."
+      }
+    ],
+    "timeNote": "Norādītie iešanas laiki ir aptuveni un attiecas uz maršrutu vienā virzienā no norādītā takas sākumpunkta, neieskaitot ceļu no apartamentiem un atpūtas pauzes. Maršrutu grūtības pakāpes novērtētas labos laikapstākļos. Pirms došanās ceļā pārbaudiet aktuālos apstākļus Polijas Tatru nacionālajā parkā.",
+    "conditionsNote": "Pirms došanās pārgājienā pārbaudiet aktuālos taku apstākļus.",
+    "parkInfo": "Tatru nacionālā parka (TPN) informācija",
+    "informationHeading": "Informācija par pārgājienu takām",
+    "metaTitle": "Pārgājienu takas pie Strążyska ielejas | Zakopane un Tatri",
+    "metaDescription": "Atklājiet pārgājienu takas netālu no Strążyska ielejas Zakopanē. Siklawica ūdenskritums, Sarnia Skała, Białego ieleja un citi skaisti maršruti Tatros."
+  }
+}

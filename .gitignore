@@ -11,6 +11,9 @@
 # production
 /build
 
+# Local recovery archives, excluded from source publication and website builds.
+/.private/
+
 # misc
 .DS_Store
 .env.local

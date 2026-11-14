@@ -1,6 +1,7 @@
 export{default as Apartments} from './apartments/Apartments';
 export{default as ApartmentDetails} from './apartmentDetails/ApartmentDetails';
 export{default as Features} from './features/Features';
+export{default as Reviews} from './reviews/Reviews';
 export{default as ErrorPage} from './errorPage/ErrorPage';
 export{default as Footer} from './footer/Footer';
 export{default as Header} from './header/Header';

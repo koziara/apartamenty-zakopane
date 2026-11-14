@@ -1,0 +1,87 @@
+{
+  "navLabel": "Nearby trails",
+  "heroLine1": "Into the mountains.",
+  "heroLine2": "Your way.",
+  "intro": "A peaceful walk through a valley or a hike for breathtaking views? Explore the trails near our apartments and find your perfect route.",
+  "explore": "Explore nearby trails",
+  "mapCaption": "The Tatras are closer than you think",
+  "enlargeMap": "Enlarge map",
+  "mapAlt": "Map of trails near Dolina Strążyska Apartments in Zakopane.",
+  "locationIntro": "Your getaway starts here",
+  "heading": "Choose your direction",
+  "featured": "A place to start",
+  "mapLink": "View on map",
+  "newTab": "new tab",
+  "stayHeading": "Your apartment close to hiking trails",
+  "stayText": "Choose your perfect apartment and unwind after a day exploring the trails of the Tatra Mountains.",
+  "viewApartments": "View apartments",
+  "labels": {
+    "difficulty": "Difficulty",
+    "time": "Time",
+    "destination": "Destination"
+  },
+  "items": [
+    {
+      "name": "Strążyska Valley",
+      "difficulty": "Easy",
+      "duration": "approx. 40 min",
+      "via": "Strążyska Clearing (Polana Strążyska)",
+      "description": "A peaceful forest trail follows a mountain stream to the picturesque Strążyska Clearing, offering impressive views of Giewont. Perfect for a relaxing walk and your first introduction to the Tatra Mountains."
+    },
+    {
+      "name": "Siklawica Waterfall",
+      "difficulty": "Easy-moderate",
+      "duration": "approx. 55-60 min",
+      "via": "Waterfall via Strążyska Valley",
+      "description": "A beautiful waterfall hidden at the foot of Giewont. The route passes through Strążyska Valley and its scenic clearing before continuing along a rocky path to the waterfall."
+    },
+    {
+      "name": "Sarnia Skała",
+      "difficulty": "Moderate",
+      "duration": "approx. 1 hr 40 min",
+      "via": "Summit via Czerwona Przełęcz",
+      "description": "One of the most beautiful viewpoints in the area, offering panoramic views of Zakopane and the impressive northern face of Giewont. The trail includes a steep climb and a rocky final section."
+    },
+    {
+      "name": "Dolina ku Dziurze & Dziura Cave",
+      "difficulty": "Easy",
+      "duration": "approx. 20-25 min",
+      "via": "Entrance to Dziura Cave",
+      "description": "A short, peaceful forest trail through a quiet valley leads to a natural cave hidden among the rocks. A lovely choice for a little adventure without a long hike."
+    },
+    {
+      "name": "Białego Valley",
+      "difficulty": "Easy-moderate",
+      "duration": "approx. 30 min",
+      "via": "Waterfall in Białego Valley",
+      "description": "A scenic valley with rocky cliffs, wooden bridges and a mountain stream forming small cascades. Enjoy a short walk to the waterfall or continue hiking towards Sarnia Skała."
+    },
+    {
+      "name": "Za Bramką Valley",
+      "difficulty": "Easy",
+      "duration": "approx. 25 min",
+      "via": "End of the marked trail",
+      "description": "A quiet valley surrounded by limestone cliffs, with a forest path following a gentle stream. Ideal for a short, relaxing walk away from the busier hiking routes."
+    },
+    {
+      "name": "Droga pod Reglami",
+      "difficulty": "Easy",
+      "duration": "approx. 30 min",
+      "via": "From Strążyska Valley to Za Bramką Valley",
+      "description": "A scenic walking route along the foothills of the Tatras, passing forests and open meadows. It connects several beautiful valleys, letting you choose your own distance and direction."
+    },
+    {
+      "name": "Mała Łąka Valley",
+      "difficulty": "Easy-moderate",
+      "duration": "approx. 50-60 min",
+      "via": "Wielka Polana Małołącka from Gronik",
+      "description": "A peaceful forest hike leading to a wide mountain clearing surrounded by impressive Tatra peaks. A wonderful choice for a longer walk with beautiful mountain panoramas."
+    }
+  ],
+  "timeNote": "The walking times are approximate and refer to a one-way hike from the indicated trailhead, excluding the walk from the apartments and any breaks. Difficulty ratings assume good weather conditions. Check current conditions in Tatra National Park before setting off.",
+  "conditionsNote": "Check current trail conditions before heading out.",
+  "parkInfo": "Tatra National Park information",
+  "informationHeading": "Trail information",
+  "metaTitle": "Hiking Trails Near Strążyska Valley | Zakopane & Tatras",
+  "metaDescription": "Explore hiking trails near Strążyska Valley in Zakopane. Discover Siklawica Waterfall, Sarnia Skała, Białego Valley and more scenic routes in the Tatras."
+}

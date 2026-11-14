@@ -1,0 +1,108 @@
+.date-modal_backdrop
+{
+    position: fixed;
+    inset: 0;
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(4, 12, 24, 0.55);
+}
+
+.date-modal
+{
+    max-width: 95vw;
+    max-height: 95vh;
+    overflow: auto;
+    padding: 1.5rem;
+    background-color: #fff;
+    color: #4a4036;
+    border-radius: 6px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+    font-family: 'Inter', sans-serif;
+}
+
+.date-modal *
+{
+    font-family: 'Inter', sans-serif;
+}
+
+/* variables must sit on .rdp-root itself, the library redefines them there */
+.date-modal .rdp-root
+{
+    --rdp-accent-color: #c9964f;
+    --rdp-accent-background-color: #f3e6d3;
+    --rdp-range_middle-background-color: #f3e6d3;
+    --rdp-range_middle-color: #4a4036;
+    --rdp-range_start-date-background-color: #c9964f;
+    --rdp-range_end-date-background-color: #c9964f;
+    --rdp-selected-border: 2px solid #c9964f;
+    --rdp-today-color: #c9964f;
+    margin: 0 auto;
+}
+
+/* selected days (also a lone first pick): solid gold circle with white text */
+.date-modal .rdp-selected .rdp-day_button
+{
+    background-color: #c9964f;
+    border-color: #c9964f;
+    color: #fff;
+}
+
+/* days between: soft gold band with dark text, no circle */
+.date-modal .rdp-range_middle .rdp-day_button
+{
+    background-color: transparent;
+    border-color: transparent;
+    color: #4a4036;
+}
+
+.date-modal .rdp-month_caption
+{
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.date-modal .rdp-weekday
+{
+    color: #8a7f74;
+    text-transform: uppercase;
+}
+
+.date-modal .rdp-today:not(.rdp-selected) .rdp-day_button
+{
+    color: #c9964f;
+    font-weight: 600;
+}
+
+.date-modal_hint
+{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #f3e6d3;
+    border: 1px solid #c9964f;
+    border-radius: 3px;
+    font-size: 0.95rem;
+}
+
+.date-modal_hint:empty
+{
+    display: none;
+}
+
+@media screen and (max-width: 380px)
+{
+    .date-modal
+    {
+        padding: 1rem;
+    }
+
+    .date-modal .rdp-root
+    {
+        --rdp-day-width: 36px;
+        --rdp-day-height: 40px;
+        --rdp-day_button-width: 34px;
+        --rdp-day_button-height: 38px;
+    }
+}

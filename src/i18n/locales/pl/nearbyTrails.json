@@ -1,0 +1,87 @@
+{
+  "navLabel": "Szlaki w pobliżu",
+  "heroLine1": "W góry.",
+  "heroLine2": "Po swojemu.",
+  "intro": "Spokojny spacer doliną czy wędrówka po widoki? Odkryj szlaki w pobliżu naszych apartamentów i znajdź swój kierunek.",
+  "explore": "Poznaj pobliskie szlaki",
+  "mapCaption": "Tatry są bliżej, niż myślisz",
+  "enlargeMap": "Powiększ mapę",
+  "mapAlt": "Mapa szlaków w pobliżu Apartamentów Dolina Strążyska w Zakopanem.",
+  "locationIntro": "Tu zaczyna się Twój wypoczynek",
+  "heading": "Wybierz swój kierunek",
+  "featured": "Na początek",
+  "mapLink": "Zobacz na mapie",
+  "newTab": "nowa karta",
+  "stayHeading": "Twój apartament blisko szlaków",
+  "stayText": "Wybierz apartament dla siebie i odpocznij po dniu na tatrzańskich szlakach.",
+  "viewApartments": "Zobacz apartamenty",
+  "labels": {
+    "difficulty": "Trudność",
+    "time": "Czas",
+    "destination": "Cel"
+  },
+  "items": [
+    {
+      "name": "Dolina Strążyska",
+      "difficulty": "Łatwa",
+      "duration": "ok. 40 min",
+      "via": "Do Polany Strążyskiej",
+      "description": "Leśny szlak wzdłuż potoku prowadzi na malowniczą Polanę Strążyską, skąd rozciąga się imponujący widok na Giewont. Idealny wybór na spokojny spacer i pierwsze spotkanie z Tatrami."
+    },
+    {
+      "name": "Wodospad Siklawica",
+      "difficulty": "Łatwa-umiarkowana",
+      "duration": "ok. 55-60 min",
+      "via": "Do wodospadu przez Dolinę Strążyską",
+      "description": "Malowniczy wodospad ukryty u stóp Giewontu. Trasa prowadzi przez Dolinę Strążyską i Polanę Strążyską, a ostatni odcinek wiedzie kamienistą ścieżką wśród skał."
+    },
+    {
+      "name": "Sarnia Skała",
+      "difficulty": "Umiarkowana",
+      "duration": "ok. 1 godz. 40 min",
+      "via": "Na szczyt przez Czerwoną Przełęcz",
+      "description": "Jeden z najpiękniejszych punktów widokowych w okolicy. Ze szczytu zobaczysz panoramę Zakopanego i majestatyczną ścianę Giewontu. Trasa obejmuje strome podejście i skalisty odcinek przed szczytem."
+    },
+    {
+      "name": "Dolina ku Dziurze i Jaskinia Dziura",
+      "difficulty": "Łatwa",
+      "duration": "ok. 20-25 min",
+      "via": "Do wejścia do Jaskini Dziura",
+      "description": "Krótki, spokojny szlak przez zaciszną dolinę prowadzi do naturalnej jaskini ukrytej wśród skał. Idealny pomysł na niewielką wycieczkę z odrobiną przygody."
+    },
+    {
+      "name": "Dolina Białego",
+      "difficulty": "Łatwa-umiarkowana",
+      "duration": "ok. 30 min",
+      "via": "Do wodospadu w Dolinie Białego",
+      "description": "Malownicza dolina ze skalnymi ścianami, drewnianymi mostkami i potokiem tworzącym niewielkie kaskady. Możesz wybrać krótki spacer do wodospadu lub kontynuować wędrówkę w stronę Sarniej Skały."
+    },
+    {
+      "name": "Dolina Za Bramką",
+      "difficulty": "Łatwa",
+      "duration": "ok. 25 min",
+      "via": "Do końca udostępnionego szlaku",
+      "description": "Kameralna dolina wśród wapiennych skał, z leśną ścieżką prowadzącą wzdłuż potoku. Doskonała na krótki, spokojny spacer z dala od najbardziej uczęszczanych tras."
+    },
+    {
+      "name": "Droga pod Reglami",
+      "difficulty": "Łatwa",
+      "duration": "ok. 30 min",
+      "via": "Od Doliny Strążyskiej do Doliny Za Bramką",
+      "description": "Widokowa trasa u podnóża Tatr, prowadząca skrajem lasów i polan. Łączy wejścia do kilku malowniczych dolin, dzięki czemu sam wybierasz długość spaceru i jego kierunek."
+    },
+    {
+      "name": "Dolina Małej Łąki",
+      "difficulty": "Łatwa-umiarkowana",
+      "duration": "ok. 50-60 min",
+      "via": "Do Wielkiej Polany Małołąckiej z Gronika",
+      "description": "Spokojna wędrówka przez las prowadzi na rozległą Wielką Polanę Małołącką, otoczoną imponującymi tatrzańskimi szczytami. Świetny wybór na dłuższy spacer z piękną panoramą gór."
+    }
+  ],
+  "timeNote": "Podane czasy są orientacyjne i dotyczą przejścia w jedną stronę od początku wskazanego szlaku, bez dojścia z apartamentów i przerw. Stopień trudności oceniono przy dobrych warunkach pogodowych.",
+  "conditionsNote": "Przed wyjściem sprawdź aktualne warunki na szlakach.",
+  "parkInfo": "Informacje TPN",
+  "informationHeading": "Informacje o szlakach",
+  "metaTitle": "Szlaki w pobliżu Doliny Strążyskiej | Zakopane i Tatry",
+  "metaDescription": "Odkryj szlaki w pobliżu Doliny Strążyskiej w Zakopanem. Wodospad Siklawica, Sarnia Skała, Dolina Białego i inne malownicze trasy. Zaplanuj swoją wycieczkę!"
+}

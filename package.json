@@ -11,7 +11,9 @@
     "@types/node": "^16.18.35",
     "@types/react": "^18.2.11",
     "@types/react-dom": "^18.2.4",
+    "date-fns": "^4.4.0",
     "react": "^18.2.0",
+    "react-day-picker": "^9.14.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.9.0",
     "react-image-gallery": "^1.2.12",
@@ -23,6 +25,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "postbuild": "node scripts/postbuild.mjs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -30,6 +33,15 @@
     "extends": [
       "react-app",
       "react-app/jest"
+    ]
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "^react-day-picker/style\\.css$": "<rootDir>/node_modules/react-day-picker/src/style.css"
+    },
+    "transformIgnorePatterns": [
+      "/node_modules/(?!(date-fns)/).+\\.(js|jsx|mjs|cjs|ts|tsx)$",
+      "^.+\\.module\\.(css|sass|scss)$"
     ]
   },
   "browserslist": {
@@ -47,6 +59,7 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/template": "^7.22.5",
-    "@types/react-image-gallery": "^1.2.0"
+    "@types/react-image-gallery": "^1.2.0",
+    "puppeteer": "^25.17.0"
   }
 }
