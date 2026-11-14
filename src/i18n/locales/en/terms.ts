@@ -70,7 +70,7 @@ The full text of the terms and conditions is available at www.apartamentydolinas
 9.	The Owner collects the appropriate resort fee (PLN 2.00 per person per day).
 10.	The Guest bears full responsibility for their own safety and that of other persons staying in the Apartment, and for any damage resulting from improper use of the Apartment and the common area.
 11.	Children under 13 must be under the constant care and supervision of adults throughout the stay. Children's legal guardians are responsible for the children's behaviour, including any damage and harm caused.
-12.	It is forbidden to move around the premises in ski boots and to bring ski equipment or bicycles into the apartments - the room called the Ski Room on level -1 is intended for this purpose.
+12.	It is forbidden to move around the premises in ski boots and to bring ski equipment or bicycles into the apartments.
 13.	Guests are obliged to use the Apartments and the common areas of the building in accordance with their intended purpose and to keep them in proper condition, corresponding to the standards found on arrival. It is forbidden to make any alterations, improvements or modifications to the Apartments and their equipment and furnishings.
 
 §7. End of stay

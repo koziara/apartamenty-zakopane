@@ -37,14 +37,14 @@
 .facilities-grid {
     position: relative;
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     margin-top: clamp(3.5rem, 6vw, 5rem);
     border-top: 1px solid rgba(32, 31, 27, 0.1);
     border-bottom: 1px solid rgba(32, 31, 27, 0.1);
     list-style: none;
 }
 
-/* diamonds sit on the frame where the centre column line meets it */
+/* diamonds mark the centre of the frame */
 .facilities-grid::before,
 .facilities-grid::after {
     position: absolute;
@@ -71,16 +71,11 @@
     align-items: center;
     padding: clamp(2.5rem, 4vw, 3.75rem) clamp(1.25rem, 2.5vw, 2.5rem);
     border-right: 1px solid rgba(32, 31, 27, 0.1);
-    border-bottom: 1px solid rgba(32, 31, 27, 0.1);
     text-align: center;
 }
 
-.facilities-grid li:nth-child(4n) {
+.facilities-grid li:last-child {
     border-right: 0;
-}
-
-.facilities-grid li:nth-last-child(-n + 4) {
-    border-bottom: 0;
 }
 
 .facilities-grid__icon {
@@ -125,19 +120,18 @@
         grid-template-columns: repeat(2, minmax(0, 1fr));
     }
 
-    .facilities-grid li:nth-child(4n) {
+    .facilities-grid li {
         border-right: 1px solid rgba(32, 31, 27, 0.1);
+        border-bottom: 1px solid rgba(32, 31, 27, 0.1);
     }
 
     .facilities-grid li:nth-child(2n) {
         border-right: 0;
     }
 
-    .facilities-grid li:nth-last-child(-n + 4) {
-        border-bottom: 1px solid rgba(32, 31, 27, 0.1);
-    }
-
-    .facilities-grid li:nth-last-child(-n + 2) {
+    .facilities-grid li:last-child {
+        grid-column: 1 / -1;
+        border-right: 0;
         border-bottom: 0;
     }
 }

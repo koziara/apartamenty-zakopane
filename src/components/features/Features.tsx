@@ -7,9 +7,6 @@ const facilities = [
   { key: 'wifi', icon: '/img/facility-icons/wifi.png' },
   { key: 'kitchen', icon: '/img/facility-icons/kitchen.png' },
   { key: 'checkin', icon: '/img/facility-icons/checkin.png' },
-  { key: 'lounge', icon: '/img/facility-icons/lounge.png' },
-  { key: 'playroom', icon: '/img/facility-icons/playroom.png' },
-  { key: 'ski', icon: '/img/facility-icons/ski.png' },
   { key: 'trails', icon: '/img/facility-icons/trails.png' },
 ] as const;
 

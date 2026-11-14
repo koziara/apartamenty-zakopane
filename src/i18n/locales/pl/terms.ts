@@ -66,7 +66,7 @@ Treść regulaminu dostępna jest na stronie www.apartamentydolinastrazyska.pl.
 9.	Właściciel pobiera odpowiednią opłatę klimatyczną (2,00 zł za osobę za dobę).
 10.	Gość ponosi pełną odpowiedzialność za bezpieczeństwo swoje, innych osób przebywających w Apartamencie oraz za wszelkie powstałe szkody wynikające z niewłaściwego użytkowania Apartamentu oraz części wspólnej.
 11.	Dzieci poniżej 13 lat, przez cały czas pobytu muszą znajdować się pod stałą opieką i nadzorem osób dorosłych. Za zachowania dzieci, w tym poczynione uszkodzenia i szkody odpowiadają opiekunowie prawni dzieci.
-12.	Zabrania się poruszania po obiekcie w obuwiu narciarskim i wnoszenia sprzętu narciarskiego lub rowerów do apartamentów - do tego celu służy pomieszczenie zwane Narciarnią na poziomie -1. 
+12.	Zabrania się poruszania po obiekcie w obuwiu narciarskim i wnoszenia sprzętu narciarskiego lub rowerów do apartamentów.
 13.	Goście zobowiązani są korzystać z Apartamentów i części wspólnych budynku zgodnie z ich przeznaczeniem oraz utrzymywać je w stanie należytym i odpowiadającym zastanym standardom. Zakazane jest dokonywanie jakichkolwiek przeróbek, ulepszeń i modyfikacji Apartamentów oraz ich wyposażenia i umeblowania.
 
 §7. Zakończenie pobytu
