@@ -14,7 +14,7 @@ const sameAs = [
   'https://www.instagram.com/apartamenty_dolina_strazyska',
 ];
 
-export const lodgingJsonLd = (name: string, description: string, url: string, inLanguage: string) => {
+export const lodgingJsonLd = (name: string, description: string, url: string, inLanguage: string, amenities: { parking: string; wifi: string }) => {
   const prices = apartmentList.map(a => a.price);
   return {
     '@context': 'https://schema.org',
@@ -29,11 +29,11 @@ export const lodgingJsonLd = (name: string, description: string, url: string, in
     telephone: '+48607601471',
     email: 'biurodolinastrazyska@gmail.com',
     address,
-    priceRange: `${Math.min(...prices)}–${Math.max(...prices)} PLN`,
+    priceRange: `${Math.min(...prices)}-${Math.max(...prices)} PLN`,
     currenciesAccepted: 'PLN',
     amenityFeature: [
-      { '@type': 'LocationFeatureSpecification', name: 'Free parking', value: true },
-      { '@type': 'LocationFeatureSpecification', name: 'Wi-Fi', value: true },
+      { '@type': 'LocationFeatureSpecification', name: amenities.parking, value: true },
+      { '@type': 'LocationFeatureSpecification', name: amenities.wifi, value: true },
     ],
     sameAs,
   };

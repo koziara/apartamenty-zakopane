@@ -12,6 +12,7 @@ type I18n = {
   path: (to: string) => string;
   messages: Messages;
   intl: string;
+  direction: 'ltr' | 'rtl';
   dateLocale: DayPickerProps['locale'];
   t: (path: MessagePath, vars?: Vars) => string;
   tp: (path: PluralPath, count: number, vars?: Vars) => string;
@@ -54,6 +55,7 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
 
   const value = useMemo<I18n>(() => {
     const { messages, intl, dateLocale } = languages[lang];
+    const direction = languages[lang].direction === 'rtl' ? 'rtl' : 'ltr';
     const fallback = languages[DEFAULT_LANG].messages;
     // a key missing from a translation falls back to the default language instead of showing nothing
     const find = (path: string) => lookup(messages, path) ?? lookup(fallback, path);
@@ -65,11 +67,12 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
       path: to => withLang(lang, to),
       messages,
       intl,
+      direction,
       dateLocale,
       apartment: id => messages.apartments[id] ?? fallback.apartments[id],
       photoAlt: (id, index, title) => {
         const description = messages.photoAlts[id]?.[index] ?? fallback.photoAlts[id]?.[index];
-        return description ? `${title} – ${description}` : title;
+        return description ? `${title} - ${description}` : title;
       },
       t: (path, vars) => fill(find(path) as string, vars),
       tp: (path, count, vars) => {
@@ -81,6 +84,7 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
 
   useEffect(() => {
     document.documentElement.lang = lang;
+    document.documentElement.dir = languages[lang].direction;
   }, [lang]);
 
   return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;

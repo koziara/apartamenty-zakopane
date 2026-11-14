@@ -106,8 +106,8 @@ Zgodnie z art. 13 ogólnego rozporządzenia o ochronie danych osobowych z dnia 2
 2.	Pani/Pana dane osobowe przetwarzane będą w celu korzystania z usług wynajmu apartamentów - na podstawie Art. 6 ust. 1 lit. b ogólnego rozporządzenia o ochronie danych osobowych z dnia 27 kwietnia 2016 r.
 3.	Odbiorcami Pani/Pana danych osobowych będą wyłącznie podmioty uprawnione do uzyskania danych osobowych na podstawie przepisów prawa oraz podmioty uczestniczące w realizacji usług.
 4.	Podstawą przetwarzania danych osobowych jest:
-4.1	Art. 6 ust. 1 lit. b RODO – niezbędność ich przetwarzania w celu realizacji i wykonania umowy;
-4.2	Art. 6 ust. 1 lit. f RODO – prawnie uzasadniony interes administratora.
+4.1	Art. 6 ust. 1 lit. b RODO - niezbędność ich przetwarzania w celu realizacji i wykonania umowy;
+4.2	Art. 6 ust. 1 lit. f RODO - prawnie uzasadniony interes administratora.
 5.	Pani/Pana dane osobowe przechowywane będą przez okres 10 lat.
 6.	Posiada Pani/Pan prawo do żądania od administratora dostępu do danych osobowych, prawo do ich sprostowania, usunięcia lub ograniczenia przetwarzania oraz prawo do przenoszenia danych.
 7.	Ma Pani/Pan prawo wniesienia skargi do organu nadzorczego.

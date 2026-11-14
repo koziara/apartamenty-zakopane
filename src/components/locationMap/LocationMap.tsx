@@ -6,7 +6,7 @@ const directionsUrl = `https://www.google.com/maps/dir/?api=1&destination=${enco
 const walkingDistances = [
   { place: 'krupowki', minutes: '12', icon: '/img/location-icons/01_krupowki_torba.svg' },
   { place: 'valley', minutes: '12', icon: '/img/location-icons/02_dolina_strazyska_gory.svg' },
-  { place: 'museum', minutes: '8–10', icon: '/img/location-icons/03_willa_atma_muzeum.svg' },
+  { place: 'museum', minutes: '8-10', icon: '/img/location-icons/03_willa_atma_muzeum.svg' },
 ] as const;
 
 const LocationMap = () => {

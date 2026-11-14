@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "title": "Apartamenty Dolina Strążyska | Ubytování u turistických tras v Zakopaném",
+    "description": "Komfortní apartmány v Zakopaném poblíž údolí Strążyska. Ideální pro páry i rodiny. Parkování zdarma, Wi-Fi a horské turistické trasy na dosah. Ověřte dostupnost!",
+    "ogTitle": "Apartmány Dolina Strążyska - Zakopané",
+    "contactTitle": "Kontakt a cesta k nám | Apartamenty Dolina Strążyska - Zakopane",
+    "contactDescription": "Kontaktujte Apartamenty Dolina Strążyska v Zakopaném. Najděte naši adresu, telefonní číslo a pokyny k příjezdu. Sídlíme na ulici Strążyska 4A.",
+    "reservationTitle": "Rezervace apartmánů v Zakopaném | Dolina Strążyska",
+    "reservationDescription": "Rezervujte si apartmán v Zakopaném poblíž údolí Strążyska. Výhled na Tatry, parkování zdarma a Wi-Fi. Vyberte termín a ověřte dostupnost!",
+    "notFoundTitle": "Stránka nenalezena - Apartmány Dolina Strążyska",
+    "apartments": {
+      "1": {
+        "title": "Apartmán pro 5 osob, 45 m², balkon a výhled na Tatry | Dolina Strążyska",
+        "description": "Komfortní apartmán pro 5 osob v Zakopaném, poblíž údolí Strążyska. 45 m², balkon s výhledem na Tatry, vybavená kuchyně a parkování zdarma. Ověřte dostupnost!"
+      },
+      "2": {
+        "title": "Apartmán pro 4 osoby s balkonem a výhledem na Tatry | Dolina Strążyska",
+        "description": "Apartmán pro 4 osoby v Zakopaném, poblíž údolí Strążyska. Balkon s výhledem na Tatry, vybavená kuchyně, parkování zdarma a Wi-Fi. Rezervujte si pobyt!"
+      },
+      "3": {
+        "title": "Rodinný apartmán pro 5 osob s balkonem a výhledem na Tatry | Dolina Strążyska",
+        "description": "Rodinný apartmán pro 5 osob v Zakopaném. 43 m², balkon s výhledem na Tatry, vybavená kuchyně a parkování zdarma. Blízko údolí Strążyska a horských tras."
+      },
+      "4": {
+        "title": "Apartmán pro 5 osob s balkonem a výhledem na Tatry | Dolina Strążyska - Světle modrý apartmán",
+        "description": "Prostorný apartmán pro 5 osob v Zakopaném. 43 m², balkon s výhledem na Tatry, vybavená kuchyně a Wi-Fi. Blízko údolí Strążyska. Ověřte dostupnost!"
+      },
+      "5": {
+        "title": "Studio pro 2 osoby s výhledem na Tatry | Dolina Strążyska",
+        "description": "Útulné studio pro 2 osoby v Zakopaném, ideální pro páry. Výhled na Tatry, vybavený kuchyňský kout a parkování zdarma. Blízko údolí Strążyska a turistických tras."
+      },
+      "6": {
+        "title": "Apartmán pro 4 osoby s výhledem na Tatry | Dolina Strążyska",
+        "description": "Komfortní apartmán pro 4 osoby v Zakopaném. Výhled na Tatry, vybavená kuchyně, Wi-Fi a parkování zdarma. Blízko údolí Strążyska. Rezervujte si pobyt!"
+      }
+    }
+  },
+  "brand": {
+    "name": "Apartmány Dolina Strążyska",
+    "home": "Apartmány Dolina Strążyska - úvodní stránka"
+  },
+  "common": {
+    "backToTop": "Zpět nahoru",
+    "price": "{price} zł",
+    "bookOnline": "Rezervovat online",
+    "checkAvailability": "Ověřit dostupnost"
+  },
+  "nav": {
+    "apartments": "Apartmány",
+    "reservations": "Rezervace",
+    "contact": "Kontakt",
+    "openMenu": "Otevřít menu",
+    "closeMenu": "Zavřít menu"
+  },
+  "language": {
+    "label": "Jazyk"
+  },
+  "hero": {
+    "titleLine1": "Vaše místo v Zakopaném",
+    "subtitle": "Goralská atmosféra, výhledy na Tatry a klidný odpočinek. Objevte pohodlné apartmány v blízkosti horských stezek a centra Zakopaného.",
+    "arrival": "Datum příjezdu",
+    "departure": "Datum odjezdu"
+  },
+  "dateModal": {
+    "label": "Výběr termínu",
+    "pickArrival": "Vyberte datum příjezdu.",
+    "pickDeparture": "Vyberte datum odjezdu."
+  },
+  "apartmentsSection": {
+    "title": "Naše apartmány v Zakopaném",
+    "intro": "Osobitě zařízené interiéry, ručně vyřezávaný nábytek a jedinečný goralský charakter. Vyberte si ideální apartmán pro svůj pobyt v Zakopaném.",
+    "facts": {
+      "capacity": "Až pro {count} osob",
+      "wifi": "Wi‑Fi zdarma",
+      "parking": "Parkování",
+      "trails": "Blízko turistických tras"
+    }
+  },
+  "card": {
+    "capacity": "až pro {count} osob",
+    "defaultHighlight": "Výhled na hory",
+    "view": "Zobrazit apartmán",
+    "previousPhoto": "Předchozí fotografie",
+    "nextPhoto": "Další fotografie",
+    "photoOf": "Fotografie {current} z {total}"
+  },
+  "facilities": {
+    "title": "Vše pro vaše pohodlí",
+    "intro": "Dbali jsme na každý detail, aby byl váš pobyt v Zakopaném co nejpohodlnější.",
+    "items": {
+      "parking": {
+        "title": "Parkování zdarma",
+        "text": "Soukromé, kamerově monitorované parkoviště v areálu objektu."
+      },
+      "wifi": {
+        "title": "Wi-Fi zdarma",
+        "text": "K dispozici všem hostům."
+      },
+      "kitchen": {
+        "title": "Kuchyňský kout",
+        "text": "Plně vybavený v každém apartmánu."
+      },
+      "checkin": {
+        "title": "Flexibilní příjezd",
+        "text": "Příjezd přizpůsobíme času vašeho příjezdu."
+      },
+      "lounge": {
+        "title": "Společenská místnost",
+        "text": "Prostor pro setkávání a odpočinek."
+      },
+      "playroom": {
+        "title": "Dětská herna",
+        "text": "Pro naše nejmenší hosty."
+      },
+      "ski": {
+        "title": "Lyžárna",
+        "text": "Se sušákem na lyžařské boty."
+      },
+      "trails": {
+        "title": "Blízko turistických tras",
+        "text": "Dolina Strążyska v pěší vzdálenosti"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Hodnocení našich hostů",
+    "intro": "Podívejte se, čeho si hosté na Apartmánech Dolina Strążyska nejvíce cení.",
+    "count": {
+      "one": "{count} hodnocení",
+      "few": "{count} hodnocení",
+      "many": "{count} hodnocení",
+      "other": "{count} hodnocení"
+    },
+    "texts": {
+      "1": "Skvělá poloha, nádherné pokoje. Výhled z okna je úžasný. Klidné okolí, ale všude se dá dojít pěšky.",
+      "2": "Krásné vybavení, nábytek v zakopanském stylu. Velmi dobrá poloha, blízko turistické trasy, centra i obchodu. Ticho a klid. Ranní káva na terase s výhledem na Giewont byla úžasná!",
+      "3": "Pro nás ideální místo. Pro někoho možná příliš daleko od centra, ale nám právě ten klid, rychlý přístup na turistické trasy a odstup od všeho ruchu naprosto vyhovovaly. Pokoje byly krásné, dokonale čisté a z postelí... ach, vůbec se nám nechtělo vstávat. Výhled na Giewont nás ale každý den motivoval.",
+      "4": "Toto místo bylo nádherné. Turistická trasa i centrum města byly nedaleko. Pokoje byly prostorné a měly všechno, co jsme potřebovali. Tradiční polský styl nám připomínal, že jsme v jiné zemi! Výhled z pokoje na hory byl překrásný. Rád se sem vrátím."
+    },
+    "scoreLabels": {
+      "Booking.com": "Výjimečné",
+      "Google Maps": "Vynikající"
+    }
+  },
+  "location": {
+    "title": "Blízko Tater, nedaleko centra",
+    "subtitle": "Klidná lokalita v blízkosti turistických tras a hlavních zajímavostí Zakopaného.",
+    "distancesLabel": "Orientační doba chůze",
+    "walking": "přibližně {minutes} min pěšky",
+    "places": {
+      "krupowki": "Krupówki",
+      "valley": "Vstup do Doliny Strążyské",
+      "museum": "Muzeum Karola Szymanowského"
+    },
+    "directions": "Zobrazit trasu",
+    "mapAlt": "Mapa polohy Apartmánů Dolina Strążyska v Zakopaném"
+  },
+  "footer": {
+    "links": "Odkazy",
+    "contact": "Kontakt",
+    "englishLabel": "Anglicky · WhatsApp:"
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "intro": "Máte otázky ohledně pobytu? Rádi vám pomůžeme a poradíme s výběrem apartmánu.",
+    "detailsTitle": "Kontaktujte nás",
+    "detailsIntro": "Rádi odpovíme na vaše otázky.",
+    "phone": "Telefon",
+    "englishChannel": "Kontakt v angličtině",
+    "email": "E-mail",
+    "follow": "Sledujte nás",
+    "whatsappPolish": "WhatsApp v polštině",
+    "locationTitle": "Naše poloha",
+    "openMapAria": "Zobrazit polohu apartmánů v Mapách Google",
+    "mapAlt": "Mapa okolí Apartmánů Dolina Strążyska v Zakopaném",
+    "openMap": "Otevřít v Mapách Google",
+    "locationText": "V klidné části Zakopaného, blízko tatranských turistických tras.",
+    "directions": "Naplánovat trasu",
+    "planTitle": "Naplánujte si pobyt",
+    "planText": "Vyberte si termín a najděte apartmán podle svých představ."
+  },
+  "reservation": {
+    "back": "Zpět na apartmány",
+    "title": "Rezervujte si pobyt",
+    "intro": "Vyberte si termín a apartmán. Těšíme se na vás v Zakopaném.",
+    "bookingLabel": "Rezervace apartmánu",
+    "help": "Potřebujete pomoc s rezervací?",
+    "writeToUs": "Napište nám"
+  },
+  "documents": {
+    "termsTitle": "Ubytovací řád",
+    "privacyTitle": "Zásady ochrany osobních údajů",
+    "close": "Zavřít dokument"
+  },
+  "details": {
+    "previousPhoto": "Předchozí fotografie",
+    "nextPhoto": "Další fotografie",
+    "openFullscreen": "Zobrazit na celou obrazovku",
+    "closeFullscreen": "Zavřít zobrazení na celou obrazovku",
+    "thumbnailAlt": "{title} - náhled {number}",
+    "factsLabel": "Parametry apartmánu",
+    "capacity": "až pro {count} osob",
+    "mountainView": "výhled na hory",
+    "amenitiesLabel": "Vybavení apartmánu",
+    "amenities": {
+      "bathroom": "Vlastní koupelna",
+      "kitchen": "Plně vybavený kuchyňský kout",
+      "parking": "Parkování zdarma přímo u objektu",
+      "balcony": "Balkon",
+      "rooms": {
+        "one": "{count} pokoj",
+        "few": "{count} pokoje",
+        "many": "{count} pokojů",
+        "other": "{count} pokojů"
+      }
+    },
+    "priceFrom": "Cena od",
+    "perNight": "/noc",
+    "directBooking": "Při přímé rezervaci zaplatíte méně.",
+    "bookOnline": "Rezervovat online",
+    "about": "O apartmánu",
+    "expand": "Rozbalit popis",
+    "collapse": "Sbalit popis",
+    "sleeping": "Kde můžete spát?",
+    "whatYouFind": "Co zde najdete?",
+    "photoNavigation": "Navigace mezi fotografiemi"
+  },
+  "rooms": {
+    "names": {
+      "livingRoom": "Obývací pokoj",
+      "bedroom": "Ložnice",
+      "studio": "Studio"
+    },
+    "beds": {
+      "sofa": "Rozkládací pohovka",
+      "couch": "Rozkládací gauč",
+      "single": "Jednolůžko",
+      "double": "Manželská postel",
+      "largeDouble": "Velká manželská postel"
+    },
+    "guests": {
+      "one": "{count} osoba",
+      "few": "{count} osoby",
+      "many": "{count} osob",
+      "other": "{count} osoby"
+    }
+  },
+  "equipment": {
+    "living": "Obývací pokoj",
+    "kitchen": "Kuchyňský kout",
+    "bathroom": "Koupelna",
+    "misc": "Ostatní"
+  },
+  "accessories": {
+    "1": "Televize",
+    "2": "Wi-Fi",
+    "3": "Ručníky",
+    "4": "Fén",
+    "5": "Rychlovarná konvice",
+    "6": "Sada na přípravu kávy a čaje",
+    "7": "Indukční varná deska",
+    "8": "Lednice",
+    "9": "Parkování zdarma",
+    "10": "Výhled na hory",
+    "11": "Kamerový dohled v areálu"
+  },
+  "errorPage": {
+    "title": "Stránka nenalezena",
+    "text": "Stránka, kterou hledáte, neexistuje nebo byla přesunuta.",
+    "home": "Zpět na úvodní stránku"
+  },
+  "apartments": {
+    "1": {
+      "title": "Oranžový apartmán",
+      "size": "45 m²",
+      "description": "Oranžový apartmán vyniká teplými barvami, dostatkem přirozeného světla a útulnou atmosférou. Kombinace oranžových a bordó prvků se světlým dřevem a tradičními zakopanskými detaily dodává interiéru jedinečný charakter.\n\nZvláštní pozornost přitahuje ručně vyřezávaný dřevěný nábytek, který podtrhuje regionální styl apartmánu. Pečlivě vybrané doplňky, vzorované textilie a teplé odstíny vytvářejí prostor, kde můžete zažít pravou atmosféru Podhalí, aniž byste se vzdali každodenního pohodlí.\n\nVelká okna propouštějí dostatek denního světla a útulná odpočinková část vybízí ke společným chvílím. Je to místo pro klidné ráno u kávy i odpočinek po dni plném horských túr.\n\nOranžový apartmán je skvělou volbou pro ty, kdo oceňují domácí atmosféru, originální interiéry a odpočinek obklopený tatranskou přírodou.",
+      "floor": "Přízemí",
+      "highlight": "Světlý interiér",
+      "equipment": {
+        "living": [
+          "Rozkládací pohovka",
+          "Křesla",
+          "Konferenční stolek",
+          "Jídelní stůl",
+          "Televize"
+        ],
+        "kitchen": [
+          "Lednice",
+          "Indukční varná deska",
+          "Rychlovarná konvice",
+          "Nádobí",
+          "Kuchyňské náčiní"
+        ],
+        "bathroom": [
+          "Vlastní koupelna se sprchou",
+          "Ručníky",
+          "Fén"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ručně vyrobený dřevěný nábytek",
+          "Balkon",
+          "Výhled na hory",
+          "Bezplatné monitorované parkoviště"
+        ]
+      }
+    },
+    "2": {
+      "title": "Tyrkysový apartmán",
+      "size": "36 m²",
+      "description": "Tyrkysový apartmán vyniká elegantním spojením světlého dřeva, přírodních materiálů a výrazných tyrkysových akcentů. Jeho útulný interiér propojuje tradiční zakopanský styl s moderním pohodlím a vytváří ideální místo pro klidný odpočinek v blízkosti Tater.\n\nJedinečný charakter mu dodává ručně vyřezávaný dřevěný nábytek, ozdobné stropní trámy a pečlivě vybrané dekorace inspirované kulturou Podhalí. Tyrkysová křesla a pohovka přinášejí do interiéru svěžest, zatímco teplé odstíny dřeva vytvářejí mimořádně útulnou atmosféru.\n\nDíky jižní orientaci propouštějí velká okna spoustu přirozeného světla. Další předností apartmánu je balkon, kde můžete začít den ranní kávou s výhledem na horskou krajinu nebo odpočívat po dni stráveném na tatranských stezkách.\n\nPromyšlené uspořádání interiéru nabízí pohodlí při společně stráveném čase i chvílích odpočinku. Útulné posezení a jídelní kout vybízejí ke klidným večerům a společnému stolování v jedinečné atmosféře.\n\nTyrkysový apartmán je výbornou volbou pro páry a rodiny, které hledají spojení goralské atmosféry, pohodlí a blízkosti tatranské přírody.",
+      "floor": "Přízemí",
+      "highlight": "Balkon s výhledem",
+      "equipment": {
+        "living": [
+          "Rozkládací pohovka",
+          "Křesla",
+          "Konferenční stolek",
+          "Jídelní stůl",
+          "Televize"
+        ],
+        "kitchen": [
+          "Lednice",
+          "Indukční varná deska",
+          "Rychlovarná konvice",
+          "Nádobí",
+          "Kuchyňské náčiní"
+        ],
+        "bathroom": [
+          "Vlastní koupelna se sprchou",
+          "Ručníky",
+          "Fén"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ručně vyrobený dřevěný nábytek",
+          "Balkon",
+          "Výhled na hory",
+          "Bezplatné monitorované parkoviště"
+        ]
+      }
+    },
+    "3": {
+      "title": "Okrový apartmán",
+      "size": "43 m²",
+      "description": "Okrový apartmán okouzlí teplými barvami, přírodním dřevem a útulnou atmosférou inspirovanou tradičním zakopanským stylem. Světlé stěny, dřevěné prvky a charakteristické okrové odstíny vytvářejí harmonický prostor, kde můžete pocítit pravou atmosféru Podhalí.\n\nOsobité kouzlo mu dodává ručně vyrobený dřevěný nábytek, ozdobné detaily a pečlivě vybrané doplňky. Útulná odpočinková část s pohovkami v teplých barvách vybízí ke společným chvílím a velká okna naplňují interiér přirozeným světlem.\n\nJednou z největších předností apartmánu je balkon s výhledem do malebného okolí. Je to ideální místo pro ranní kávu, chvíli oddechu na čerstvém vzduchu nebo odpočinek po dni plném tatranských túr.\n\nOkrový apartmán se skvěle hodí pro pobyt s rodinou nebo skupinou přátel. Jeho prostor přeje společnému stolování, rozhovorům a klidným večerům a vytváří ideální podmínky pro odpočinek v jedinečné atmosféře Zakopaného.",
+      "floor": "Přízemí",
+      "highlight": "Přistýlka",
+      "equipment": {
+        "living": [
+          "Dvě rozkládací pohovky",
+          "Křesla",
+          "Konferenční stolek",
+          "Jídelní stůl",
+          "Televize"
+        ],
+        "kitchen": [
+          "Lednice",
+          "Indukční varná deska",
+          "Rychlovarná konvice",
+          "Nádobí",
+          "Kuchyňské náčiní"
+        ],
+        "bathroom": [
+          "Vlastní koupelna se sprchou",
+          "Ručníky",
+          "Fén"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ručně vyrobený dřevěný nábytek",
+          "Balkon",
+          "Výhled na hory",
+          "Bezplatné monitorované parkoviště"
+        ]
+      }
+    },
+    "4": {
+      "title": "Světle modrý apartmán",
+      "size": "43 m²",
+      "description": "Světle modrý apartmán se nachází v prvním patře a vyniká příjemným dřevěným interiérem se světle modrými akcenty. Ručně vyřezávaný nábytek v regionálním stylu mu dodává jedinečný horský charakter.\n\nV obývací části najdete pohodlnou rozkládací pohovku, na které se vyspí dvě osoby, a televizi pro večerní odpočinek. Kuchyňský kout je vybavený lednicí, indukční varnou deskou a rychlovarnou konvicí.\n\nSamostatná ložnice s manželskou a jednolůžkovou postelí zajišťuje klidný odpočinek po celodenních túrách. Ve vlastní koupelně jsou k dispozici ručníky a fén a z balkonu se otevírá výhled na hory.\n\nSvětle modrý apartmán je dobrou volbou pro rodiny a skupiny přátel, kteří si chtějí odpočinout v Zakopaném v útulné goralské atmosféře. Hostům je k dispozici bezplatné Wi-Fi a monitorované parkoviště.",
+      "equipment": {
+        "living": [
+          "Rozkládací pohovka",
+          "Křesla",
+          "Konferenční stolek",
+          "Jídelní stůl",
+          "Televize"
+        ],
+        "kitchen": [
+          "Lednice",
+          "Indukční varná deska",
+          "Rychlovarná konvice",
+          "Nádobí",
+          "Kuchyňské náčiní"
+        ],
+        "bathroom": [
+          "Vlastní koupelna se sprchou",
+          "Ručníky",
+          "Fén"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ručně vyrobený dřevěný nábytek",
+          "Balkon",
+          "Výhled na hory",
+          "Bezplatné monitorované parkoviště"
+        ]
+      }
+    },
+    "5": {
+      "title": "Šedý apartmán",
+      "size": "přibližně 16 m²",
+      "description": "Šedý apartmán je komorní, útulný prostor vytvořený pro odpočinek ve dvou. Tlumené barvy, jemné odstíny šedé a klidná atmosféra vytvářejí ideální podmínky pro romantický víkend nebo delší pobyt v Zakopaném.\n\nElegantní, harmonický interiér vybízí k relaxaci a umožňuje uniknout každodennímu shonu. Je to místo, kde si můžete užívat klidná rána u společné kávy, odpočívat po horských túrách a trávit večery jen ve dvou.\n\nBlízkost tatranských turistických tras i centra Zakopaného umožňuje skvěle spojit aktivní odpočinek s chvílemi klidu a soukromí.\n\nŠedý apartmán je ideální volbou pro páry, které hledají útulné místo pro společný pobyt v jedinečné atmosféře Podhalí.",
+      "highlight": "Studio",
+      "equipment": {
+        "living": [
+          "Křesla",
+          "Konferenční stolek",
+          "Jídelní stůl",
+          "Televize"
+        ],
+        "kitchen": [
+          "Lednice",
+          "Indukční varná deska",
+          "Rychlovarná konvice",
+          "Nádobí",
+          "Kuchyňské náčiní"
+        ],
+        "bathroom": [
+          "Vlastní koupelna se sprchou",
+          "Ručníky",
+          "Fén"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ručně vyrobený dřevěný nábytek",
+          "Výhled na hory",
+          "Bezplatné monitorované parkoviště"
+        ]
+      }
+    },
+    "6": {
+      "title": "Modrý apartmán",
+      "size": "26 m²",
+      "description": "Modrý apartmán spojuje útulnost zakopanských interiérů se svěžestí a klidem modrých odstínů. Jeho charakter je inspirovaný atmosférou horského odpočinku, při kterém můžete zapomenout na každodenní povinnosti a naplno si užít chvíle strávené v Tatrách.\n\nJemné modré tóny vnášejí do interiéru harmonii, zatímco přírodní materiály a regionální prvky mu dodávají hřejivý, domácký charakter. Celý prostor vybízí k odpočinku, poklidným ránům a příjemným večerům.\n\nApartmán je vhodný pro aktivní dovolenou i chvíle relaxace. Po dni stráveném objevováním horských stezek a krás Zakopaného se můžete vrátit do útulného interiéru, odpočinout si a naplánovat další zážitky.\n\nModrý apartmán je určený pro ty, kdo mají rádi světlé, klidné interiéry a hledají místo spojující horskou atmosféru s každodenním pohodlím.",
+      "highlight": "Postel a pohovka",
+      "equipment": {
+        "living": [
+          "Rozkládací pohovka",
+          "Křesla",
+          "Konferenční stolek",
+          "Jídelní stůl",
+          "Televize"
+        ],
+        "kitchen": [
+          "Lednice",
+          "Indukční varná deska",
+          "Rychlovarná konvice",
+          "Nádobí",
+          "Kuchyňské náčiní"
+        ],
+        "bathroom": [
+          "Vlastní koupelna se sprchou",
+          "Ručníky",
+          "Fén"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Ručně vyrobený dřevěný nábytek",
+          "Výhled na hory",
+          "Bezplatné monitorované parkoviště"
+        ]
+      }
+    }
+  },
+  "photoAlts": {
+    "1": [
+      "obývací pokoj s červeným křeslem a oranžovou pohovkou",
+      "ložnice s vyřezávanou dřevěnou postelí",
+      "manželská postel s ručníky",
+      "obývací část s kuchyňským koutem a televizí",
+      "jídelní stůl s vyřezávanými židlemi u velkého okna",
+      "koupelna se sprchou a umyvadlem",
+      "čelo postele s goralskou výšivkou"
+    ],
+    "2": [
+      "obývací pokoj se zelenou pohovkou a jídelním stolem",
+      "dřevěná komoda a postel s ručníky",
+      "manželská postel s vyšívaným čelem",
+      "obývací pokoj se zelenými křesly, televizí a výhledem do ložnice",
+      "koupelna s umyvadlem",
+      "koupelna se žebříkovým radiátorem",
+      "toaleta v koupelně"
+    ],
+    "3": [
+      "kuchyňský kout a pohovka v obývací části",
+      "jídelní stůl u balkonového okna",
+      "obývací pokoj s pohovkou, křeslem a televizí",
+      "ložnice s manželskou a jednolůžkovou postelí",
+      "postele s čistými ručníky",
+      "balkon s výhledem na hory",
+      "koupelna se sprchovým koutem"
+    ],
+    "4": [
+      "kuchyňský kout a modrá pohovka",
+      "podkrovní obývací pokoj s pohovkou, křeslem a konferenčním stolkem",
+      "manželská postel a komoda",
+      "jídelní stůl pod šikmou střechou",
+      "odpočinková část u balkonového okna",
+      "koupelna s umyvadlem a sprchou",
+      "koupelna s toaletou a radiátorem"
+    ],
+    "5": [
+      "podkroví s televizí, křeslem a oknem s výhledem do zeleně",
+      "kuchyňský kout a střešní okno s výhledem na Tatry",
+      "manželská postel pod oknem",
+      "postel s ozdobnými polštáři a velkým oknem",
+      "koupelna s umyvadlem a sprchou"
+    ],
+    "6": [
+      "obývací pokoj s modrými křesly a televizí u velkého okna",
+      "podkroví s modrými křesly a televizí",
+      "fialová pohovka u okna v obývací části",
+      "dvě postele s ručníky pod oknem",
+      "kuchyňský kout pod šikmou střechou",
+      "sprcha v koupelně"
+    ]
+  },
+  "nearbyTrails": {
+    "navLabel": "Stezky v okolí",
+    "heroLine1": "Do hor.",
+    "heroLine2": "Po svém.",
+    "intro": "Klidná procházka údolím, nebo túra za krásnými výhledy? Objevte turistické trasy v okolí našich apartmánů a vyberte si svůj směr.",
+    "explore": "Objevte okolní stezky",
+    "mapCaption": "Tatry jsou blíž, než si myslíte",
+    "enlargeMap": "Zvětšit mapu",
+    "mapAlt": "Mapa stezek v blízkosti apartmánů Dolina Strążyska v Zakopaném.",
+    "locationIntro": "Tady začíná váš odpočinek",
+    "heading": "Vyberte si svůj směr",
+    "featured": "Na začátek",
+    "mapLink": "Zobrazit na mapě",
+    "newTab": "nová karta",
+    "stayHeading": "Váš apartmán blízko turistických tras",
+    "stayText": "Vyberte si apartmán podle svých představ a odpočiňte si po dni stráveném na tatranských stezkách.",
+    "viewApartments": "Zobrazit apartmány",
+    "labels": {
+      "difficulty": "Obtížnost",
+      "time": "Čas",
+      "destination": "Cíl"
+    },
+    "items": [
+      {
+        "name": "Dolina Strążyska",
+        "difficulty": "Lehká",
+        "duration": "přibližně 40 min",
+        "via": "Na Polanu Strążyskou",
+        "description": "Klidná lesní stezka podél horského potoka vede na malebnou Polanu Strążyskou s působivým výhledem na Giewont. Ideální volba pro pohodovou procházku a první seznámení s Tatrami."
+      },
+      {
+        "name": "Vodopád Siklawica",
+        "difficulty": "Lehká až středně náročná",
+        "duration": "přibližně 55-60 min",
+        "via": "K vodopádu přes Dolinu Strążyskou",
+        "description": "Malebný vodopád ukrytý na úpatí Giewontu. Trasa vede Dolinou Strążyskou a přes Polanu Strążyskou, odkud pokračuje kamenitou stezkou mezi skalami."
+      },
+      {
+        "name": "Sarnia Skała",
+        "difficulty": "Středně náročná",
+        "duration": "přibližně 1 hod. 40 min",
+        "via": "Na vrchol přes Czerwonou Przełęcz",
+        "description": "Jedno z nejkrásnějších vyhlídkových míst v okolí s panoramatem Zakopaného a majestátní stěnou Giewontu. Trasa zahrnuje strmější stoupání a skalnatý závěrečný úsek."
+      },
+      {
+        "name": "Dolina ku Dziurze a jeskyně Dziura",
+        "difficulty": "Lehká",
+        "duration": "přibližně 20-25 min",
+        "via": "Ke vchodu do jeskyně Dziura",
+        "description": "Krátká a klidná lesní stezka vede tichým údolím k přírodní jeskyni ukryté mezi skalami. Skvělý tip na nenáročný výlet s trochou dobrodružství."
+      },
+      {
+        "name": "Dolina Białego",
+        "difficulty": "Lehká až středně náročná",
+        "duration": "přibližně 30 min",
+        "via": "K vodopádu v Dolině Białego",
+        "description": "Malebné údolí se skalními stěnami, dřevěnými můstky a horským potokem tvořícím malé kaskády. Můžete se vydat na krátkou procházku k vodopádu nebo pokračovat směrem na Sarniu Skału."
+      },
+      {
+        "name": "Dolina Za Bramką",
+        "difficulty": "Lehká",
+        "duration": "přibližně 25 min",
+        "via": "Na konec zpřístupněné stezky",
+        "description": "Tiché údolí mezi vápencovými skalami s lesní stezkou podél potoka. Ideální pro krátkou, pohodovou procházku mimo nejrušnější turistické trasy."
+      },
+      {
+        "name": "Droga pod Reglami",
+        "difficulty": "Lehká",
+        "duration": "přibližně 30 min",
+        "via": "Od Doliny Strążyské k Dolině Za Bramką",
+        "description": "Malebná trasa na úpatí Tater vede podél lesů a luk. Spojuje vstupy do několika krásných údolí, takže si můžete sami zvolit délku i směr procházky."
+      },
+      {
+        "name": "Dolina Małej Łąki",
+        "difficulty": "Lehká až středně náročná",
+        "duration": "přibližně 50-60 min",
+        "via": "Na Wielkou Polanu Małołąckou z Groniku",
+        "description": "Klidná túra lesem vede na rozlehlou horskou louku obklopenou působivými tatranskými vrcholy. Skvělá volba pro delší procházku s nádhernými horskými výhledy."
+      }
+    ],
+    "timeNote": "Uvedené časy jsou orientační a platí pro jednosměrnou trasu od označeného začátku stezky, bez cesty od apartmánů a přestávek. Obtížnost tras je hodnocena za dobrých povětrnostních podmínek. Před výletem si ověřte aktuální podmínky v polském Tatranském národním parku.",
+    "conditionsNote": "Před výletem si ověřte aktuální podmínky na turistických trasách.",
+    "parkInfo": "Informace TPN",
+    "informationHeading": "Informace o turistických trasách",
+    "metaTitle": "Turistické trasy u údolí Strążyska | Zakopané a Tatry",
+    "metaDescription": "Objevte turistické trasy v okolí údolí Strążyska v Zakopaném. Vodopád Siklawica, Sarnia Skała, Dolina Białego a další malebné stezky. Naplánujte si výlet!"
+  }
+}

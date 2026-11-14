@@ -3,23 +3,49 @@ import { reviewTexts, scoreLabels } from './reviews';
 import terms from './terms';
 import privacy from './privacy';
 import photoAlts from './photoAlts';
+import nearbyTrails from './nearbyTrails.json';
 
 // Polish is the default language and the master shape: every other language must define the same keys
 const pl = {
   meta: {
-    title: 'Apartamenty w Zakopanem – Dolina Strążyska | Widok na Giewont',
-    description: 'Apartamenty w Zakopanem z widokiem na Giewont, Gubałówkę i Kasprowy Wierch. Góralskie wnętrza, bezpłatny parking, rezerwacja bezpośrednio u właściciela.',
+    title: "Apartamenty Dolina Strążyska | Noclegi blisko szlaków w Zakopanem",
+    description: "Komfortowe apartamenty w Zakopanem blisko Doliny Strążyskiej. Idealne dla par i rodzin. Bezpłatny parking, Wi-Fi i bliskość górskich szlaków. Sprawdź dostępność!",
     ogTitle: 'Apartamenty Dolina Strążyska - Zakopane',
-    apartmentTitle: '{title} – apartament w Zakopanem | Dolina Strążyska',
-    contactTitle: 'Kontakt – Apartamenty Dolina Strążyska, Zakopane',
-    contactDescription: 'Zadzwoń lub napisz: +48 607 601 471, biurodolinastrazyska@gmail.com. Apartamenty Dolina Strążyska, Strążyska 4A, 34-500 Zakopane.',
-    reservationTitle: 'Rezerwacja apartamentu w Zakopanem – Dolina Strążyska',
-    reservationDescription: 'Sprawdź dostępność i zarezerwuj apartament w Zakopanem online. Rezerwacja bezpośrednio u właściciela, widok na Tatry i Giewont.',
-    notFoundTitle: 'Nie znaleziono strony – Apartamenty Dolina Strążyska',
+    contactTitle: "Kontakt i dojazd | Apartamenty Dolina Strążyska - Zakopane",
+    contactDescription: "Skontaktuj się z Apartamentami Dolina Strążyska w Zakopanem. Sprawdź adres, numer telefonu i wskazówki dojazdu. Znajdziesz nas przy ul. Strążyskiej 4A.",
+    reservationTitle: "Rezerwacja apartamentów w Zakopanem | Dolina Strążyska",
+    reservationDescription: "Zarezerwuj apartament w Zakopanem blisko Doliny Strążyskiej. Widoki na Tatry, bezpłatny parking i Wi-Fi. Wybierz termin i sprawdź dostępność!",
+    apartments: {
+      "1": {
+        "title": "Apartament 5 osób, 45 m², balkon i widok na Tatry | Dolina Strążyska",
+        "description": "Komfortowy apartament dla 5 osób w Zakopanem, blisko Doliny Strążyskiej. 45 m², balkon z widokiem na Tatry, wyposażona kuchnia i bezpłatny parking. Sprawdź dostępność!"
+      },
+      "2": {
+        "title": "Apartament dla 4 osób z balkonem i widokiem na Tatry | Dolina Strążyska",
+        "description": "Apartament dla 4 osób w Zakopanem, blisko Doliny Strążyskiej. Balkon z widokiem na Tatry, wyposażona kuchnia, bezpłatny parking i Wi-Fi. Zarezerwuj pobyt!"
+      },
+      "3": {
+        "title": "Rodzinny apartament 5 osób, balkon i widok na Tatry | Dolina Strążyska",
+        "description": "Rodzinny apartament dla 5 osób w Zakopanem. 43 m², balkon z widokiem na Tatry, wyposażona kuchnia i bezpłatny parking. Blisko Doliny Strążyskiej i górskich szlaków."
+      },
+      "4": {
+        "title": "Apartament 5 osób z balkonem i widokiem na Tatry | Dolina Strążyska - Błękitny",
+        "description": "Przestronny apartament dla 5 osób w Zakopanem. 43 m², balkon z widokiem na Tatry, wyposażona kuchnia i Wi-Fi. Blisko Doliny Strążyskiej. Sprawdź dostępność!"
+      },
+      "5": {
+        "title": "Studio dla 2 osób z widokiem na Tatry | Dolina Strążyska",
+        "description": "Przytulne studio dla 2 osób w Zakopanem, idealne dla par. Widok na Tatry, wyposażony aneks kuchenny i bezpłatny parking. Blisko Doliny Strążyskiej i szlaków."
+      },
+      "6": {
+        "title": "Apartament dla 4 osób z widokiem na Tatry | Dolina Strążyska",
+        "description": "Komfortowy apartament dla 4 osób w Zakopanem. Widok na Tatry, wyposażona kuchnia, Wi-Fi i bezpłatny parking. Blisko Doliny Strążyskiej. Zarezerwuj pobyt!"
+      }
+    } as Record<number, { title: string; description: string }>,
+    notFoundTitle: 'Nie znaleziono strony - Apartamenty Dolina Strążyska',
   },
   brand: {
     name: 'Apartamenty Dolina Strążyska',
-    home: 'Apartamenty Dolina Strążyska — strona główna',
+    home: 'Apartamenty Dolina Strążyska - strona główna',
   },
   common: {
     backToTop: 'Wróć na górę',
@@ -39,7 +65,7 @@ const pl = {
   },
   hero: {
     titleLine1: 'Twoje miejsce w Zakopanem',
-    subtitle: 'Góralski klimat, widoki na Tatry i spokojny wypoczynek w jednej z najpiękniejszych części Zakopanego.',
+    subtitle: 'Góralski klimat, widoki na Tatry i spokojny wypoczynek. Odkryj komfortowe apartamenty blisko górskich szlaków i centrum Zakopanego.',
     arrival: 'Data przyjazdu',
     departure: 'Data wyjazdu',
   },
@@ -140,11 +166,12 @@ const pl = {
     privacy,
   },
   details: {
+    photoNavigation: "Nawigacja po zdjęciach",
     previousPhoto: 'Poprzednie zdjęcie',
     nextPhoto: 'Następne zdjęcie',
     openFullscreen: 'Otwórz pełny ekran',
     closeFullscreen: 'Zamknij pełny ekran',
-    thumbnailAlt: '{title} — miniatura {number}',
+    thumbnailAlt: '{title} - miniatura {number}',
     factsLabel: 'Parametry apartamentu',
     capacity: 'do {count} osób',
     mountainView: 'widok na góry',
@@ -207,6 +234,7 @@ const pl = {
   },
   apartments,
   photoAlts,
+  nearbyTrails,
 };
 
 export default pl;

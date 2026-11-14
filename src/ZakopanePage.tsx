@@ -25,7 +25,10 @@ function App() {
           title={t('meta.title')}
           description={t('meta.description')}
           path='/'
-          jsonLd={lodgingJsonLd(t('brand.name'), t('meta.description'), `${SITE_URL}${lang === 'pl' ? '' : `/${lang}`}/`, intl)}
+          jsonLd={lodgingJsonLd(t('brand.name'), t('meta.description'), `${SITE_URL}${lang === 'pl' ? '' : `/${lang}`}/`, intl, {
+            parking: t('facilities.items.parking.title'),
+            wifi: t('facilities.items.wifi.title'),
+          })}
         />
         <Header />
         <Apartments />

@@ -30,7 +30,7 @@ const Header = () => {
   }
 
   return (
-    <header className='header-container'>
+    <header className='header-container navbar-theme-home'>
         <Navbar />
         <div className='header-container_content'>
           <h1>{t('hero.titleLine1')}</h1>

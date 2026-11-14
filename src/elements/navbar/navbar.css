@@ -62,7 +62,7 @@
 }
 
 .navbar-links_menu{
-    margin-left: 1rem;
+    margin-inline-start: 1rem;
     display: none;
     position: relative;
     z-index: 1000;
@@ -109,7 +109,9 @@
     padding:1rem;
     position: absolute;
     top: 38px;
-    right: 0;
+    inset-inline-end: 0;
+    max-height: calc(100dvh - 12rem);
+    overflow-y: auto;
     min-width: 150px;
     border-radius: 5px;
     box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
@@ -117,7 +119,7 @@
 
 .navbar-navbar_links li{
     list-style: none;
-    margin-left:3rem;
+    margin-inline-start: clamp(1rem, 2.5vw, 3rem);
     position: relative;
     font-weight: 700;
 }
@@ -134,7 +136,7 @@
   transition: min-width 0.3s ease, width 0.3s ease;
   width: 35%;
   height: auto;
-  margin-right: 1rem;
+  margin-inline-end: 1rem;
   min-width: 200px;
 }
 
@@ -168,7 +170,7 @@
     }
   }
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1100px){
     .navbar-links_container{
         display: none;
     }
@@ -198,4 +200,17 @@
 
 .navbar-navbar_links .language-switcher {
     color: var(--color-light);
+}
+
+/* Shared navigation styling for the homepage, trails and contact pages. */
+.navbar-theme-home .navbar-container:not(.is-scrolled) .navbar-logo img {
+    width: 180px;
+    min-width: 0;
+}
+
+.navbar-theme-home .navbar-links {
+    font-family: 'Inter', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
 }

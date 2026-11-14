@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "title": "Apartamenty Dolina Strążyska | Apgyvendinimas netoli kalnų takų Zakopanėje",
+    "description": "Patogūs apartamentai Zakopanėje, netoli Strążyska slėnio. Puikiai tinka poroms ir šeimoms. Nemokama automobilių stovėjimo aikštelė, Wi-Fi ir kalnų takai netoliese. Patikrinkite laisvas datas!",
+    "ogTitle": "Apartamenty Dolina Strążyska - Zakopanė",
+    "contactTitle": "Kontaktai ir atvykimas | Apartamenty Dolina Strążyska - Zakopanė",
+    "contactDescription": "Susisiekite su Apartamenty Dolina Strążyska Zakopanėje. Raskite adresą, telefono numerį ir atvykimo nuorodas. Mus rasite adresu Strążyska g. 4A.",
+    "reservationTitle": "Apartamentų rezervacija Zakopanėje | Dolina Strążyska",
+    "reservationDescription": "Rezervuokite apartamentus Zakopanėje, netoli Strążyska slėnio. Vaizdas į Tatrus, nemokama automobilių stovėjimo aikštelė ir Wi-Fi. Pasirinkite datas ir patikrinkite užimtumą!",
+    "notFoundTitle": "Puslapis nerastas - Apartamenty Dolina Strążyska",
+    "apartments": {
+      "1": {
+        "title": "Apartamentai 5 asmenims, 45 m², balkonas ir vaizdas į Tatrus | Dolina Strążyska",
+        "description": "Patogūs apartamentai 5 asmenims Zakopanėje, netoli Strążyska slėnio. 45 m², balkonas su vaizdu į Tatrus, įrengta virtuvė ir nemokama automobilių stovėjimo aikštelė. Patikrinkite laisvas datas!"
+      },
+      "2": {
+        "title": "Apartamentai 4 asmenims su balkonu ir vaizdu į Tatrus | Dolina Strążyska",
+        "description": "Apartamentai 4 asmenims Zakopanėje, netoli Strążyska slėnio. Balkonas su vaizdu į Tatrus, įrengta virtuvė, nemokama automobilių stovėjimo aikštelė ir Wi-Fi. Rezervuokite viešnagę!"
+      },
+      "3": {
+        "title": "Šeimos apartamentai 5 asmenims su balkonu ir vaizdu į Tatrus | Dolina Strążyska",
+        "description": "Šeimos apartamentai 5 asmenims Zakopanėje. 43 m², balkonas su vaizdu į Tatrus, įrengta virtuvė ir nemokama automobilių stovėjimo aikštelė. Netoli Strążyska slėnio ir kalnų takų."
+      },
+      "4": {
+        "title": "Apartamentai 5 asmenims su balkonu ir vaizdu į Tatrus | Dolina Strążyska - Žydri apartamentai",
+        "description": "Erdvūs apartamentai 5 asmenims Zakopanėje. 43 m², balkonas su vaizdu į Tatrus, įrengta virtuvė ir Wi-Fi. Netoli Strążyska slėnio. Patikrinkite laisvas datas!"
+      },
+      "5": {
+        "title": "Studija 2 asmenims su vaizdu į Tatrus | Dolina Strążyska",
+        "description": "Jauki studija 2 asmenims Zakopanėje, idealiai tinkanti poroms. Vaizdas į Tatrus, įrengta virtuvėlė ir nemokama automobilių stovėjimo aikštelė. Netoli Strążyska slėnio ir kalnų takų."
+      },
+      "6": {
+        "title": "Apartamentai 4 asmenims su vaizdu į Tatrus | Dolina Strążyska",
+        "description": "Patogūs apartamentai 4 asmenims Zakopanėje. Vaizdas į Tatrus, įrengta virtuvė, Wi-Fi ir nemokama automobilių stovėjimo aikštelė. Netoli Strążyska slėnio. Rezervuokite viešnagę!"
+      }
+    }
+  },
+  "brand": {
+    "name": "Apartamenty Dolina Strążyska",
+    "home": "Apartamenty Dolina Strążyska - pradinis puslapis"
+  },
+  "common": {
+    "backToTop": "Grįžti į viršų",
+    "price": "{price} zł",
+    "bookOnline": "Rezervuoti internetu",
+    "checkAvailability": "Patikrinti užimtumą"
+  },
+  "nav": {
+    "apartments": "Apartamentai",
+    "reservations": "Rezervacijos",
+    "contact": "Kontaktai",
+    "openMenu": "Atidaryti meniu",
+    "closeMenu": "Uždaryti meniu"
+  },
+  "language": {
+    "label": "Kalba"
+  },
+  "hero": {
+    "titleLine1": "Jūsų vieta Zakopanėje",
+    "subtitle": "Goralių atmosfera, Tatrų kalnų vaizdai ir ramus poilsis. Atraskite patogius apartamentus netoli kalnų takų ir Zakopanės centro.",
+    "arrival": "Atvykimo data",
+    "departure": "Išvykimo data"
+  },
+  "dateModal": {
+    "label": "Pasirinkite datas",
+    "pickArrival": "Pasirinkite atvykimo datą.",
+    "pickDeparture": "Pasirinkite išvykimo datą."
+  },
+  "apartmentsSection": {
+    "title": "Mūsų apartamentai Zakopanėje",
+    "intro": "Individualiai įrengti interjerai, rankomis drožinėti baldai ir savitas kalniečių stilius. Išsirinkite tinkamiausius apartamentus savo viešnagei Zakopanėje.",
+    "facts": {
+      "capacity": "Iki {count} svečių",
+      "wifi": "Nemokamas belaidis internetas",
+      "parking": "Automobilių stovėjimo aikštelė",
+      "trails": "Netoli pėsčiųjų takų"
+    }
+  },
+  "card": {
+    "capacity": "iki {count} svečių",
+    "defaultHighlight": "Vaizdas į kalnus",
+    "view": "Peržiūrėti apartamentus",
+    "previousPhoto": "Ankstesnė nuotrauka",
+    "nextPhoto": "Kita nuotrauka",
+    "photoOf": "Nuotrauka {current} iš {total}"
+  },
+  "facilities": {
+    "title": "Viskas jūsų patogumui",
+    "intro": "Pasirūpinome kiekviena smulkmena, kad jūsų viešnagė Zakopanėje būtų kuo patogesnė.",
+    "items": {
+      "parking": {
+        "title": "Nemokama automobilių stovėjimo aikštelė",
+        "text": "Privati, vaizdo kameromis stebima aikštelė teritorijoje."
+      },
+      "wifi": {
+        "title": "Nemokamas Wi-Fi",
+        "text": "Prieinamas visiems svečiams."
+      },
+      "kitchen": {
+        "title": "Virtuvėlė",
+        "text": "Pilnai įrengta kiekvienuose apartamentuose."
+      },
+      "checkin": {
+        "title": "Lankstus įsiregistravimas",
+        "text": "Įsiregistravimo laiką priderinsime prie jūsų atvykimo."
+      },
+      "lounge": {
+        "title": "Bendras poilsio kambarys",
+        "text": "Erdvė susitikimams ir poilsiui."
+      },
+      "playroom": {
+        "title": "Žaidimų kambarys",
+        "text": "Mažiesiems mūsų svečiams."
+      },
+      "ski": {
+        "title": "Slidžių saugykla",
+        "text": "Su slidinėjimo batų džiovykle."
+      },
+      "trails": {
+        "title": "Netoli pėsčiųjų takų",
+        "text": "Strążyska slėnis pasiekiamas pėsčiomis"
+      }
+    }
+  },
+  "reviews": {
+    "title": "Mūsų svečių atsiliepimai",
+    "intro": "Sužinokite, ką svečiai labiausiai vertina „Apartamenty Dolina Strążyska“.",
+    "count": {
+      "one": "{count} atsiliepimas",
+      "few": "{count} atsiliepimai",
+      "many": "{count} atsiliepimų",
+      "other": "{count} atsiliepimų"
+    },
+    "texts": {
+      "1": "Puiki vieta, nuostabūs kambariai. Vaizdas pro langą tiesiog puikus. Rami aplinka, bet visur galima nueiti pėsčiomis.",
+      "2": "Gražus įrengimas, Zakopanės stiliaus baldai. Vieta labai patogi - netoli pėsčiųjų takai, centras ir parduotuvė. Tyla ir ramybė. Ryto kava terasoje su vaizdu į Gievontą - tiesiog nuostabu!",
+      "3": "Mums tai buvo ideali vieta. Kai kam galbūt per toli nuo centro, tačiau mums labai tiko ramybė, galimybė greitai pasiekti pėsčiųjų takus ir būti atokiau nuo viso šurmulio. Jautėmės labai patogiai. Kambariai gražūs ir nepriekaištingai švarūs, o lovos... net nesinorėjo keltis. Vis dėlto Gievonto vaizdas kasdien skatino pradėti naują dieną.",
+      "4": "Ši vieta buvo nepaprastai graži. Netoliese buvo ir pėsčiųjų takas, ir miesto centras. Kambariai erdvūs, juose buvo viskas, ko reikėjo. Tradicinis lenkiškas stilius leido pasijusti tarsi kitame pasaulyje! Iš kambario atsiveria nuostabus vaizdas į kalnus. Mielai čia sugrįžčiau."
+    },
+    "scoreLabels": {
+      "Booking.com": "Išskirtinis",
+      "Google Maps": "Puikus"
+    }
+  },
+  "location": {
+    "title": "Netoli Tatrų, arti centro",
+    "subtitle": "Rami vieta šalia pėsčiųjų takų ir svarbiausių Zakopanės lankytinų vietų.",
+    "distancesLabel": "Apytikslis ėjimo laikas",
+    "walking": "apie {minutes} min. pėsčiomis",
+    "places": {
+      "krupowki": "Krupówki",
+      "valley": "Įėjimas į Strążyska slėnį",
+      "museum": "Karolio Szymanowskio muziejus"
+    },
+    "directions": "Kaip atvykti",
+    "mapAlt": "Apartamenty Dolina Strążyska vietos Zakopanėje žemėlapis"
+  },
+  "footer": {
+    "links": "Nuorodos",
+    "contact": "Kontaktai",
+    "englishLabel": "English · WhatsApp:"
+  },
+  "contact": {
+    "title": "Susisiekite su mumis",
+    "intro": "Turite klausimų apie viešnagę? Mielai padėsime ir patarsime renkantis apartamentus.",
+    "detailsTitle": "Susisiekite su mumis",
+    "detailsIntro": "Esame pasiruošę atsakyti į jūsų klausimus.",
+    "phone": "Telefonas",
+    "englishChannel": "Susisiekti anglų kalba",
+    "email": "El. paštas",
+    "follow": "Sekite mus",
+    "whatsappPolish": "WhatsApp lenkų kalba",
+    "locationTitle": "Mūsų vieta",
+    "openMapAria": "Peržiūrėti apartamentų vietą „Google“ žemėlapiuose",
+    "mapAlt": "Apartamenty Dolina Strążyska apylinkių Zakopanėje žemėlapis",
+    "openMap": "Atidaryti „Google“ žemėlapiuose",
+    "locationText": "Ramioje Zakopanės dalyje, netoli Tatrų pėsčiųjų takų.",
+    "directions": "Gauti nuorodas",
+    "planTitle": "Suplanuokite viešnagę",
+    "planText": "Pasirinkite datas ir raskite sau tinkamus apartamentus."
+  },
+  "reservation": {
+    "back": "Grįžti į apartamentų sąrašą",
+    "title": "Rezervuokite viešnagę",
+    "intro": "Pasirinkite datas ir apartamentus. Iki pasimatymo Zakopanėje!",
+    "bookingLabel": "Apartamentų rezervacija",
+    "help": "Reikia pagalbos rezervuojant?",
+    "writeToUs": "Parašykite mums"
+  },
+  "documents": {
+    "termsTitle": "Taisyklės",
+    "privacyTitle": "Privatumo politika",
+    "close": "Uždaryti dokumentą"
+  },
+  "details": {
+    "previousPhoto": "Ankstesnė nuotrauka",
+    "nextPhoto": "Kita nuotrauka",
+    "openFullscreen": "Atidaryti per visą ekraną",
+    "closeFullscreen": "Uždaryti viso ekrano režimą",
+    "thumbnailAlt": "{title} - miniatiūra {number}",
+    "factsLabel": "Apartamentų informacija",
+    "capacity": "iki {count} svečių",
+    "mountainView": "vaizdas į kalnus",
+    "amenitiesLabel": "Apartamentų patogumai",
+    "amenities": {
+      "bathroom": "Privatus vonios kambarys",
+      "kitchen": "Pilnai įrengta virtuvėlė",
+      "parking": "Nemokama automobilių stovėjimo aikštelė vietoje",
+      "balcony": "Balkonas",
+      "rooms": {
+        "one": "{count} kambarys",
+        "few": "{count} kambariai",
+        "many": "{count} kambarių",
+        "other": "{count} kambarių"
+      }
+    },
+    "priceFrom": "Kaina nuo",
+    "perNight": "/parą",
+    "directBooking": "Rezervuodami tiesiogiai mokėsite mažiau.",
+    "bookOnline": "Rezervuoti internetu",
+    "about": "Apie apartamentus",
+    "expand": "Skaityti daugiau",
+    "collapse": "Rodyti mažiau",
+    "sleeping": "Kur miegosite?",
+    "whatYouFind": "Kas įrengta?",
+    "photoNavigation": "Nuotraukų naršymas"
+  },
+  "rooms": {
+    "names": {
+      "livingRoom": "Svetainė",
+      "bedroom": "Miegamasis",
+      "studio": "Studija"
+    },
+    "beds": {
+      "sofa": "Išskleidžiama sofa",
+      "couch": "Išskleidžiama kanapa",
+      "single": "Viengulė lova",
+      "double": "Dvigulė lova",
+      "largeDouble": "Didelė dvigulė lova"
+    },
+    "guests": {
+      "one": "{count} svečias",
+      "few": "{count} svečiai",
+      "many": "{count} svečių",
+      "other": "{count} svečiai"
+    }
+  },
+  "equipment": {
+    "living": "Svetainė",
+    "kitchen": "Virtuvėlė",
+    "bathroom": "Vonios kambarys",
+    "misc": "Kita"
+  },
+  "accessories": {
+    "1": "Televizorius",
+    "2": "Wi-Fi",
+    "3": "Rankšluosčiai",
+    "4": "Plaukų džiovintuvas",
+    "5": "Virdulys",
+    "6": "Kavos ir arbatos rinkinys",
+    "7": "Indukcinė kaitlentė",
+    "8": "Šaldytuvas",
+    "9": "Nemokama automobilių stovėjimo aikštelė",
+    "10": "Vaizdas į kalnus",
+    "11": "Teritorija stebima vaizdo kameromis"
+  },
+  "errorPage": {
+    "title": "Puslapis nerastas",
+    "text": "Ieškomas puslapis neegzistuoja arba buvo perkeltas.",
+    "home": "Grįžti į pradinį puslapį"
+  },
+  "apartments": {
+    "1": {
+      "title": "Oranžiniai apartamentai",
+      "size": "45 m²",
+      "description": "Oranžiniai apartamentai išsiskiria šiltomis spalvomis, gausia natūralia šviesa ir jaukia atmosfera. Oranžinių bei bordo spalvos akcentų derinys su šviesiu medžiu ir tradicinėmis Zakopanės detalėmis suteikia interjerui savitumo.\n\nYpač dėmesį patraukia rankomis drožinėti mediniai baldai, pabrėžiantys vietinį apartamentų stilių. Kruopščiai parinktos dekoracijos, raštuoti audiniai ir šiltos spalvos sukuria aplinką, kurioje galima pajusti tikrąją Podhalės dvasią, neatsisakant kasdienio komforto.\n\nPro didelius langus sklinda natūrali šviesa, o jauki poilsio zona kviečia leisti laiką kartu. Čia malonu ramiai pradėti rytą su kavos puodeliu arba pailsėti po dienos žygių kalnuose.\n\nOranžiniai apartamentai puikiai tiks vertinantiems namų jaukumą, originalų interjerą ir poilsį Tatrų gamtos apsuptyje.",
+      "floor": "Pirmas aukštas",
+      "highlight": "Šviesus interjeras",
+      "equipment": {
+        "living": [
+          "Išskleidžiama sofa",
+          "Foteliai",
+          "Kavos staliukas",
+          "Valgomasis stalas",
+          "Televizorius"
+        ],
+        "kitchen": [
+          "Šaldytuvas",
+          "Indukcinė kaitlentė",
+          "Elektrinis virdulys",
+          "Indai",
+          "Virtuvės reikmenys"
+        ],
+        "bathroom": [
+          "Privatus vonios kambarys su dušu",
+          "Rankšluosčiai",
+          "Plaukų džiovintuvas"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Rankomis pagaminti mediniai baldai",
+          "Balkonas",
+          "Vaizdas į kalnus",
+          "Nemokama stebima automobilių stovėjimo aikštelė"
+        ]
+      }
+    },
+    "2": {
+      "title": "Turkio spalvos apartamentai",
+      "size": "36 m²",
+      "description": "Turkio spalvos apartamentai išsiskiria elegantišku šviesaus medžio, natūralių medžiagų ir ryškių turkio spalvos akcentų deriniu. Jaukiame interjere tradicinis Zakopanės stilius dera su šiuolaikiniu komfortu, todėl tai puiki vieta ramiam poilsiui Tatrų apsuptyje.\n\nSavito žavesio suteikia rankomis drožinėti mediniai baldai, dekoratyvinės lubų sijos ir kruopščiai parinktos Podhalės kultūros įkvėptos detalės. Turkio spalvos foteliai ir sofa suteikia interjerui gaivumo, o šilti medžio atspalviai kuria jaukumą.\n\nĮ pietus orientuoti dideli langai įleidžia daug natūralios šviesos. Papildomas privalumas - balkonas, kuriame galima mėgautis rytine kava ir kalnų vaizdais arba atsipūsti po dienos Tatrų takuose.\n\nGerai apgalvotas išplanavimas užtikrina patogumą tiek leidžiant laiką kartu, tiek ilsintis atskirai. Jauki svetainės zona ir valgomasis kviečia ramiems vakarams bei bendroms vakarienėms išskirtinėje aplinkoje.\n\nTurkio spalvos apartamentai - puikus pasirinkimas poroms ir šeimoms, ieškančioms kalniečių atmosferos, patogumo ir artumo Tatrų gamtai.",
+      "floor": "Pirmas aukštas",
+      "highlight": "Balkonas su vaizdu",
+      "equipment": {
+        "living": [
+          "Išskleidžiama sofa",
+          "Foteliai",
+          "Kavos staliukas",
+          "Valgomasis stalas",
+          "Televizorius"
+        ],
+        "kitchen": [
+          "Šaldytuvas",
+          "Indukcinė kaitlentė",
+          "Elektrinis virdulys",
+          "Indai",
+          "Virtuvės reikmenys"
+        ],
+        "bathroom": [
+          "Privatus vonios kambarys su dušu",
+          "Rankšluosčiai",
+          "Plaukų džiovintuvas"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Rankomis pagaminti mediniai baldai",
+          "Balkonas",
+          "Vaizdas į kalnus",
+          "Nemokama stebima automobilių stovėjimo aikštelė"
+        ]
+      }
+    },
+    "3": {
+      "title": "Ochros spalvos apartamentai",
+      "size": "43 m²",
+      "description": "Ochros spalvos apartamentai žavi šiltomis spalvomis, natūraliu medžiu ir jaukia atmosfera, įkvėpta tradicinio Zakopanės stiliaus. Šviesios sienos, medinė apdaila ir būdingi ochros atspalviai sukuria harmoningą erdvę, kurioje galima pajusti tikrą Podhalės dvasią.\n\nYpatingo žavesio suteikia rankomis pagaminti mediniai baldai, dekoratyvinės detalės ir apgalvotai parinkti aksesuarai. Jauki poilsio zona su šiltų spalvų sofomis kviečia leisti laiką kartu, o dideli langai užlieja erdvę natūralia šviesa.\n\nVienas didžiausių apartamentų privalumų - balkonas su vaizdu į vaizdingą apylinkę. Tai puiki vieta rytinei kavai, atokvėpiui gryname ore arba poilsiui po dienos žygių Tatrų kalnuose.\n\nOchros spalvos apartamentai puikiai tinka šeimos ar draugų viešnagei. Erdvi aplinka kviečia kartu valgyti, bendrauti ir ramiai leisti vakarus, sudarydama idealias sąlygas poilsiui nepakartojamoje Zakopanės atmosferoje.",
+      "floor": "Pirmas aukštas",
+      "highlight": "Papildoma lova",
+      "equipment": {
+        "living": [
+          "Dvi išskleidžiamos sofos",
+          "Foteliai",
+          "Kavos staliukas",
+          "Valgomasis stalas",
+          "Televizorius"
+        ],
+        "kitchen": [
+          "Šaldytuvas",
+          "Indukcinė kaitlentė",
+          "Elektrinis virdulys",
+          "Indai",
+          "Virtuvės reikmenys"
+        ],
+        "bathroom": [
+          "Privatus vonios kambarys su dušu",
+          "Rankšluosčiai",
+          "Plaukų džiovintuvas"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Rankomis pagaminti mediniai baldai",
+          "Balkonas",
+          "Vaizdas į kalnus",
+          "Nemokama stebima automobilių stovėjimo aikštelė"
+        ]
+      }
+    },
+    "4": {
+      "title": "Žydri apartamentai",
+      "size": "43 m²",
+      "description": "Žydri apartamentai įrengti antrame aukšte. Juose vyrauja šiltas medinis interjeras su žydrais akcentais. Rankomis drožinėti vietinio stiliaus baldai suteikia erdvei išskirtinį kalnų namų charakterį.\n\nSvetainėje yra patogi išskleidžiama sofa, ant kurios gali miegoti du žmonės, ir televizorius vakariniam poilsiui. Virtuvėlėje rasite šaldytuvą, indukcinę kaitlentę ir virdulį.\n\nAtskiras miegamasis su dvigule ir viengule lovomis leidžia gerai pailsėti po visos dienos žygių. Privačiame vonios kambaryje yra rankšluosčiai ir plaukų džiovintuvas, o iš balkono atsiveria vaizdas į kalnus.\n\nŽydri apartamentai tiks šeimoms ir draugų grupėms, norinčioms pailsėti Zakopanėje jaukioje, tradicinėje kalniečių aplinkoje. Svečiai taip pat gali naudotis nemokamu Wi-Fi ir vaizdo kameromis stebima automobilių stovėjimo aikštele.",
+      "equipment": {
+        "living": [
+          "Išskleidžiama sofa",
+          "Foteliai",
+          "Kavos staliukas",
+          "Valgomasis stalas",
+          "Televizorius"
+        ],
+        "kitchen": [
+          "Šaldytuvas",
+          "Indukcinė kaitlentė",
+          "Elektrinis virdulys",
+          "Indai",
+          "Virtuvės reikmenys"
+        ],
+        "bathroom": [
+          "Privatus vonios kambarys su dušu",
+          "Rankšluosčiai",
+          "Plaukų džiovintuvas"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Rankomis pagaminti mediniai baldai",
+          "Balkonas",
+          "Vaizdas į kalnus",
+          "Nemokama stebima automobilių stovėjimo aikštelė"
+        ]
+      }
+    },
+    "5": {
+      "title": "Pilki apartamentai",
+      "size": "apie 16 m²",
+      "description": "Pilki apartamentai - nedidelė, jauki erdvė, sukurta poilsiui dviese. Santūrios spalvos, švelnūs pilki atspalviai ir rami atmosfera sukuria puikias sąlygas romantiškam savaitgaliui ar ilgesnei viešnagei Zakopanėje.\n\nElegantiškas, harmoningas interjeras padeda atsipalaiduoti ir pamiršti kasdienį skubėjimą. Čia galima mėgautis ramiais rytais prie kavos puodelio, pailsėti po žygių kalnuose ir leisti vakarus tik dviese.\n\nNetoliese esantys Tatrų pėsčiųjų takai ir Zakopanės centras leidžia puikiai suderinti aktyvų poilsį su ramybe bei privatumu.\n\nPilki apartamentai idealiai tiks poroms, ieškančioms jaukios vietos bendram poilsiui ypatingoje Podhalės atmosferoje.",
+      "highlight": "Studija",
+      "equipment": {
+        "living": [
+          "Foteliai",
+          "Kavos staliukas",
+          "Valgomasis stalas",
+          "Televizorius"
+        ],
+        "kitchen": [
+          "Šaldytuvas",
+          "Indukcinė kaitlentė",
+          "Elektrinis virdulys",
+          "Indai",
+          "Virtuvės reikmenys"
+        ],
+        "bathroom": [
+          "Privatus vonios kambarys su dušu",
+          "Rankšluosčiai",
+          "Plaukų džiovintuvas"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Rankomis pagaminti mediniai baldai",
+          "Vaizdas į kalnus",
+          "Nemokama stebima automobilių stovėjimo aikštelė"
+        ]
+      }
+    },
+    "6": {
+      "title": "Mėlyni apartamentai",
+      "size": "26 m²",
+      "description": "Mėlyni apartamentai sujungia Zakopanės interjerams būdingą jaukumą su gaiviais ir ramiais mėlynais atspalviais. Jų stilių įkvėpė poilsio kalnuose atmosfera, kai galima pamiršti kasdienius rūpesčius ir mėgautis kiekviena Tatrų kalnuose praleista akimirka.\n\nŠvelnūs mėlyni tonai suteikia interjerui harmonijos, o natūralios medžiagos ir vietiniai akcentai kuria šiltą, namus primenančią aplinką. Tai erdvė, kviečianti atsipalaiduoti, mėgautis ramiais rytais ir maloniais vakarais.\n\nApartamentai tinka tiek aktyviam poilsiui, tiek ramiam atsipalaidavimui. Praleidę dieną tyrinėdami kalnų takus ir Zakopanės žavesį, galėsite grįžti į jaukią aplinką, pailsėti ir suplanuoti kitus nuotykius.\n\nMėlyni apartamentai skirti mėgstantiems šviesų, ramų interjerą ir ieškantiems vietos, kur kalnų atmosfera dera su kasdieniu patogumu.",
+      "highlight": "Lova ir sofa",
+      "equipment": {
+        "living": [
+          "Išskleidžiama sofa",
+          "Foteliai",
+          "Kavos staliukas",
+          "Valgomasis stalas",
+          "Televizorius"
+        ],
+        "kitchen": [
+          "Šaldytuvas",
+          "Indukcinė kaitlentė",
+          "Elektrinis virdulys",
+          "Indai",
+          "Virtuvės reikmenys"
+        ],
+        "bathroom": [
+          "Privatus vonios kambarys su dušu",
+          "Rankšluosčiai",
+          "Plaukų džiovintuvas"
+        ],
+        "misc": [
+          "Wi-Fi",
+          "Rankomis pagaminti mediniai baldai",
+          "Vaizdas į kalnus",
+          "Nemokama stebima automobilių stovėjimo aikštelė"
+        ]
+      }
+    }
+  },
+  "photoAlts": {
+    "1": [
+      "svetainė su raudonu foteliu ir oranžine sofa",
+      "miegamasis su drožinėta medine lova",
+      "dvigulė lova su rankšluosčiais",
+      "svetainės zona su virtuvėle ir televizoriumi",
+      "valgomasis stalas su drožinėtomis kėdėmis prie didelio lango",
+      "vonios kambarys su dušu ir praustuvu",
+      "lovos galvūgalis su kalniečių siuvinėjimu"
+    ],
+    "2": [
+      "svetainė su žalia sofa ir valgomojo stalu",
+      "medinė komoda ir lova su rankšluosčiais",
+      "dvigulė lova su siuvinėtu galvūgaliu",
+      "svetainė su žaliais foteliais, televizoriumi ir vaizdu į miegamąjį",
+      "vonios kambarys su praustuvu",
+      "vonios kambarys su rankšluosčių džiovintuvu",
+      "tualetas vonios kambaryje"
+    ],
+    "3": [
+      "virtuvėlė ir sofa svetainės zonoje",
+      "valgomasis stalas prie balkono lango",
+      "svetainė su sofa, foteliu ir televizoriumi",
+      "miegamasis su dvigule ir viengule lovomis",
+      "lovos su švariais rankšluosčiais",
+      "balkonas su vaizdu į kalnus",
+      "vonios kambarys su dušo kabina"
+    ],
+    "4": [
+      "virtuvėlė ir mėlyna sofa",
+      "palėpės svetainė su sofa, foteliu ir kavos staliuku",
+      "dvigulė lova ir komoda",
+      "valgomasis stalas po nuožulniomis lubomis",
+      "poilsio zona prie balkono lango",
+      "vonios kambarys su praustuvu ir dušu",
+      "vonios kambarys su tualetu ir radiatoriumi"
+    ],
+    "5": [
+      "palėpė su televizoriumi, foteliu ir langu į žalumą",
+      "virtuvėlė ir stoglangis su vaizdu į Tatrus",
+      "dvigulė lova po langu",
+      "lova su dekoratyvinėmis pagalvėmis prie didelio lango",
+      "vonios kambarys su praustuvu ir dušu"
+    ],
+    "6": [
+      "svetainė su mėlynais foteliais ir televizoriumi prie didelio lango",
+      "palėpė su mėlynais foteliais ir televizoriumi",
+      "violetinė sofa prie lango svetainės zonoje",
+      "dvi lovos su rankšluosčiais po langu",
+      "virtuvėlė po nuožulniomis lubomis",
+      "dušas vonios kambaryje"
+    ]
+  },
+  "nearbyTrails": {
+    "navLabel": "Takai netoliese",
+    "heroLine1": "Į kalnus.",
+    "heroLine2": "Savaip.",
+    "intro": "Ramus pasivaikščiojimas slėniu ar žygis pasigrožėti įspūdingais vaizdais? Atraskite takus netoli mūsų apartamentų ir pasirinkite savo maršrutą.",
+    "explore": "Atraskite netoliese esančius takus",
+    "mapCaption": "Tatrai arčiau, nei manote",
+    "enlargeMap": "Padidinti žemėlapį",
+    "mapAlt": "Takų šalia Dolina Strążyska apartamentų Zakopanėje žemėlapis.",
+    "locationIntro": "Čia prasideda jūsų poilsis",
+    "heading": "Pasirinkite savo kryptį",
+    "featured": "Pradžiai",
+    "mapLink": "Žiūrėti žemėlapyje",
+    "newTab": "naujas skirtukas",
+    "stayHeading": "Jūsų apartamentai netoli žygių takų",
+    "stayText": "Išsirinkite sau tinkamus apartamentus ir pailsėkite po įspūdžių kupinos dienos Tatrų kalnų takuose.",
+    "viewApartments": "Peržiūrėti apartamentus",
+    "labels": {
+      "difficulty": "Sudėtingumas",
+      "time": "Laikas",
+      "destination": "Tikslas"
+    },
+    "items": [
+      {
+        "name": "Dolina Strążyska",
+        "difficulty": "Lengvas",
+        "duration": "apie 40 min.",
+        "via": "Polana Strążyska laukymė",
+        "description": "Ramus miško takas palei kalnų upelį veda į vaizdingą Polana Strążyska laukymę, iš kurios atsiveria įspūdingas Gievonto kalno vaizdas. Puikus pasirinkimas ramiam pasivaikščiojimui ir pirmajai pažinčiai su Tatrais."
+      },
+      {
+        "name": "Siklawica krioklys",
+        "difficulty": "Lengvas-vidutinis",
+        "duration": "apie 55-60 min.",
+        "via": "Iki krioklio per Dolina Strążyska slėnį",
+        "description": "Vaizdingas krioklys, pasislėpęs Gievonto papėdėje. Maršrutas driekiasi per Dolina Strążyska slėnį ir Polana Strążyska laukymę, o paskutinė dalis eina akmenuotu taku tarp uolų."
+      },
+      {
+        "name": "Sarnia Skała",
+        "difficulty": "Vidutinis",
+        "duration": "apie 1 val. 40 min.",
+        "via": "Į viršūnę per Czerwona Przełęcz perėją",
+        "description": "Viena gražiausių apžvalgos vietų apylinkėse, iš kurios atsiveria Zakopanės panorama ir įspūdinga Gievonto uolų siena. Maršrute yra status pakilimas ir uolėta paskutinė atkarpa."
+      },
+      {
+        "name": "Dolina ku Dziurze ir Dziura urvas",
+        "difficulty": "Lengvas",
+        "duration": "apie 20-25 min.",
+        "via": "Iki Dziura urvo įėjimo",
+        "description": "Trumpas, ramus miško takas per nuošalų slėnį veda prie natūralaus urvo, pasislėpusio tarp uolų. Puiki idėja nedideliam nuotykiui be ilgo žygio."
+      },
+      {
+        "name": "Dolina Białego",
+        "difficulty": "Lengvas-vidutinis",
+        "duration": "apie 30 min.",
+        "via": "Iki krioklio Dolina Białego slėnyje",
+        "description": "Vaizdingas slėnis su uolų sienomis, mediniais tilteliais ir kalnų upeliu, sudarančiu mažas kaskadas. Galite rinktis trumpą pasivaikščiojimą iki krioklio arba tęsti žygį Sarnia Skała link."
+      },
+      {
+        "name": "Dolina Za Bramką",
+        "difficulty": "Lengvas",
+        "duration": "apie 25 min.",
+        "via": "Iki lankytojams atviro tako pabaigos",
+        "description": "Ramus slėnis tarp kalkakmenio uolų, su miško taku palei upelį. Puikiai tinka trumpam, ramiam pasivaikščiojimui toliau nuo judresnių turistinių maršrutų."
+      },
+      {
+        "name": "Droga pod Reglami",
+        "difficulty": "Lengvas",
+        "duration": "apie 30 min.",
+        "via": "Nuo Dolina Strążyska iki Dolina Za Bramką",
+        "description": "Vaizdingas pasivaikščiojimo maršrutas Tatrų papėdėje, vedantis palei miškus ir pievas. Jis jungia kelių gražių slėnių pradžias, todėl patys galite pasirinkti ėjimo kryptį ir atstumą."
+      },
+      {
+        "name": "Dolina Małej Łąki",
+        "difficulty": "Lengvas-vidutinis",
+        "duration": "apie 50-60 min.",
+        "via": "Iki Wielka Polana Małołącka iš Groniko",
+        "description": "Ramus žygis per mišką veda į plačią kalnų pievą, apsuptą įspūdingų Tatrų viršūnių. Puikus pasirinkimas ilgesniam pasivaikščiojimui su nuostabia kalnų panorama."
+      }
+    ],
+    "timeNote": "Nurodyti ėjimo laikai yra apytiksliai ir skaičiuojami į vieną pusę nuo nurodytos tako pradžios, neįtraukiant kelio nuo apartamentų ir poilsio pertraukų. Maršrutų sudėtingumas įvertintas esant geroms oro sąlygoms. Prieš išvykdami patikrinkite aktualias sąlygas Lenkijos Tatrų nacionaliniame parke.",
+    "conditionsNote": "Prieš išvykdami patikrinkite naujausią informaciją apie takų būklę.",
+    "parkInfo": "Tatrų nacionalinio parko (TPN) informacija",
+    "informationHeading": "Informacija apie žygių maršrutus",
+    "metaTitle": "Žygių takai netoli Strążyska slėnio | Zakopanė ir Tatrai",
+    "metaDescription": "Atraskite žygių takus netoli Strążyska slėnio Zakopanėje. Siklawica krioklys, Sarnia Skała, Białego slėnis ir kiti vaizdingi maršrutai Tatrų kalnuose."
+  }
+}

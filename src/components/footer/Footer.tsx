@@ -48,6 +48,7 @@ const Footer = (props: FooterProps) => {
           <h3>{t('footer.links')}</h3>
           <LangLink to={"/"} state={{ scrollTo: 'apartments' }} onClick={moveToApartments}>{t('nav.apartments')}</LangLink>
           <LangLink to={"/Rezerwacje"}>{t('nav.reservations')}</LangLink>
+          <LangLink to='/Szlaki'>{t('nearbyTrails.navLabel')}</LangLink>
           <LangLink to={"/Kontakt"}>{t('nav.contact')}</LangLink>
         </nav>
 

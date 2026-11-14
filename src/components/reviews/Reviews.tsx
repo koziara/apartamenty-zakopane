@@ -48,7 +48,7 @@ const formatReviewDate = (date: string, intl: string) => {
 };
 
 const Reviews = () => {
-  const { t, tp, messages, intl } = useI18n();
+  const { t, tp, messages, intl, direction } = useI18n();
   const grid = useRef<HTMLUListElement>(null);
   const [active, setActive] = useState(0);
 
@@ -56,13 +56,13 @@ const Reviews = () => {
     const el = grid.current;
     const first = el?.firstElementChild as HTMLElement | null;
     if (!el || !first) return;
-    setActive(Math.round(el.scrollLeft / (first.offsetWidth + 16)));
+    setActive(Math.round(Math.abs(el.scrollLeft) / (first.offsetWidth + 16)));
   };
 
   const goTo = (i: number) => {
     const el = grid.current;
     const first = el?.firstElementChild as HTMLElement | null;
-    if (el && first) el.scrollTo({ left: i * (first.offsetWidth + 16), behavior: 'smooth' });
+    if (el && first) el.scrollTo({ left: (direction === 'rtl' ? -1 : 1) * i * (first.offsetWidth + 16), behavior: 'smooth' });
   };
 
   return (

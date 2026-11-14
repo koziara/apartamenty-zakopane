@@ -13,10 +13,6 @@ type Props = {
   noindex?: boolean;
 };
 
-// search results cut descriptions at about 160 characters
-export const shorten = (text: string, max = 160) =>
-  text.length <= max ? text : text.slice(0, max - 3).replace(/\s+\S*$/, '') + '…';
-
 const urlFor = (lang: Lang, path: string) => {
   const prefix = lang === 'pl' ? '' : `/${lang}`;
   return SITE_URL + (path === '/' ? `${prefix}/` : prefix + path);

@@ -12,7 +12,7 @@ type Props = {
 }
 
 const DateRangeModal = ({ initial, onConfirm, onClose }: Props) => {
-  const { t, dateLocale } = useI18n();
+  const { t, dateLocale, direction } = useI18n();
   const [range, setRange] = useState<DateRange | undefined>(initial);
   const [months, setMonths] = useState(window.innerWidth > 800 ? 2 : 1);
   const today = new Date();
@@ -43,6 +43,7 @@ const DateRangeModal = ({ initial, onConfirm, onClose }: Props) => {
         <DayPicker
           mode='range'
           locale={dateLocale}
+          dir={direction}
           weekStartsOn={1}
           numberOfMonths={months}
           selected={range}

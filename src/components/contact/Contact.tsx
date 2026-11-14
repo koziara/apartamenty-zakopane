@@ -35,7 +35,7 @@ const Contact = () => {
     };
 
     return (
-        <div className="contact-page">
+        <div className="contact-page navbar-theme-home">
             <PageMeta title={t('meta.contactTitle')} description={t('meta.contactDescription')} path='/Kontakt' />
             <Navbar dark />
             <ScrollToTop />

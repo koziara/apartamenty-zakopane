@@ -18,6 +18,7 @@ const Links = () =>{
     <ul className='navbar-navbar_links'>
       <li><LangLink to={"/"} state={{ scrollTo: "apartments" }} onClick={moveToApartments} className='navbar-links hover-underline-animation'>{t('nav.apartments')}</LangLink></li>
       <li><LangLink to={"/Rezerwacje"} className='navbar-links hover-underline-animation'>{t('nav.reservations')}</LangLink></li>
+      <li><LangLink to='/Szlaki' className='navbar-links hover-underline-animation' aria-current={pathname.replace(/\/$/, '') === path('/Szlaki') ? 'page' : undefined}>{t('nearbyTrails.navLabel')}</LangLink></li>
       <li><LangLink to={"/Kontakt"} className='navbar-links hover-underline-animation'>{t('nav.contact')}</LangLink></li>
       <li><LanguageSwitcher /></li>
     </ul>

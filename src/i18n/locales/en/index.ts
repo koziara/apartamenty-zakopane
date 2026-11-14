@@ -4,22 +4,48 @@ import { reviewTexts, scoreLabels } from './reviews';
 import terms from './terms';
 import privacy from './privacy';
 import photoAlts from './photoAlts';
+import nearbyTrails from './nearbyTrails.json';
 
 const en: Messages = {
   meta: {
-    title: 'Zakopane Apartments – Dolina Strążyska | Giewont & Tatra Views',
-    description: 'Apartments in Zakopane with views of Giewont, Gubałówka and Kasprowy Wierch. Highlander interiors, free parking, book direct with the owner.',
+    title: "Apartamenty Dolina Strążyska | Apartments Near Hiking Trails in Zakopane",
+    description: "Comfortable apartments in Zakopane near Strążyska Valley. Perfect for couples and families. Free parking, Wi-Fi and nearby mountain trails. Check availability!",
     ogTitle: 'Dolina Strążyska Apartments - Zakopane',
-    apartmentTitle: '{title} – Zakopane apartment | Dolina Strążyska',
-    contactTitle: 'Contact – Dolina Strążyska Apartments, Zakopane',
-    contactDescription: 'Call or write: +48 607 601 471, biurodolinastrazyska@gmail.com. Dolina Strążyska Apartments, Strążyska 4A, 34-500 Zakopane.',
-    reservationTitle: 'Book an apartment in Zakopane – Dolina Strążyska',
-    reservationDescription: 'Check availability and book an apartment in Zakopane online. Book direct with the owner, with Tatra and Giewont views.',
-    notFoundTitle: 'Page not found – Dolina Strążyska Apartments',
+    contactTitle: "Contact & Directions | Apartamenty Dolina Strążyska - Zakopane",
+    contactDescription: "Contact Apartamenty Dolina Strążyska in Zakopane. Find our address, phone number and directions. Visit us at 4A Strążyska Street, Zakopane.",
+    reservationTitle: "Book Apartments in Zakopane | Dolina Strążyska",
+    reservationDescription: "Book an apartment in Zakopane near Strążyska Valley. Enjoy Tatra Mountain views, free parking and Wi-Fi. Choose your dates and check availability!",
+    apartments: {
+      "1": {
+        "title": "Apartment for 5, 45 m², Balcony & Tatra Views | Dolina Strążyska",
+        "description": "Comfortable apartment for 5 guests in Zakopane, near Strążyska Valley. 45 m², balcony with Tatra Mountain views, equipped kitchen and free parking. Check availability!"
+      },
+      "2": {
+        "title": "Apartment for 4 with Balcony & Tatra Views | Dolina Strążyska",
+        "description": "Apartment for 4 guests in Zakopane, near Strążyska Valley. Balcony with Tatra Mountain views, equipped kitchen, free parking and Wi-Fi. Book your stay!"
+      },
+      "3": {
+        "title": "Family Apartment for 5 with Balcony & Tatra Views | Dolina Strążyska",
+        "description": "Family apartment for 5 guests in Zakopane. 43 m², balcony with Tatra Mountain views, equipped kitchen and free parking. Close to Strążyska Valley and hiking trails."
+      },
+      "4": {
+        "title": "Apartment for 5 with Balcony & Tatra Views | Dolina Strążyska - Sky Blue Apartment",
+        "description": "Spacious apartment for 5 guests in Zakopane. 43 m², balcony with Tatra Mountain views, equipped kitchen and Wi-Fi. Near Strążyska Valley. Check availability!"
+      },
+      "5": {
+        "title": "Studio for 2 with Tatra Mountain Views | Dolina Strążyska",
+        "description": "Cozy studio for 2 guests in Zakopane, perfect for couples. Tatra Mountain views, equipped kitchenette and free parking. Near Strążyska Valley and hiking trails."
+      },
+      "6": {
+        "title": "Apartment for 4 with Tatra Mountain Views | Dolina Strążyska",
+        "description": "Comfortable apartment for 4 guests in Zakopane. Tatra Mountain views, equipped kitchen, Wi-Fi and free parking. Near Strążyska Valley. Book your stay!"
+      }
+    },
+    notFoundTitle: 'Page not found - Dolina Strążyska Apartments',
   },
   brand: {
     name: 'Dolina Strążyska Apartments',
-    home: 'Dolina Strążyska Apartments — home page',
+    home: 'Dolina Strążyska Apartments - home page',
   },
   common: {
     backToTop: 'Back to top',
@@ -39,7 +65,7 @@ const en: Messages = {
   },
   hero: {
     titleLine1: 'Your place in Zakopane',
-    subtitle: 'Highlander charm, views of the Tatras and a peaceful getaway in one of the most beautiful parts of Zakopane.',
+    subtitle: 'Traditional highlander charm, views of the Tatra Mountains, and a peaceful getaway. Discover comfortable apartments close to mountain trails and the center of Zakopane.',
     arrival: 'Check-in date',
     departure: 'Check-out date',
   },
@@ -140,11 +166,12 @@ const en: Messages = {
     privacy,
   },
   details: {
+    photoNavigation: "Photo navigation",
     previousPhoto: 'Previous photo',
     nextPhoto: 'Next photo',
     openFullscreen: 'Open full screen',
     closeFullscreen: 'Close full screen',
-    thumbnailAlt: '{title} — thumbnail {number}',
+    thumbnailAlt: '{title} - thumbnail {number}',
     factsLabel: 'Apartment details',
     capacity: 'up to {count} guests',
     mountainView: 'mountain view',
@@ -207,6 +234,7 @@ const en: Messages = {
   },
   apartments,
   photoAlts,
+  nearbyTrails,
 };
 
 export default en;

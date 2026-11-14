@@ -1,0 +1,617 @@
+{
+  "meta": {
+    "title": "Apartamenty Dolina Strążyska | Ferienwohnungen nahe Wanderwegen in Zakopane",
+    "description": "Komfortable Ferienwohnungen in Zakopane nahe dem Strążyska-Tal. Ideal für Paare und Familien. Kostenlose Parkplätze, WLAN und Wanderwege in der Nähe. Verfügbarkeit prüfen!",
+    "ogTitle": "Apartamenty Dolina Strążyska - Zakopane",
+    "contactTitle": "Kontakt & Anfahrt | Apartamenty Dolina Strążyska - Zakopane",
+    "contactDescription": "Kontaktieren Sie Apartamenty Dolina Strążyska in Zakopane. Hier finden Sie Adresse, Telefonnummer und Anfahrtsbeschreibung. Sie erreichen uns in der Strążyska 4A.",
+    "reservationTitle": "Ferienwohnung in Zakopane buchen | Dolina Strążyska",
+    "reservationDescription": "Buchen Sie eine Ferienwohnung in Zakopane nahe dem Strążyska-Tal. Tatrablick, kostenlose Parkplätze und WLAN. Wählen Sie Ihren Reisetermin und prüfen Sie die Verfügbarkeit!",
+    "notFoundTitle": "Seite nicht gefunden - Apartamenty Dolina Strążyska",
+    "apartments": {
+      "1": {
+        "title": "Ferienwohnung für 5 Personen, 45 m², Balkon & Tatrablick | Dolina Strążyska",
+        "description": "Komfortable Ferienwohnung für 5 Personen in Zakopane, nahe dem Strążyska-Tal. 45 m², Balkon mit Tatrablick, ausgestattete Küche und kostenlose Parkplätze. Verfügbarkeit prüfen!"
+      },
+      "2": {
+        "title": "Ferienwohnung für 4 Personen mit Balkon & Tatrablick | Dolina Strążyska",
+        "description": "Ferienwohnung für 4 Personen in Zakopane nahe dem Strążyska-Tal. Balkon mit Tatrablick, ausgestattete Küche, kostenlose Parkplätze und WLAN. Jetzt Aufenthalt buchen!"
+      },
+      "3": {
+        "title": "Familienapartment für 5 Personen mit Balkon & Tatrablick | Dolina Strążyska",
+        "description": "Familienfreundliches Apartment für 5 Personen in Zakopane. 43 m², Balkon mit Tatrablick, ausgestattete Küche und kostenlose Parkplätze. Nahe dem Strążyska-Tal und Wanderwegen."
+      },
+      "4": {
+        "title": "Ferienwohnung für 5 mit Balkon & Tatrablick | Dolina Strążyska - Apartment Hellblau",
+        "description": "Geräumige Ferienwohnung für 5 Personen in Zakopane. 43 m², Balkon mit Tatrablick, ausgestattete Küche und WLAN. Nahe dem Strążyska-Tal. Verfügbarkeit prüfen!"
+      },
+      "5": {
+        "title": "Studio für 2 Personen mit Tatrablick | Dolina Strążyska",
+        "description": "Gemütliches Studio für 2 Personen in Zakopane, ideal für Paare. Tatrablick, ausgestattete Küchenzeile und kostenlose Parkplätze. Nahe dem Strążyska-Tal und Wanderwegen."
+      },
+      "6": {
+        "title": "Ferienwohnung für 4 Personen mit Tatrablick | Dolina Strążyska",
+        "description": "Komfortable Ferienwohnung für 4 Personen in Zakopane. Tatrablick, ausgestattete Küche, WLAN und kostenlose Parkplätze. Nahe dem Strążyska-Tal. Jetzt buchen!"
+      }
+    }
+  },
+  "brand": {
+    "name": "Apartamenty Dolina Strążyska",
+    "home": "Apartamenty Dolina Strążyska - Startseite"
+  },
+  "common": {
+    "backToTop": "Nach oben",
+    "price": "{price} zł",
+    "bookOnline": "Online buchen",
+    "checkAvailability": "Verfügbarkeit prüfen"
+  },
+  "nav": {
+    "apartments": "Apartments",
+    "reservations": "Buchungen",
+    "contact": "Kontakt",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen"
+  },
+  "language": {
+    "label": "Sprache"
+  },
+  "hero": {
+    "titleLine1": "Ihr Zuhause in Zakopane",
+    "subtitle": "Traditionelles Goralen-Flair, Blick auf die Tatra und erholsame Ruhe. Entdecken Sie komfortable Apartments in der Nähe der Wanderwege und des Zentrums von Zakopane.",
+    "arrival": "Anreisedatum",
+    "departure": "Abreisedatum"
+  },
+  "dateModal": {
+    "label": "Reisezeitraum auswählen",
+    "pickArrival": "Wählen Sie Ihr Anreisedatum.",
+    "pickDeparture": "Wählen Sie Ihr Abreisedatum."
+  },
+  "apartmentsSection": {
+    "title": "Unsere Apartments in Zakopane",
+    "intro": "Individuell gestaltete Räume, handgeschnitzte Möbel und ein unverwechselbares Goralenflair. Finden Sie das passende Apartment für Ihren Aufenthalt in Zakopane.",
+    "facts": {
+      "capacity": "Bis zu {count} Personen",
+      "wifi": "Kostenloses WLAN",
+      "parking": "Parkplatz",
+      "trails": "Nahe an Wanderwegen"
+    }
+  },
+  "card": {
+    "capacity": "bis zu {count} Personen",
+    "defaultHighlight": "Bergblick",
+    "view": "Apartment ansehen",
+    "previousPhoto": "Vorheriges Foto",
+    "nextPhoto": "Nächstes Foto",
+    "photoOf": "Foto {current} von {total}"
+  },
+  "facilities": {
+    "title": "Alles für Ihren Komfort",
+    "intro": "Wir haben an jedes Detail gedacht, damit Ihr Aufenthalt in Zakopane so angenehm wie möglich wird.",
+    "items": {
+      "parking": {
+        "title": "Kostenloser Parkplatz",
+        "text": "Privater, videoüberwachter Parkplatz auf dem Grundstück."
+      },
+      "wifi": {
+        "title": "Kostenloses WLAN",
+        "text": "Für alle Gäste verfügbar."
+      },
+      "kitchen": {
+        "title": "Kochnische",
+        "text": "In jedem Apartment vollständig ausgestattet."
+      },
+      "checkin": {
+        "title": "Flexibler Check-in",
+        "text": "Wir stimmen den Check-in auf Ihre Ankunftszeit ab."
+      },
+      "lounge": {
+        "title": "Gemeinschaftsraum",
+        "text": "Ein Ort zum Zusammensein und Entspannen."
+      },
+      "playroom": {
+        "title": "Spielzimmer",
+        "text": "Für unsere jüngsten Gäste."
+      },
+      "ski": {
+        "title": "Skiraum",
+        "text": "Mit Skischuhtrockner."
+      },
+      "trails": {
+        "title": "Nahe an Wanderwegen",
+        "text": "Das Strążyska-Tal ist bequem zu Fuß erreichbar."
+      }
+    }
+  },
+  "reviews": {
+    "title": "Bewertungen unserer Gäste",
+    "intro": "Erfahren Sie, was unsere Gäste an den Apartamenty Dolina Strążyska besonders schätzen.",
+    "count": {
+      "one": "{count} Bewertung",
+      "few": "{count} Bewertungen",
+      "many": "{count} Bewertungen",
+      "other": "{count} Bewertungen"
+    },
+    "texts": {
+      "1": "Tolle Lage, wunderschöne Zimmer. Der Ausblick aus dem Fenster ist fantastisch. Ruhige Umgebung, und trotzdem ist alles zu Fuß erreichbar.",
+      "2": "Wunderschöne Einrichtung mit Möbeln im typischen Zakopane-Stil. Die Lage ist sehr gut: Wanderwege, Zentrum und Geschäfte sind ganz in der Nähe. Ruhe und Erholung pur. Der Morgenkaffee auf der Terrasse mit Blick auf den Giewont war einfach großartig!",
+      "3": "Für uns war es der perfekte Ort. Manchen ist er vielleicht etwas zu weit vom Zentrum entfernt, aber gerade die Ruhe, der schnelle Zugang zu den Wanderwegen und die Entfernung vom ganzen Trubel haben unseren Aufenthalt so angenehm gemacht. Die Zimmer waren wunderschön und blitzsauber, und die Betten … ach, wir wollten gar nicht aufstehen! Doch der Blick auf den Giewont hat uns jeden Tag dazu motiviert.",
+      "4": "Dieser Ort war wunderschön. Ein Wanderweg und auch das Stadtzentrum waren in der Nähe. Die Zimmer waren geräumig und mit allem ausgestattet, was wir brauchten. Der Stil ist traditionell polnisch, sodass wir wirklich das Gefühl hatten, in einem anderen Land zu sein! Der Blick aus dem Zimmer auf die Berge war traumhaft. Ich komme gerne wieder."
+    },
+    "scoreLabels": {
+      "Booking.com": "Hervorragend",
+      "Google Maps": "Ausgezeichnet"
+    }
+  },
+  "location": {
+    "title": "Nah an der Tatra, nicht weit vom Zentrum",
+    "subtitle": "Ruhige Lage in der Nähe von Wanderwegen und den wichtigsten Sehenswürdigkeiten Zakopanes.",
+    "distancesLabel": "Ungefähre Gehzeit",
+    "walking": "ca. {minutes} Min. zu Fuß",
+    "places": {
+      "krupowki": "Krupówki",
+      "valley": "Eingang zum Strążyska-Tal",
+      "museum": "Karol-Szymanowski-Museum"
+    },
+    "directions": "Anfahrt ansehen",
+    "mapAlt": "Lageplan der Apartamenty Dolina Strążyska in Zakopane"
+  },
+  "footer": {
+    "links": "Links",
+    "contact": "Kontakt",
+    "englishLabel": "Englisch · WhatsApp:"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "intro": "Haben Sie Fragen zu Ihrem Aufenthalt? Wir helfen Ihnen gerne und beraten Sie bei der Wahl des passenden Apartments.",
+    "detailsTitle": "Kontaktieren Sie uns",
+    "detailsIntro": "Wir beantworten gerne Ihre Fragen.",
+    "phone": "Telefon",
+    "englishChannel": "Kontakt auf Englisch",
+    "email": "E-Mail",
+    "follow": "Folgen Sie uns",
+    "whatsappPolish": "WhatsApp auf Polnisch",
+    "locationTitle": "Unser Standort",
+    "openMapAria": "Standort der Apartments in Google Maps ansehen",
+    "mapAlt": "Karte der Umgebung der Apartamenty Dolina Strążyska in Zakopane",
+    "openMap": "In Google Maps öffnen",
+    "locationText": "In einem ruhigen Teil von Zakopane, nahe den Wanderwegen der Tatra.",
+    "directions": "Route planen",
+    "planTitle": "Planen Sie Ihren Aufenthalt",
+    "planText": "Wählen Sie Ihre Reisedaten und finden Sie das passende Apartment."
+  },
+  "reservation": {
+    "back": "Zurück zu den Apartments",
+    "title": "Buchen Sie Ihren Aufenthalt",
+    "intro": "Wählen Sie Ihre Reisedaten und Ihr Apartment. Wir freuen uns auf Sie in Zakopane.",
+    "bookingLabel": "Apartmentbuchung",
+    "help": "Benötigen Sie Hilfe bei der Buchung?",
+    "writeToUs": "Schreiben Sie uns"
+  },
+  "documents": {
+    "termsTitle": "Hausordnung",
+    "privacyTitle": "Datenschutzerklärung",
+    "close": "Dokument schließen"
+  },
+  "details": {
+    "previousPhoto": "Vorheriges Foto",
+    "nextPhoto": "Nächstes Foto",
+    "openFullscreen": "Vollbild öffnen",
+    "closeFullscreen": "Vollbild schließen",
+    "thumbnailAlt": "{title} - Vorschaubild {number}",
+    "factsLabel": "Apartmentdetails",
+    "capacity": "bis zu {count} Personen",
+    "mountainView": "Bergblick",
+    "amenitiesLabel": "Ausstattung des Apartments",
+    "amenities": {
+      "bathroom": "Eigenes Badezimmer",
+      "kitchen": "Voll ausgestattete Kochnische",
+      "parking": "Kostenloser Parkplatz vor Ort",
+      "balcony": "Balkon",
+      "rooms": {
+        "one": "{count} Zimmer",
+        "few": "{count} Zimmer",
+        "many": "{count} Zimmer",
+        "other": "{count} Zimmer"
+      }
+    },
+    "priceFrom": "Preis ab",
+    "perNight": "/Nacht",
+    "directBooking": "Bei einer Direktbuchung zahlen Sie weniger.",
+    "bookOnline": "Jetzt online buchen",
+    "about": "Über das Apartment",
+    "expand": "Beschreibung anzeigen",
+    "collapse": "Beschreibung einklappen",
+    "sleeping": "Wo können Sie schlafen?",
+    "whatYouFind": "Was ist vorhanden?",
+    "photoNavigation": "Fotonavigation"
+  },
+  "rooms": {
+    "names": {
+      "livingRoom": "Wohnzimmer",
+      "bedroom": "Schlafzimmer",
+      "studio": "Studio"
+    },
+    "beds": {
+      "sofa": "Schlafsofa",
+      "couch": "Ausziehbare Couch",
+      "single": "Einzelbett",
+      "double": "Doppelbett",
+      "largeDouble": "Großes Doppelbett"
+    },
+    "guests": {
+      "one": "{count} Person",
+      "few": "{count} Personen",
+      "many": "{count} Personen",
+      "other": "{count} Personen"
+    }
+  },
+  "equipment": {
+    "living": "Wohnzimmer",
+    "kitchen": "Kochnische",
+    "bathroom": "Badezimmer",
+    "misc": "Sonstiges"
+  },
+  "accessories": {
+    "1": "Fernseher",
+    "2": "WLAN",
+    "3": "Handtücher",
+    "4": "Haartrockner",
+    "5": "Wasserkocher",
+    "6": "Kaffee- und Teeset",
+    "7": "Induktionskochfeld",
+    "8": "Kühlschrank",
+    "9": "Kostenloser Parkplatz",
+    "10": "Bergblick",
+    "11": "Videoüberwachung auf dem Grundstück"
+  },
+  "errorPage": {
+    "title": "Seite nicht gefunden",
+    "text": "Die gesuchte Seite existiert nicht oder wurde verschoben.",
+    "home": "Zur Startseite"
+  },
+  "apartments": {
+    "1": {
+      "title": "Apartment Orange",
+      "size": "45 m²",
+      "description": "Das Apartment Orange zeichnet sich durch warme Farben, viel Tageslicht und eine gemütliche Atmosphäre aus. Orangefarbene und bordeauxrote Akzente, helles Holz und traditionelle Details aus Zakopane verleihen den Räumen einen ganz besonderen Charakter.\n\nBesonders ins Auge fallen die handgeschnitzten Holzmöbel, die den regionalen Stil des Apartments unterstreichen. Sorgfältig ausgewählte Accessoires, gemusterte Stoffe und warme Farbtöne schaffen eine Umgebung, in der Sie das echte Flair der Region Podhale genießen können, ohne auf modernen Komfort verzichten zu müssen.\n\nGroße Fenster lassen viel natürliches Licht herein. Der gemütliche Wohnbereich lädt dazu ein, gemeinsam Zeit zu verbringen. Hier können Sie den Morgen ganz entspannt bei einer Tasse Kaffee beginnen oder nach einem erlebnisreichen Tag in den Bergen zur Ruhe kommen.\n\nDas Apartment Orange ist ideal für alle, die eine familiäre Atmosphäre, liebevoll gestaltete Räume und Erholung inmitten der Tatra-Natur zu schätzen wissen.",
+      "floor": "Erdgeschoss",
+      "highlight": "Helle Räume",
+      "equipment": {
+        "living": [
+          "Schlafsofa",
+          "Sessel",
+          "Couchtisch",
+          "Esstisch",
+          "Fernseher"
+        ],
+        "kitchen": [
+          "Kühlschrank",
+          "Induktionskochfeld",
+          "Elektrischer Wasserkocher",
+          "Geschirr",
+          "Küchenutensilien"
+        ],
+        "bathroom": [
+          "Eigenes Badezimmer mit Dusche",
+          "Handtücher",
+          "Haartrockner"
+        ],
+        "misc": [
+          "WLAN",
+          "Handgefertigte Holzmöbel",
+          "Balkon",
+          "Bergblick",
+          "Kostenloser, videoüberwachter Parkplatz"
+        ]
+      }
+    },
+    "2": {
+      "title": "Apartment Türkis",
+      "size": "36 m²",
+      "description": "Das Apartment Türkis begeistert mit einer eleganten Kombination aus hellem Holz, natürlichen Materialien und charakteristischen türkisfarbenen Akzenten. Die gemütliche Einrichtung vereint den traditionellen Stil von Zakopane mit modernem Komfort und schafft den idealen Rahmen für erholsame Tage in der Tatra.\n\nHandgeschnitzte Holzmöbel, dekorative Deckenbalken und sorgfältig ausgewählte Elemente, die von der Kultur der Region Podhale inspiriert sind, verleihen dem Apartment seinen besonderen Charme. Türkisfarbene Sessel und ein passendes Sofa bringen Frische in den Raum, während die warmen Holztöne für eine behagliche Atmosphäre sorgen.\n\nDank der Südausrichtung fällt durch die großen Fenster besonders viel Tageslicht. Ein weiteres Highlight ist der Balkon: Hier können Sie Ihren Tag bei einem Kaffee mit Blick auf die Berglandschaft beginnen oder nach einer Wanderung auf den Tatrawegen entspannen.\n\nDer durchdachte Grundriss bietet sowohl Raum für gemeinsame Stunden als auch ruhige Rückzugsmöglichkeiten. Der gemütliche Wohnbereich und der Essplatz laden zu entspannten Abenden und gemeinsamen Mahlzeiten ein.\n\nDas Apartment Türkis ist eine ausgezeichnete Wahl für Paare und Familien, die Goralenflair, Komfort und die Nähe zur Natur der Tatra miteinander verbinden möchten.",
+      "floor": "Erdgeschoss",
+      "highlight": "Balkon mit Aussicht",
+      "equipment": {
+        "living": [
+          "Schlafsofa",
+          "Sessel",
+          "Couchtisch",
+          "Esstisch",
+          "Fernseher"
+        ],
+        "kitchen": [
+          "Kühlschrank",
+          "Induktionskochfeld",
+          "Elektrischer Wasserkocher",
+          "Geschirr",
+          "Küchenutensilien"
+        ],
+        "bathroom": [
+          "Eigenes Badezimmer mit Dusche",
+          "Handtücher",
+          "Haartrockner"
+        ],
+        "misc": [
+          "WLAN",
+          "Handgefertigte Holzmöbel",
+          "Balkon",
+          "Bergblick",
+          "Kostenloser, videoüberwachter Parkplatz"
+        ]
+      }
+    },
+    "3": {
+      "title": "Apartment Ocker",
+      "size": "43 m²",
+      "description": "Das Apartment Ocker begeistert mit warmen Farben, natürlichem Holz und einer gemütlichen Atmosphäre, die vom traditionellen Stil Zakopanes inspiriert ist. Helle Wände, Holzverkleidungen und charakteristische Ockertöne schaffen ein harmonisches Ambiente, in dem Sie das authentische Flair der Region Podhale erleben können.\n\nHandgefertigte Holzmöbel, dekorative Details und sorgfältig ausgewählte Accessoires verleihen dem Apartment seinen besonderen Charme. Die gemütliche Sitzecke mit Sofas in warmen Farben lädt zum Zusammensein ein, während große Fenster den Raum mit Tageslicht füllen.\n\nZu den größten Vorzügen des Apartments gehört der Balkon mit Blick auf die malerische Umgebung. Hier lässt sich der Morgenkaffee genießen, eine Pause an der frischen Luft einlegen oder nach einem Tag voller Wanderungen durch die Tatra entspannen.\n\nDas Apartment Ocker eignet sich hervorragend für einen Aufenthalt mit der Familie oder mit Freunden. Es bietet viel Platz für gemeinsame Mahlzeiten, Gespräche und ruhige Abende - die besten Voraussetzungen für einen erholsamen Urlaub in der besonderen Atmosphäre Zakopanes.",
+      "floor": "Erdgeschoss",
+      "highlight": "Zusätzliches Bett",
+      "equipment": {
+        "living": [
+          "Zwei Schlafsofas",
+          "Sessel",
+          "Couchtisch",
+          "Esstisch",
+          "Fernseher"
+        ],
+        "kitchen": [
+          "Kühlschrank",
+          "Induktionskochfeld",
+          "Elektrischer Wasserkocher",
+          "Geschirr",
+          "Küchenutensilien"
+        ],
+        "bathroom": [
+          "Eigenes Badezimmer mit Dusche",
+          "Handtücher",
+          "Haartrockner"
+        ],
+        "misc": [
+          "WLAN",
+          "Handgefertigte Holzmöbel",
+          "Balkon",
+          "Bergblick",
+          "Kostenloser, videoüberwachter Parkplatz"
+        ]
+      }
+    },
+    "4": {
+      "title": "Apartment Hellblau",
+      "size": "43 m²",
+      "description": "Das Apartment Hellblau befindet sich im ersten Obergeschoss und zeichnet sich durch eine warme Einrichtung mit viel Holz und hellblauen Akzenten aus. Handgeschnitzte Möbel im regionalen Stil verleihen ihm einen unverwechselbaren Bergcharakter.\n\nIm Wohnbereich erwartet Sie ein bequemes Schlafsofa, auf dem zwei Personen übernachten können, sowie ein Fernseher für entspannte Abende. In der Kochnische stehen ein Kühlschrank, ein Induktionskochfeld und ein Wasserkocher zur Verfügung.\n\nDas separate Schlafzimmer mit einem Doppelbett und einem Einzelbett bietet nach einem langen Wandertag erholsame Ruhe. Im eigenen Badezimmer finden Sie Handtücher und einen Haartrockner. Vom Balkon genießen Sie einen schönen Blick auf die Berge.\n\nDas Apartment Hellblau ist eine gute Wahl für Familien und Freundesgruppen, die in Zakopane in einer gemütlichen Atmosphäre im Goralenstil Urlaub machen möchten. Kostenloses WLAN und ein videoüberwachter Parkplatz stehen allen Gästen zur Verfügung.",
+      "equipment": {
+        "living": [
+          "Schlafsofa",
+          "Sessel",
+          "Couchtisch",
+          "Esstisch",
+          "Fernseher"
+        ],
+        "kitchen": [
+          "Kühlschrank",
+          "Induktionskochfeld",
+          "Elektrischer Wasserkocher",
+          "Geschirr",
+          "Küchenutensilien"
+        ],
+        "bathroom": [
+          "Eigenes Badezimmer mit Dusche",
+          "Handtücher",
+          "Haartrockner"
+        ],
+        "misc": [
+          "WLAN",
+          "Handgefertigte Holzmöbel",
+          "Balkon",
+          "Bergblick",
+          "Kostenloser, videoüberwachter Parkplatz"
+        ]
+      }
+    },
+    "5": {
+      "title": "Apartment Grau",
+      "size": "ca. 16 m²",
+      "description": "Das Apartment Grau ist ein kleiner, gemütlicher Rückzugsort, der für eine Auszeit zu zweit geschaffen wurde. Dezente Farben, sanfte Grautöne und eine ruhige Atmosphäre bieten den idealen Rahmen für ein romantisches Wochenende oder einen längeren Aufenthalt in Zakopane.\n\nDie stilvolle, harmonische Einrichtung lädt zum Entspannen ein und hilft dabei, den Alltagsstress hinter sich zu lassen. Hier können Sie gemeinsam den Morgenkaffee genießen, sich nach Wanderungen in den Bergen erholen und ruhige Abende zu zweit verbringen.\n\nDank der Nähe zu den Wanderwegen der Tatra und zum Zentrum von Zakopane lassen sich aktive Tage in der Natur wunderbar mit Momenten der Ruhe und Privatsphäre verbinden.\n\nDas Apartment Grau ist die ideale Wahl für Paare, die einen gemütlichen Ort für ihren gemeinsamen Urlaub in der besonderen Atmosphäre der Region Podhale suchen.",
+      "highlight": "Studio",
+      "equipment": {
+        "living": [
+          "Sessel",
+          "Couchtisch",
+          "Esstisch",
+          "Fernseher"
+        ],
+        "kitchen": [
+          "Kühlschrank",
+          "Induktionskochfeld",
+          "Elektrischer Wasserkocher",
+          "Geschirr",
+          "Küchenutensilien"
+        ],
+        "bathroom": [
+          "Eigenes Badezimmer mit Dusche",
+          "Handtücher",
+          "Haartrockner"
+        ],
+        "misc": [
+          "WLAN",
+          "Handgefertigte Holzmöbel",
+          "Bergblick",
+          "Kostenloser, videoüberwachter Parkplatz"
+        ]
+      }
+    },
+    "6": {
+      "title": "Apartment Blau",
+      "size": "26 m²",
+      "description": "Das Apartment Blau verbindet die Gemütlichkeit traditioneller Unterkünfte in Zakopane mit der Frische und Ruhe blauer Farbtöne. Sein Charakter ist von der besonderen Atmosphäre eines Bergurlaubs inspiriert, bei dem Sie den Alltag hinter sich lassen und die Zeit in der Tatra in vollen Zügen genießen können.\n\nZarte Blautöne schaffen ein Gefühl von Harmonie, während natürliche Materialien und regionale Akzente den Räumen eine warme, wohnliche Note geben. So entsteht ein Ort, der zum Entspannen, zu ruhigen Morgenstunden und zu gemütlichen Abenden einlädt.\n\nDas Apartment eignet sich sowohl für aktive Urlaubstage als auch für erholsame Stunden. Nach einer Wanderung auf den Bergwegen oder einem Ausflug durch Zakopane können Sie in die behagliche Atmosphäre zurückkehren, entspannen und die nächsten Unternehmungen planen.\n\nDas Apartment Blau ist ideal für Gäste, die helle, ruhige Einrichtungen mögen und eine Unterkunft suchen, die Bergromantik mit alltäglichem Komfort verbindet.",
+      "highlight": "Bett und Sofa",
+      "equipment": {
+        "living": [
+          "Schlafsofa",
+          "Sessel",
+          "Couchtisch",
+          "Esstisch",
+          "Fernseher"
+        ],
+        "kitchen": [
+          "Kühlschrank",
+          "Induktionskochfeld",
+          "Elektrischer Wasserkocher",
+          "Geschirr",
+          "Küchenutensilien"
+        ],
+        "bathroom": [
+          "Eigenes Badezimmer mit Dusche",
+          "Handtücher",
+          "Haartrockner"
+        ],
+        "misc": [
+          "WLAN",
+          "Handgefertigte Holzmöbel",
+          "Bergblick",
+          "Kostenloser, videoüberwachter Parkplatz"
+        ]
+      }
+    }
+  },
+  "photoAlts": {
+    "1": [
+      "Wohnzimmer mit rotem Sessel und orangefarbenem Sofa",
+      "Schlafzimmer mit handgeschnitztem Holzbett",
+      "Doppelbett mit Handtüchern",
+      "Wohnbereich mit Kochnische und Fernseher",
+      "Esstisch mit geschnitzten Stühlen an einem großen Fenster",
+      "Badezimmer mit Dusche und Waschbecken",
+      "Bettkopfteil mit traditioneller Goralenstickerei"
+    ],
+    "2": [
+      "Wohnzimmer mit grünem Sofa und Esstisch",
+      "Holzkommode und Bett mit Handtüchern",
+      "Doppelbett mit besticktem Kopfteil",
+      "Wohnzimmer mit grünen Sesseln, Fernseher und Blick ins Schlafzimmer",
+      "Badezimmer mit Waschbecken",
+      "Badezimmer mit Handtuchheizkörper",
+      "Toilette im Badezimmer"
+    ],
+    "3": [
+      "Kochnische und Sofa im Wohnbereich",
+      "Esstisch neben der Balkontür",
+      "Wohnzimmer mit Sofa, Sessel und Fernseher",
+      "Schlafzimmer mit Doppel- und Einzelbett",
+      "Betten mit frischen Handtüchern",
+      "Balkon mit Bergblick",
+      "Badezimmer mit Duschkabine"
+    ],
+    "4": [
+      "Kochnische und blaues Sofa",
+      "Wohnzimmer im Dachgeschoss mit Sofa, Sessel und Couchtisch",
+      "Doppelbett und Kommode",
+      "Esstisch unter der Dachschräge",
+      "Sitzecke neben der Balkontür",
+      "Badezimmer mit Waschbecken und Dusche",
+      "Badezimmer mit Toilette und Heizkörper"
+    ],
+    "5": [
+      "Dachgeschoss mit Fernseher, Sessel und Fenster mit Blick ins Grüne",
+      "Kochnische und Dachfenster mit Blick auf die Tatra",
+      "Doppelbett unter dem Fenster",
+      "Bett mit Zierkissen und großem Fenster",
+      "Badezimmer mit Waschbecken und Dusche"
+    ],
+    "6": [
+      "Wohnzimmer mit blauen Sesseln und Fernseher an einem großen Fenster",
+      "Dachgeschoss mit blauen Sesseln und Fernseher",
+      "Violettes Sofa am Fenster im Wohnbereich",
+      "Zwei Betten mit Handtüchern unter dem Fenster",
+      "Kochnische unter der Dachschräge",
+      "Dusche im Badezimmer"
+    ]
+  },
+  "nearbyTrails": {
+    "navLabel": "Wanderwege in der Nähe",
+    "heroLine1": "Ab in die Berge.",
+    "heroLine2": "Auf Ihre Art.",
+    "intro": "Ein gemütlicher Spaziergang durch ein Tal oder eine Wanderung zu traumhaften Aussichtspunkten? Entdecken Sie die Wanderwege rund um unsere Apartments und finden Sie Ihre Lieblingsroute.",
+    "explore": "Wanderwege entdecken",
+    "mapCaption": "Die Tatra ist näher, als Sie denken",
+    "enlargeMap": "Karte vergrößern",
+    "mapAlt": "Karte der Wanderwege nahe den Apartments Dolina Strążyska in Zakopane.",
+    "locationIntro": "Hier beginnt Ihre Erholung",
+    "heading": "Wählen Sie Ihre Richtung",
+    "featured": "Für den Einstieg",
+    "mapLink": "Auf der Karte ansehen",
+    "newTab": "neuer Tab",
+    "stayHeading": "Ihr Apartment nahe den Wanderwegen",
+    "stayText": "Wählen Sie Ihr perfektes Apartment und entspannen Sie sich nach einem erlebnisreichen Wandertag in der Tatra.",
+    "viewApartments": "Apartments entdecken",
+    "labels": {
+      "difficulty": "Schwierigkeit",
+      "time": "Gehzeit",
+      "destination": "Ziel"
+    },
+    "items": [
+      {
+        "name": "Dolina Strążyska",
+        "difficulty": "Leicht",
+        "duration": "ca. 40 Min.",
+        "via": "Polana Strążyska",
+        "description": "Ein ruhiger Waldweg führt entlang eines Gebirgsbachs zur malerischen Polana Strążyska mit beeindruckendem Blick auf den Giewont. Ideal für einen entspannten Spaziergang und die erste Begegnung mit der Tatra."
+      },
+      {
+        "name": "Wasserfall Siklawica",
+        "difficulty": "Leicht bis mittelschwer",
+        "duration": "ca. 55-60 Min.",
+        "via": "Zum Wasserfall durch das Strążyska-Tal",
+        "description": "Ein malerischer Wasserfall am Fuße des Giewont. Der Weg führt durch das Strążyska-Tal und über die Polana Strążyska. Der letzte Abschnitt verläuft auf einem steinigen Pfad zwischen Felsen."
+      },
+      {
+        "name": "Sarnia Skała",
+        "difficulty": "Mittelschwer",
+        "duration": "ca. 1 Std. 40 Min.",
+        "via": "Zum Gipfel über den Pass Czerwona Przełęcz",
+        "description": "Einer der schönsten Aussichtspunkte der Umgebung mit einem Panorama über Zakopane und einem eindrucksvollen Blick auf die Nordwand des Giewont. Der Aufstieg ist stellenweise steil und endet mit einem felsigen Abschnitt."
+      },
+      {
+        "name": "Dolina ku Dziurze und Dziura-Höhle",
+        "difficulty": "Leicht",
+        "duration": "ca. 20-25 Min.",
+        "via": "Zum Eingang der Dziura-Höhle",
+        "description": "Ein kurzer, ruhiger Waldweg führt durch ein stilles Tal zu einer natürlichen Höhle zwischen den Felsen. Eine schöne Idee für einen kleinen Ausflug mit etwas Abenteuer."
+      },
+      {
+        "name": "Dolina Białego",
+        "difficulty": "Leicht bis mittelschwer",
+        "duration": "ca. 30 Min.",
+        "via": "Zum Wasserfall im Białego-Tal",
+        "description": "Ein malerisches Tal mit Felswänden, Holzbrücken und einem Gebirgsbach mit kleinen Kaskaden. Unternehmen Sie einen kurzen Spaziergang zum Wasserfall oder wandern Sie weiter in Richtung Sarnia Skała."
+      },
+      {
+        "name": "Dolina Za Bramką",
+        "difficulty": "Leicht",
+        "duration": "ca. 25 Min.",
+        "via": "Bis zum Ende des zugänglichen Wanderwegs",
+        "description": "Ein ruhiges Tal zwischen Kalksteinfelsen mit einem Waldweg entlang eines Bachs. Ideal für einen kurzen, erholsamen Spaziergang abseits der stärker besuchten Wanderwege."
+      },
+      {
+        "name": "Droga pod Reglami",
+        "difficulty": "Leicht",
+        "duration": "ca. 30 Min.",
+        "via": "Vom Strążyska-Tal zum Za-Bramką-Tal",
+        "description": "Ein aussichtsreicher Spazierweg am Fuße der Tatra, vorbei an Wäldern und Wiesen. Er verbindet die Eingänge mehrerer schöner Täler, sodass Sie Länge und Richtung selbst bestimmen können."
+      },
+      {
+        "name": "Dolina Małej Łąki",
+        "difficulty": "Leicht bis mittelschwer",
+        "duration": "ca. 50-60 Min.",
+        "via": "Zur Wielka Polana Małołącka ab Gronik",
+        "description": "Eine ruhige Wanderung durch den Wald führt zu einer weitläufigen Bergwiese, umgeben von beeindruckenden Tatra-Gipfeln. Eine schöne Wahl für einen längeren Spaziergang mit herrlichem Bergpanorama."
+      }
+    ],
+    "timeNote": "Die angegebenen Gehzeiten sind Richtwerte für den einfachen Weg ab dem jeweiligen Ausgangspunkt, ohne den Weg von den Apartments und ohne Pausen. Die Schwierigkeitsgrade gelten bei guten Wetterbedingungen. Informieren Sie sich vor dem Aufbruch über die aktuellen Bedingungen im polnischen Tatra-Nationalpark.",
+    "conditionsNote": "Prüfen Sie vor Ihrer Wanderung die aktuellen Wegbedingungen.",
+    "parkInfo": "Informationen des Tatra-Nationalparks (TPN)",
+    "informationHeading": "Informationen zu den Wanderwegen",
+    "metaTitle": "Wanderwege rund um das Strążyska-Tal | Zakopane & Tatra",
+    "metaDescription": "Entdecken Sie Wanderwege nahe dem Strążyska-Tal in Zakopane. Siklawica-Wasserfall, Sarnia Skała, Białego-Tal und weitere schöne Wanderrouten in der Tatra."
+  }
+}

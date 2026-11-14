@@ -115,8 +115,8 @@ Pursuant to Article 13 of the General Data Protection Regulation of 27 April 201
 2.	Your personal data will be processed in order to use the apartment rental services - on the basis of Article 6(1)(b) of the General Data Protection Regulation of 27 April 2016.
 3.	The recipients of your personal data will be only entities entitled to obtain personal data under the provisions of law and entities participating in the provision of the services.
 4.	The basis for processing personal data is:
-4.1	Article 6(1)(b) GDPR – processing is necessary for the performance of a contract;
-4.2	Article 6(1)(f) GDPR – the legitimate interest of the controller.
+4.1	Article 6(1)(b) GDPR - processing is necessary for the performance of a contract;
+4.2	Article 6(1)(f) GDPR - the legitimate interest of the controller.
 5.	Your personal data will be stored for a period of 10 years.
 6.	You have the right to request from the controller access to your personal data, the right to rectify, erase or restrict its processing, and the right to data portability.
 7.	You have the right to lodge a complaint with a supervisory authority.

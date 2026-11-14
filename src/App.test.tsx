@@ -29,6 +29,7 @@ test('renders all six apartments and switches the home page to English', () => {
   expect(screen.getByRole('heading', { level: 1, name: 'Twoje miejsce w Zakopanem' })).toBeInTheDocument();
   expect(document.querySelectorAll('.apartment-container')).toHaveLength(6);
 
+  fireEvent.click(screen.getByRole('button', { name: 'Język: Polski' }));
   fireEvent.click(screen.getByRole('button', { name: 'English' }));
 
   expect(screen.getByRole('heading', { level: 1, name: 'Your place in Zakopane' })).toBeInTheDocument();
@@ -36,7 +37,7 @@ test('renders all six apartments and switches the home page to English', () => {
   expect(document.querySelector('.apartment-container[href="/en/Apartament/6"]')).toBeInTheDocument();
 });
 
-test('every listed apartment has text and matching photo descriptions in both languages', () => {
+test('every listed apartment has text and matching photo descriptions in every language', () => {
   for (const { messages } of Object.values(languages)) {
     expect(messages.documents.privacy.trim().length).toBeGreaterThan(0);
     for (const apartment of apartments) {

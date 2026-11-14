@@ -86,20 +86,7 @@
     position: relative;
 }
 
-.header-container .navbar-container:not(.is-scrolled) .navbar-logo img
-{
-    width: 180px;
-    min-width: 0;
-}
-
-.header-container .navbar-links
-{
-    font-family: var(--hero-sans);
-    font-size: 19px;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
-}
+.header-container .navbar-links { text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4); }
 
 .header-container_content
 {
@@ -163,7 +150,7 @@
 
 .hero-search_field + .hero-search_field
 {
-    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-inline-start: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .hero-search_icon
@@ -179,7 +166,7 @@
     background: none;
     color: #fff;
     cursor: pointer;
-    text-align: left;
+    text-align: start;
     font-family: var(--hero-sans);
     font-size: 0.95rem;
     font-weight: 300;
@@ -277,7 +264,7 @@
     }
     .hero-search_field + .hero-search_field
     {
-        border-left: none;
+        border-inline-start: none;
         border-top: 1px solid rgba(255, 255, 255, 0.3);
     }
     .hero-search_button

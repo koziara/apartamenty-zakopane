@@ -5,10 +5,11 @@ import './documentation.css';
 export type DocumentType = 'terms' | 'privacy';
 
 const Documentation = ({ type }: { type: DocumentType }) => {
-  const { messages } = useI18n();
+  const { messages, lang } = useI18n();
+  const documentLang = lang === 'pl' ? 'pl' : 'en';
   return (
     <div className='document-container'>
-      <pre>{messages.documents[type]}</pre>
+      <pre lang={documentLang} dir='ltr'>{messages.documents[type]}</pre>
     </div>
   );
 };

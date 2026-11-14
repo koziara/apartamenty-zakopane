@@ -3,9 +3,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import './motion.css';
 import ZakopanePage from './ZakopanePage';
+import NearbyTrails from './components/nearbyTrails/NearbyTrails';
 import { BackToTop } from './elements';
 import { ErrorPage, ApartmentDetails, Contact, Reservation } from './components';
-import { I18nProvider } from './i18n';
+import { DEFAULT_LANG, I18nProvider, languages } from './i18n';
 
 declare global {
   namespace JSX {
@@ -20,12 +21,13 @@ export default function App() {
     <BrowserRouter>
       <I18nProvider>
         <Routes>
-          {['', '/en'].map(prefix => (
+          {Object.keys(languages).map(code => code === DEFAULT_LANG ? '' : `/${code}`).map(prefix => (
             <Route key={prefix} path={prefix || '/'}>
               <Route index element={<ZakopanePage />} />
               <Route path="Rezerwacje" element={<Reservation />} />
               <Route path="Apartament/:id" element={<ApartmentDetails />} />
               <Route path="Kontakt" element={<Contact />} />
+              <Route path="Szlaki" element={<NearbyTrails />} />
             </Route>
           ))}
           <Route path="*" element={<ErrorPage />} />

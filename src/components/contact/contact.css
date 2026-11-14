@@ -11,13 +11,7 @@
     color: var(--contact-ink);
 }
 
-.contact-page .navbar-container { max-width: none; margin: 0; padding: 24px clamp(24px, 4.5vw, 64px); }
-.contact-page .navbar-logo img {
-    width: 220px;
-    min-width: 0;
-    margin: 0;
-}
-.contact-page .navbar-links { color: var(--contact-ink); font-size: 16px; font-weight: 500; }
+.contact-page .navbar-links { color: var(--contact-ink); }
 .contact-page .hover-underline-animation::after { background: var(--contact-gold); }
 .contact-page .navbar-toggle { color: var(--contact-ink); }
 .contact-page .navbar-navbar_links .language-switcher { color: var(--contact-ink); }
@@ -94,7 +88,6 @@
     .contact-page__location h2 { font-size: 23px; }
 }
 @media (max-width: 800px) {
-    .contact-page .navbar-logo img { width: 180px; }
     .contact-page__main { padding-top: 32px; padding-bottom: 44px; }
     .contact-page__intro { margin-bottom: 32px; }
     .contact-page__grid { grid-template-columns: minmax(0, 1fr); }
@@ -103,7 +96,6 @@
     .contact-page__documents { align-items: flex-start; flex-direction: column; }
 }
 @media (max-width: 480px) {
-    .contact-page .navbar-container { padding: 20px; }
     .contact-page__main { padding-right: 20px; padding-left: 20px; }
     .contact-page__intro h1 { font-size: 33px; }
     .contact-page__intro > p:last-child { font-size: 14px; }

@@ -8,9 +8,11 @@ import puppeteer from 'puppeteer';
 const SITE = 'https://www.apartamentydolinastrazyska.pl';
 const BUILD = new URL('../build/', import.meta.url).pathname;
 const apartments = JSON.parse(await readFile(new URL('../src/lists/apartmentList.json', import.meta.url), 'utf8'));
+const languages = Object.keys(JSON.parse(await readFile(new URL('../src/i18n/languageConfig.json', import.meta.url), 'utf8')));
 
-const pages = ['/', '/Rezerwacje', '/Kontakt', ...apartments.map(a => `/Apartament/${a.apartmentId}`)];
-const routes = [...pages, ...pages.map(p => (p === '/' ? '/en/' : `/en${p}`))];
+const pages = ['/', '/Rezerwacje', '/Kontakt', '/Szlaki', ...apartments.map(a => `/Apartament/${a.apartmentId}`)];
+const localizedPath = (lang, page) => (lang === 'pl' ? '' : `/${lang}`) + page;
+const routes = languages.flatMap(lang => pages.map(page => localizedPath(lang, page)));
 
 const types = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml', '.ico': 'image/x-icon', '.pdf': 'application/pdf' };
 
@@ -62,10 +64,10 @@ try {
 }
 
 const today = new Date().toISOString().slice(0, 10);
-const loc = (lang, page) => SITE + (lang === 'pl' ? '' : '/en') + (page === '/' ? '/' : page);
-const alt = page => ['pl', 'en'].map(l => `    <xhtml:link rel="alternate" hreflang="${l}" href="${loc(l, page)}"/>`)
+const loc = (lang, page) => SITE + localizedPath(lang, page);
+const alt = page => languages.map(l => `    <xhtml:link rel="alternate" hreflang="${l}" href="${loc(l, page)}"/>`)
   .concat(`    <xhtml:link rel="alternate" hreflang="x-default" href="${loc('pl', page)}"/>`).join('\n');
-const urls = pages.flatMap(page => ['pl', 'en'].map(lang =>
+const urls = pages.flatMap(page => languages.map(lang =>
   `  <url>\n    <loc>${loc(lang, page)}</loc>\n    <lastmod>${today}</lastmod>\n${alt(page)}\n  </url>`));
 await writeFile(join(BUILD, 'sitemap.xml'),
   `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.join('\n')}\n</urlset>\n`);
